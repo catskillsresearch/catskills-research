@@ -6,7 +6,7 @@
 ### Research Categories
 * [🏛️ Tech Billionaires & Political Influence](#-tech-billionaires--political-influence)
 * [🚀 Defense, Aerospace & Geopolitics](#-defense-aerospace--geopolitics)
-*[🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
+* [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
 *[🎓 Law, Education & Culture](#-law-education--culture)
 
