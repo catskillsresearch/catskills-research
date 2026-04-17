@@ -45,8 +45,8 @@
 * [🎓 Higher Education and Training](#-higher-education-and-training)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
 * [⚛️ Fusion Energy](#-fusion-energy)
-* [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
 * [🚀 Space Exploration](#-space-exploration)
+* [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
 * [🚁 Drone Warfare](#-drone-warfare)
 * [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
 * [🗽 Democratic Resilience & Institutional Integrity](#-democratic-resilience--institutional-integrity)
@@ -92,6 +92,13 @@
 | :--- | :--- | :--- |
 | **[TBD](https://catskillsresearch.github.io/catskills-research/)** | -- min | Research update forthcoming. |
 
+## 🚀 Space Exploration
+*Research into emerging "New Space" companies, orbital technologies, and the aerospace industry.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
+
 ## 🛡️ Ballistic Missile Defense
 *Research into interceptor supply chains, anti-ballistic missile (ABM) economics, and threat mitigation.*
 
@@ -100,13 +107,6 @@
 | **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
 | **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
 | **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
-
-## 🚀 Space Exploration
-*Research into emerging "New Space" companies, orbital technologies, and the aerospace industry.*
-
-| Article Title | Read Time | Description |
-| :--- | :--- | :--- |
-| **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
 ## 🚁 Drone Warfare
 *Technical analysis of Unmanned Aerial Systems (UAS), attrition rates, and emerging drone platforms.*
