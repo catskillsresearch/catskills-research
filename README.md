@@ -37,7 +37,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[TBD](https://link-to-article.com)** | 12 min | TBD |
+| **[TBD](https://catskillsresearch.github.io/catskills-research/)** | 12 min | TBD |
 
 ## 🛡️ Ballistic Missile Defense
 *Analyses on air defense systems, interceptor supply chains, and missile threat mitigation.*
