@@ -1,11 +1,11 @@
 <style>
-  /* TARGETED THEME OVERRIDE: This hides the Cayman theme's blue header */
-  .page-header { 
+  /* PRIMER THEME OVERRIDE: This hides the auto-generated title and the extra link */
+  .markdown-body h1:first-child { 
     display: none !important; 
   }
   
-  /* Additional cleanup for the body to remove the gap left by the hidden header */
-  .main-content {
+  /* Fix the extra spacing at the top created by the hidden element */
+  .markdown-body {
     padding-top: 0 !important;
   }
 
@@ -19,7 +19,7 @@
   }
   
   .custom-header {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
   }
   
