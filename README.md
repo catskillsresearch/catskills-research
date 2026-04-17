@@ -42,8 +42,10 @@
 
 ### Research Categories
 * [⚛️ Fusion Energy](#-fusion-energy)
+* [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
 * [🚀 Space Exploration](#-space-exploration)
-* [🛡️ Military Strategy and Technology](#-military-strategy-and-technology)
+* [🚁 Drone Warfare](#-drone-warfare)
+* [🔐 Operational Security (OPSEC) and record keeping](#-operational-security-opsec-and-record-keeping)
 * [🌍 Geopolitics](#-geopolitics)
 * [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
@@ -53,11 +55,20 @@
 ---
 
 ## ⚛️ Fusion Energy
-*Who is doing small, practical, pragmatic fusion reactor development, especially work suited for space travel.*
+*Analysis of small, practical, pragmatic fusion reactor development, especially for space propulsion.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[TBD](https://catskillsresearch.github.io/catskills-research/)** | 12 min | TBD |
+| **[TBD](https://catskillsresearch.github.io/catskills-research/)** | -- min | Research update forthcoming. |
+
+## 🛡️ Ballistic Missile Defense
+*Research into interceptor supply chains, anti-ballistic missile (ABM) economics, and threat mitigation.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
+| **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
+| **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
 
 ## 🚀 Space Exploration
 *Research into emerging "New Space" companies, orbital technologies, and the aerospace industry.*
@@ -66,19 +77,22 @@
 | :--- | :--- | :--- |
 | **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
-## 🛡️ Military Strategy and Technology
-*Analyses on air defense systems, interceptor supply chains, and missile threat mitigation.*
+## 🚁 Drone Warfare
+*Technical analysis of Unmanned Aerial Systems (UAS), attrition rates, and emerging drone platforms.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
 | **[Attrition of General Atomics and comparable Chinese and Turkish drones...](https://www.linkedin.com/pulse/attrition-general-atomics-comparable-chinese-turkish-drones-ericson-txrje)** | 1 min | Examining high-end reusable drones from General Atomics, Lentatek, and Baykar. |
-| **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
-| **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
-| **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
+
+## 🔐 Operational Security (OPSEC) and record keeping
+*Research into secure communications, metadata leakage, and tactical digital privacy.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
 | **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Convo w/Perplexity.ai exploring whether foreign intel services can intercept Signal. |
 
 ## 🌍 Geopolitics
-*Strategic assessments of global conflicts, modern warfare tactics, and international relations.*
+*Strategic assessments of global conflicts and international relations.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
