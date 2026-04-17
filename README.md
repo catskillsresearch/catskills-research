@@ -21,6 +21,7 @@
 ---
 
 ### Research Categories
+* [⚛️ Fusion Energy](#-fusion-energy)
 * [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
 * [🚀 Space Exploration](#-space-exploration)
 * [🌍 Geopolitical Forecasting](#-geopolitical-forecasting)
@@ -31,6 +32,13 @@
 
 ---
 
+## ⚛️ Fusion Energy
+*Analyses on tokamak development, private fusion startups, and the path to commercial power.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[The Race for Commercial Fusion](https://link-to-article.com)** | 12 min | A deep dive into Helion, Commonwealth Fusion Systems, and the timeline for grid-ready power. |
+| **[ITER vs. Modular Reactors](https://link-to-article.com)** | 8 min | Comparing the massive scale of international projects with the agility of compact fusion startups. |
 
 ## 🛡️ Ballistic Missile Defense
 *Analyses on air defense systems, interceptor supply chains, and missile threat mitigation.*
