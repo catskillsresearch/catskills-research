@@ -1,4 +1,4 @@
-# Catskills Research Company
+# <img src="crc.jpeg" height="60" style="vertical-align: middle; margin-right: 12px;"> <span style="font-family: 'Copperplate', 'Copperplate Gothic Light', serif; font-variant: small-caps; font-size: 42px; font-weight: normal; vertical-align: middle; letter-spacing: 1px;">Catskills Research Company</span>
 **Articles and Analyses by Lars Warren Ericson**
 
 ---
