@@ -1,1 +1,72 @@
-# catskills-research
+# Catskills Research Company
+**Articles and Analyses by Lars Warren Ericson**
+
+---
+
+### Research Categories
+* [🏛️ Tech Billionaires & Political Influence](#-tech-billionaires--political-influence)
+* [🚀 Defense, Aerospace & Geopolitics](#-defense-aerospace--geopolitics)
+*[🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
+* [🔬 Science, Data & Medicine](#-science-data--medicine)
+*[🎓 Law, Education & Culture](#-law-education--culture)
+
+---
+
+## 🏛️ Tech Billionaires & Political Influence
+*AI-assisted research into the intersection of corporate tech leaders, geopolitics, and government agendas.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Six AI predictions on the fate of Dark MAGA](https://www.linkedin.com/pulse/six-ai-predictions-fate-dark-maga-lars-warren-ericson-tqjre)** | 14 min | Estimating the chances of the Musk/Thiel/Yarvin agenda being effectively stopped. |
+| **[Are Musk and Thiel getting what they paid for?](https://www.linkedin.com/pulse/musk-thiel-getting-what-paid-convo-wperplexityai-lars-warren-ericson-smphe)** | 6 min | Convo w/Perplexity.ai on stock declines for Tesla and Palantir Technologies. |
+| **[Robo-advisor financial advice for Elon Musk](https://www.linkedin.com/pulse/robo-advisor-financial-advice-elon-musk-convo-lars-warren-ericson-y7dpe)** | 24 min | Convo w/Perplexity.ai on the valuation of Elon Musk's top 5 holdings. |
+| **["Describe Russia, China, Israel..."](https://www.linkedin.com/pulse/describe-russia-china-israel-saudi-arabia-government-elon-ericson-80ace)** | 7 min | Report by X.ai Grok DeeperSearch model on foreign communication and influence. |
+| **[Russian and Chinese Government Influence on Tech Billionaires](https://www.linkedin.com/pulse/russian-chinese-government-influence-tech-elon-musk-peter-ericson-3vlme)** | 8 min | Perplexity Deep Research model's take on foreign government influence on American tech leaders. |
+
+## 🚀 Defense, Aerospace & Geopolitics
+*Analyses on global conflicts, defense supply chains, and modern warfare capabilities.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
+| **[Attrition of General Atomics and comparable Chinese and Turkish drones...](https://www.linkedin.com/pulse/attrition-general-atomics-comparable-chinese-turkish-drones-ericson-txrje)** | 1 min | Examining high-end reusable drones from General Atomics, Lentatek, and Baykar. |
+| **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
+| **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
+| **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
+| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Convo w/Perplexity.ai exploring whether foreign intel services can intercept Signal. |
+| **[On the Sachs speech on the Ukraine War to the European Parliament](https://www.linkedin.com/pulse/sachs-speech-ukraine-war-european-parliament-chat-lars-warren-ericson-zer5e)** | 15 min | Convo w/Perplexity.ai on the Columbia professor's address to the European Parliament. |
+
+## 🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy
+*Engineering RAG chains, AI system builds, and testing the limits of leading LLMs.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Defining Conciousness with Gemini 3](https://www.linkedin.com/pulse/defining-conciousness-gemini-3-lars-warren-ericson-utpge)** | 86 min | Asking when an AI-powered toaster will feel joy spreading butter on sourdough. |
+| **[The HAL9000 PCPartsPicker system build](https://www.linkedin.com/pulse/hal9000-pcpartspicker-system-build-lars-warren-ericson-svv6e)** | 12 min | Asking HAL to spec out a system build using Gemini 3. |
+| **[Claude.ai imagines HAL9000's system prompt](https://www.linkedin.com/pulse/claudeai-imagines-hal9000s-system-prompt-lars-warren-ericson-wllwe)** | 14 min | Exploring the "Soul Document" and system prompt outlines. |
+| **[GPU, TPU & Quantum Computer rambling chat with Google Gemini 3 Pro](https://www.linkedin.com/pulse/gpu-tpu-quantum-computer-rambling-chat-google-gemini-3-ericson-mbcse)** | 45 min | Discussing tech hardware and market events like NVDA's morning market performance. |
+| **[From New Rose Hotel to the AI Ouroboros](https://www.linkedin.com/pulse/from-new-rose-hotel-ai-ouroboros-conversation-gemini-3-ericson-uumfe)** | 21 min | A conversation with Gemini 3 Pro about sci-fi, literature, and "stunningly boring" assessments. |
+| **[What AI task scheduler app will help a tired old man develop a complex RAG chain?](https://www.linkedin.com/pulse/what-ai-task-scheduler-app-help-tired-old-man-develop-ericson-vwlhe)** | 21 min | Prompting 9 popular LLMs for help with managing an independent AI development project. |
+| **[6 AIs weigh in on a sentence from 4th Circuit Abrego-Garcia Opinion...](https://www.linkedin.com/pulse/6-ais-weigh-sentence-from-4th-circuit-abrego-garcia-opinion-ericson-8frue)** | 10 min | Asking AIs to translate a complex judicial opinion into plain and simple English. |
+| **[When coat hangers in a pile hook up, is that attraction?](https://www.linkedin.com/pulse/when-coat-hangers-pile-hook-up-attraction-convo-new-llm-ericson-d8pye)** | 3 min | Convo with the new LLM manus.im on a quirky philosophical question. |
+
+## 🔬 Science, Data & Medicine
+*Explorations into medical technology, drug discovery, and quantitative data analysis.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Endometriosis: Opportunity for the next aspiring foundation CSO](https://www.linkedin.com/pulse/endometriosis-opportunity-next-aspiring-foundation-cso-ericson-qgj9e)** | 20 min | Chat with Grok on whether endometriosis is a blocker for having children. |
+| **[Robotic exoskeleton leg replacement for a person with one leg](https://www.linkedin.com/pulse/robotic-exoskeleton-leg-replacement-person-one-convo-ericson-beipe)** | 11 min | Convo w/Perplexity.ai on the prevalence of specific congenital limb differences. |
+| **[Structural Break a/k/a Change Point Detection](https://www.linkedin.com/pulse/structural-break-aka-change-point-detection-convo-lars-warren-ericson-t6eue)** | 14 min | Thinking through a CrunchDAO/ADIA Lab challenge on structural breaks. |
+| **[Carnegie-Mellon University rank in drug discovery](https://www.linkedin.com/pulse/carnegie-mellon-university-rank-drug-discovery-convo-ericson-qgaoe)** | 16 min | Convo w/Perplexity.ai assessing CMU capabilities and academic rank. |
+
+## 🎓 Law, Education & Culture
+*Analyses on university programs, legal disputes, media theory, and society.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Undergrad training at Harvard required to read a paper on Domain Theory](https://www.linkedin.com/pulse/undergraduate-training-harvard-required-read-paper-domain-ericson-pxu0e)** | 1 min | Convo w/Perplexity.ai on the course prerequisites for a Harvard undergrad. |
+| **[What research universities do program-level assessment of skill mastery?](https://www.linkedin.com/pulse/what-research-universities-do-program-level-skill-mastery-ericson-nedhe)** | 8 min | Asking LLMs which research universities actually assess skills at the program level. |
+| **[Andor Season 2 Episode 8 in Dramatica Pro terms](https://www.linkedin.com/pulse/andor-season-2-episode-9-dramatica-pro-terms-convo-ericson-ac2ae)** | 12 min | Convo w/Perplexity.ai analyzing the robot at the end of Andor Season 2. |
+| **[Are all Chicago Bulls fans members of MS-13?](https://www.linkedin.com/pulse/all-chicago-bulls-fans-members-ms-13-convo-lars-warren-ericson-g1i7c)** | 7 min | Convo w/Perplexity.ai exploring prejudicial gang assessments. |
+| **[Arthur and Eva Evans Fence Dispute](https://www.linkedin.com/pulse/arthur-eva-evans-fence-dispute-researched-new-llm-manusim-ericson-odfme)** | 6 min | Researched by new LLM manus.im regarding an elderly couple's property dispute. |
