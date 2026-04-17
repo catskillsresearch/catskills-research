@@ -36,15 +36,15 @@
   <span style="font-family: 'Copperplate', 'Copperplate Gothic Light', serif; font-variant: small-caps; font-size: 42px; font-weight: normal; vertical-align: middle; letter-spacing: 1px; color: #222;">Catskills Research Company</span>
 </div>
 
-**Articles and Analyses by Lars Warren Ericson**
+**Strategic Intelligence & Technical Analysis**
 
 ---
 
 ### Research Categories
 * [⚛️ Fusion Energy](#-fusion-energy)
-* [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
+* [🛡️ Military Strategy and Technology](#-military-strategy-and-technology)
 * [🚀 Space Exploration](#-space-exploration)
-* [🌍 Geopolitical Forecasting](#-geopolitical-forecasting)
+* [🌍 Geopolitics](#-geopolitics)
 * [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
 * [🎓 Law, Education & Culture](#-law-education--culture)
@@ -59,7 +59,7 @@
 | :--- | :--- | :--- |
 | **[TBD](https://catskillsresearch.github.io/catskills-research/)** | 12 min | TBD |
 
-## 🛡️ Ballistic Missile Defense
+## 🛡️ Military Strategy and Technology
 *Analyses on air defense systems, interceptor supply chains, and missile threat mitigation.*
 
 | Article Title | Read Time | Description |
@@ -75,7 +75,7 @@
 | :--- | :--- | :--- |
 | **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
-## 🌍 Geopolitical Forecasting
+## 🌍 Geopolitics
 *Strategic assessments of global conflicts, modern warfare tactics, and international relations.*
 
 | Article Title | Read Time | Description |
