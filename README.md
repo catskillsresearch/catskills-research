@@ -33,12 +33,11 @@
 ---
 
 ## ⚛️ Fusion Energy
-*Analyses on tokamak development, private fusion startups, and the path to commercial power.*
+*Who is doing small, practical, pragmatic fusion reactor development, especially work suited for space travel.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[The Race for Commercial Fusion](https://link-to-article.com)** | 12 min | A deep dive into Helion, Commonwealth Fusion Systems, and the timeline for grid-ready power. |
-| **[ITER vs. Modular Reactors](https://link-to-article.com)** | 8 min | Comparing the massive scale of international projects with the agility of compact fusion startups. |
+| **[TBD](https://link-to-article.com)** | 12 min | TBD |
 
 ## 🛡️ Ballistic Missile Defense
 *Analyses on air defense systems, interceptor supply chains, and missile threat mitigation.*
