@@ -45,7 +45,8 @@
 * [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
 * [🚀 Space Exploration](#-space-exploration)
 * [🚁 Drone Warfare](#-drone-warfare)
-* [🔐 Operational Security (OPSEC) and record keeping](#-operational-security-opsec-and-record-keeping)
+* [📈 Quantitative Finance](#-quantitative-finance)
+* [🧮 Computational Logic and Mathematics](#-computational-logic-and-mathematics)
 * [🌍 Geopolitics](#-geopolitics)
 * [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
@@ -84,12 +85,19 @@
 | :--- | :--- | :--- |
 | **[Attrition of General Atomics and comparable Chinese and Turkish drones...](https://www.linkedin.com/pulse/attrition-general-atomics-comparable-chinese-turkish-drones-ericson-txrje)** | 1 min | Examining high-end reusable drones from General Atomics, Lentatek, and Baykar. |
 
-## 🔐 Operational Security (OPSEC) and record keeping
-*Research into secure communications, metadata leakage, and tactical digital privacy.*
+## 📈 Quantitative Finance
+*Mathematical modeling of markets, change point detection, and algorithmic analysis.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Convo w/Perplexity.ai exploring whether foreign intel services can intercept Signal. |
+| **[Structural Break a/k/a Change Point Detection](https://www.linkedin.com/pulse/structural-break-aka-change-point-detection-convo-lars-warren-ericson-t6eue)** | 14 min | Thinking through a CrunchDAO/ADIA Lab challenge on structural breaks. |
+
+## 🧮 Computational Logic and Mathematics
+*Foundational research into formal systems, domain theory, and academic rigor.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Undergrad training at Harvard required to read a paper on Domain Theory](https://www.linkedin.com/pulse/undergraduate-training-harvard-required-read-paper-domain-ericson-pxu0e)** | 1 min | Convo w/Perplexity.ai on the course prerequisites for a Harvard undergrad. |
 
 ## 🌍 Geopolitics
 *Strategic assessments of global conflicts and international relations.*
@@ -119,7 +127,6 @@
 | :--- | :--- | :--- |
 | **[Endometriosis: Opportunity for the next aspiring foundation CSO](https://www.linkedin.com/pulse/endometriosis-opportunity-next-aspiring-foundation-cso-ericson-qgj9e)** | 20 min | Chat with Grok on whether endometriosis is a blocker for having children. |
 | **[Robotic exoskeleton leg replacement for a person with one leg](https://www.linkedin.com/pulse/robotic-exoskeleton-leg-replacement-person-one-convo-ericson-beipe)** | 11 min | Convo w/Perplexity.ai on the prevalence of specific congenital limb differences. |
-| **[Structural Break a/k/a Change Point Detection](https://www.linkedin.com/pulse/structural-break-aka-change-point-detection-convo-lars-warren-ericson-t6eue)** | 14 min | Thinking through a CrunchDAO/ADIA Lab challenge on structural breaks. |
 | **[Carnegie-Mellon University rank in drug discovery](https://www.linkedin.com/pulse/carnegie-mellon-university-rank-drug-discovery-convo-ericson-qgaoe)** | 16 min | Convo w/Perplexity.ai assessing CMU capabilities and academic rank. |
 
 ## 🎓 Law, Education & Culture
@@ -127,7 +134,6 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[Undergrad training at Harvard required to read a paper on Domain Theory](https://www.linkedin.com/pulse/undergraduate-training-harvard-required-read-paper-domain-ericson-pxu0e)** | 1 min | Convo w/Perplexity.ai on the course prerequisites for a Harvard undergrad. |
 | **[What research universities do program-level assessment of skill mastery?](https://www.linkedin.com/pulse/what-research-universities-do-program-level-skill-mastery-ericson-nedhe)** | 8 min | Asking LLMs which research universities actually assess skills at the program level. |
 | **[Andor Season 2 Episode 8 in Dramatica Pro terms](https://www.linkedin.com/pulse/andor-season-2-episode-9-dramatica-pro-terms-convo-ericson-ac2ae)** | 12 min | Convo w/Perplexity.ai analyzing the robot at the end of Andor Season 2. |
 | **[Are all Chicago Bulls fans members of MS-13?](https://www.linkedin.com/pulse/all-chicago-bulls-fans-members-ms-13-convo-lars-warren-ericson-g1i7c)** | 7 min | Convo w/Perplexity.ai exploring prejudicial gang assessments. |
@@ -138,6 +144,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Analysis of communication security and foreign intelligence interception capabilities. |
 | **[Six AI predictions on the fate of Dark MAGA](https://www.linkedin.com/pulse/six-ai-predictions-fate-dark-maga-lars-warren-ericson-tqjre)** | 14 min | Estimating the chances of the Musk/Thiel/Yarvin agenda being effectively stopped. |
 | **[Are Musk and Thiel getting what they paid for?](https://www.linkedin.com/pulse/musk-thiel-getting-what-paid-convo-wperplexityai-lars-warren-ericson-smphe)** | 6 min | Convo w/Perplexity.ai on stock declines for Tesla and Palantir Technologies. |
 | **[Robo-advisor financial advice for Elon Musk](https://www.linkedin.com/pulse/robo-advisor-financial-advice-elon-musk-convo-lars-warren-ericson-y7dpe)** | 24 min | Convo w/Perplexity.ai on the valuation of Elon Musk's top 5 holdings. |
