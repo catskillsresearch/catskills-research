@@ -42,13 +42,13 @@
 
 ### Research Categories
 * [⚛️ Fusion Energy](#-fusion-energy)
-* [🛡️ Military Strategy and Technology](#-military-strategy-and-technology)
 * [🚀 Space Exploration](#-space-exploration)
+* [🛡️ Military Strategy and Technology](#-military-strategy-and-technology)
 * [🌍 Geopolitics](#-geopolitics)
 * [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
 * [🎓 Law, Education & Culture](#-law-education--culture)
-* [🏛️ Tech Billionaires & Political Influence](#-tech-billionaires--political-influence)
+* [🗽 Democratic Resilience & Institutional Integrity](#-democratic-resilience--institutional-integrity)
 
 ---
 
@@ -59,6 +59,13 @@
 | :--- | :--- | :--- |
 | **[TBD](https://catskillsresearch.github.io/catskills-research/)** | 12 min | TBD |
 
+## 🚀 Space Exploration
+*Research into emerging "New Space" companies, orbital technologies, and the aerospace industry.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
+
 ## 🛡️ Military Strategy and Technology
 *Analyses on air defense systems, interceptor supply chains, and missile threat mitigation.*
 
@@ -67,13 +74,6 @@
 | **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
 | **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
 | **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
-
-## 🚀 Space Exploration
-*Research into emerging "New Space" companies, orbital technologies, and the aerospace industry.*
-
-| Article Title | Read Time | Description |
-| :--- | :--- | :--- |
-| **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
 ## 🌍 Geopolitics
 *Strategic assessments of global conflicts, modern warfare tactics, and international relations.*
@@ -119,8 +119,8 @@
 | **[Are all Chicago Bulls fans members of MS-13?](https://www.linkedin.com/pulse/all-chicago-bulls-fans-members-ms-13-convo-lars-warren-ericson-g1i7c)** | 7 min | Convo w/Perplexity.ai exploring prejudicial gang assessments. |
 | **[Arthur and Eva Evans Fence Dispute](https://www.linkedin.com/pulse/arthur-eva-evans-fence-dispute-researched-new-llm-manusim-ericson-odfme)** | 6 min | Researched by new LLM manus.im regarding an elderly couple's property dispute. |
 
-## 🏛️ Tech Billionaires & Political Influence
-*AI-assisted research into the intersection of corporate tech leaders, geopolitics, and government agendas.*
+## 🗽 Democratic Resilience & Institutional Integrity
+*Analyses on systemic risks to the Constitutional order and the defense of democratic governance.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
