@@ -1,7 +1,12 @@
 <style>
-  /* NEW: This hides the automatic GitHub Pages theme header */
-  .page-header, header, .site-header { 
+  /* TARGETED THEME OVERRIDE: This hides the Cayman theme's blue header */
+  .page-header { 
     display: none !important; 
+  }
+  
+  /* Additional cleanup for the body to remove the gap left by the hidden header */
+  .main-content {
+    padding-top: 0 !important;
   }
 
   body { 
@@ -14,7 +19,7 @@
   }
   
   .custom-header {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   
