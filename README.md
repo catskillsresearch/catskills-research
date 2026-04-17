@@ -1,4 +1,9 @@
 <style>
+  /* NEW: This hides the automatic GitHub Pages theme header */
+  .page-header, header, .site-header { 
+    display: none !important; 
+  }
+
   body { 
     max-width: 900px; 
     margin: 40px auto; 
@@ -7,11 +12,12 @@
     color: #222; 
     padding: 0 20px; 
   }
-  /* Style for the custom header container */
+  
   .custom-header {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+  
   table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 14px; }
   th, td { border-bottom: 1px solid #ddd; padding: 12px; text-align: left; }
   th { background-color: #f8f9fa; }
@@ -24,6 +30,8 @@
   <img src="crc.jpeg" height="60" style="vertical-align: middle; margin-right: 12px;"> 
   <span style="font-family: 'Copperplate', 'Copperplate Gothic Light', serif; font-variant: small-caps; font-size: 42px; font-weight: normal; vertical-align: middle; letter-spacing: 1px; color: #222;">Catskills Research Company</span>
 </div>
+
+**Articles and Analyses by Lars Warren Ericson**
 
 ---
 
