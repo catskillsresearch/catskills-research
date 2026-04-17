@@ -46,6 +46,7 @@
 * [🚀 Space Exploration](#-space-exploration)
 * [🚁 Drone Warfare](#-drone-warfare)
 * [📈 Quantitative Finance](#-quantitative-finance)
+* [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
 * [🎓 Higher Education and Training](#-higher-education-and-training)
 * [🎬 Film and TV](#-film-and-tv)
 * [🌍 Geopolitics](#-geopolitics)
@@ -93,6 +94,15 @@
 | :--- | :--- | :--- |
 | **[Structural Break a/k/a Change Point Detection](https://www.linkedin.com/pulse/structural-break-aka-change-point-detection-convo-lars-warren-ericson-t6eue)** | 14 min | Thinking through a CrunchDAO/ADIA Lab challenge on structural breaks. |
 
+## 🕵️‍♂️ Counterintelligence and Foreign Influence
+*Research into espionage risks, foreign government interference, and the tracking of international influence operations.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Russian and Chinese Government Influence on Tech Billionaires](https://www.linkedin.com/pulse/russian-chinese-government-influence-tech-elon-musk-peter-ericson-3vlme)** | 8 min | Perplexity Deep Research model's take on foreign government influence on American tech leaders. |
+| **["Describe Russia, China, Israel..."](https://www.linkedin.com/pulse/describe-russia-china-israel-saudi-arabia-government-elon-ericson-80ace)** | 7 min | Report by X.ai Grok DeeperSearch model on foreign communication and influence strategies. |
+| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Analysis of communication security and foreign intelligence interception capabilities. |
+
 ## 🎓 Higher Education and Training
 *Research into university program assessment, academic prerequisites, and skill mastery.*
 
@@ -125,7 +135,7 @@
 | **[Claude.ai imagines HAL9000's system prompt](https://www.linkedin.com/pulse/claudeai-imagines-hal9000s-system-prompt-lars-warren-ericson-wllwe)** | 14 min | Reverse-engineering the "Soul Document" and hypothetical system prompts. |
 | **[GPU, TPU & Quantum Computer rambling chat with Google Gemini 3 Pro](https://www.linkedin.com/pulse/gpu-tpu-quantum-computer-rambling-chat-google-gemini-3-ericson-mbcse)** | 45 min | Hardware market analysis and performance assessments. |
 | **[From New Rose Hotel to the AI Ouroboros](https://www.linkedin.com/pulse/from-new-rose-hotel-ai-ouroboros-conversation-gemini-3-ericson-uumfe)** | 21 min | Literary and sci-fi assessments with Gemini 3 Pro. |
-| **[What AI task scheduler app will help a tired old man develop a complex RAG chain?](https://www.linkedin.com/pulse/what-ai-task-scheduler-app-help-tired-old-man-develop-ericson-vwlhe)** | 21 min | Prompting 9 LLMs for independent AI project management help. |
+| **[What AI task scheduler app will help a tired old man develop a complex RAG chain?](https://www.linkedin.com/pulse/what-ai-task-scheduler-app-help-tired-old-man-develop-ericson-vwlhe)** | 21 min | Prompting 9 LLMs for help with managing an independent AI development project. |
 | **[6 AIs weigh in on a sentence from 4th Circuit Abrego-Garcia Opinion...](https://www.linkedin.com/pulse/6-ais-weigh-sentence-from-4th-circuit-abrego-garcia-opinion-ericson-8frue)** | 10 min | Comparative LLM performance in translating complex judicial opinions. |
 | **[When coat hangers in a pile hook up, is that attraction?](https://www.linkedin.com/pulse/when-coat-hangers-pile-hook-up-attraction-convo-new-llm-ericson-d8pye)** | 3 min | Philosophical edge-case testing with the Manus LLM. |
 
@@ -151,9 +161,6 @@
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
 | **[Are all Chicago Bulls fans members of MS-13?](https://www.linkedin.com/pulse/all-chicago-bulls-fans-members-ms-13-convo-lars-warren-ericson-g1i7c)** | 7 min | Research into prejudicial gang assessments and state-level profiling. |
-| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Analysis of communication security and foreign intelligence interception capabilities. |
 | **[Six AI predictions on the fate of Dark MAGA](https://www.linkedin.com/pulse/six-ai-predictions-fate-dark-maga-lars-warren-ericson-tqjre)** | 14 min | Estimating the chances of the Musk/Thiel/Yarvin agenda being effectively stopped. |
 | **[Are Musk and Thiel getting what they paid for?](https://www.linkedin.com/pulse/musk-thiel-getting-what-paid-convo-wperplexityai-lars-warren-ericson-smphe)** | 6 min | Convo w/Perplexity.ai on stock declines for Tesla and Palantir Technologies. |
 | **[Robo-advisor financial advice for Elon Musk](https://www.linkedin.com/pulse/robo-advisor-financial-advice-elon-musk-convo-lars-warren-ericson-y7dpe)** | 24 min | Convo w/Perplexity.ai on the valuation of Elon Musk's top 5 holdings. |
-| **["Describe Russia, China, Israel..."](https://www.linkedin.com/pulse/describe-russia-china-israel-saudi-arabia-government-elon-ericson-80ace)** | 7 min | Report by X.ai Grok DeeperSearch model on foreign communication and influence. |
-| **[Russian and Chinese Government Influence on Tech Billionaires](https://www.linkedin.com/pulse/russian-chinese-government-influence-tech-elon-musk-peter-ericson-3vlme)** | 8 min | Perplexity Deep Research model's take on foreign government influence on American tech leaders. |
