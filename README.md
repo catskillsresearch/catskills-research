@@ -71,17 +71,17 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Attrition of General Atomics and comparable Chinese and Turkish drones...](https://www.linkedin.com/pulse/attrition-general-atomics-comparable-chinese-turkish-drones-ericson-txrje)** | 1 min | Examining high-end reusable drones from General Atomics, Lentatek, and Baykar. |
 | **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
 | **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
 | **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
+| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Convo w/Perplexity.ai exploring whether foreign intel services can intercept Signal. |
 
 ## 🌍 Geopolitics
 *Strategic assessments of global conflicts, modern warfare tactics, and international relations.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[Attrition of General Atomics and comparable Chinese and Turkish drones...](https://www.linkedin.com/pulse/attrition-general-atomics-comparable-chinese-turkish-drones-ericson-txrje)** | 1 min | Examining high-end reusable drones from General Atomics, Lentatek, and Baykar. |
-| **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Convo w/Perplexity.ai exploring whether foreign intel services can intercept Signal. |
 | **[On the Sachs speech on the Ukraine War to the European Parliament](https://www.linkedin.com/pulse/sachs-speech-ukraine-war-european-parliament-chat-lars-warren-ericson-zer5e)** | 15 min | Convo w/Perplexity.ai on the Columbia professor's address to the European Parliament. |
 
 ## 🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy
