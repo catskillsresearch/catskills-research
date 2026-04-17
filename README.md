@@ -1,3 +1,20 @@
+<style>
+  body { 
+    max-width: 900px; 
+    margin: 40px auto; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    line-height: 1.6; 
+    color: #222; 
+    padding: 0 20px; 
+  }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 14px; }
+  th, td { border-bottom: 1px solid #ddd; padding: 12px; text-align: left; }
+  th { background-color: #f8f9fa; }
+  a { color: #0073b1; text-decoration: none; font-weight: bold; }
+  a:hover { text-decoration: underline; }
+  hr { border: 0; border-top: 1px solid #eee; margin: 30px 0; }
+</style>
+
 # <img src="crc.jpeg" height="60" style="vertical-align: middle; margin-right: 12px;"> <span style="font-family: 'Copperplate', 'Copperplate Gothic Light', serif; font-variant: small-caps; font-size: 42px; font-weight: normal; vertical-align: middle; letter-spacing: 1px;">Catskills Research Company</span>
 **Articles and Analyses by Lars Warren Ericson**
 
@@ -8,7 +25,7 @@
 * [🚀 Defense, Aerospace & Geopolitics](#-defense-aerospace--geopolitics)
 * [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
-*[🎓 Law, Education & Culture](#-law-education--culture)
+* [🎓 Law, Education & Culture](#-law-education--culture)
 
 ---
 
