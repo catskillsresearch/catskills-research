@@ -40,31 +40,25 @@
 
 ---
 
-### Research Categories
+### Applied Science and Mathematics
 
-#### Applied Science, Mathematics and Higher Education
-
-* [🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy](#-artificial-intelligence-engineering-benchmarks--philosophy)
+* [🧠 Artificial Intelligence](#-artificial-intelligence)
 * [📈 Quantitative Finance](#-quantitative-finance)
 * [🎓 Higher Education and Training](#-higher-education-and-training)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
 * [⚛️ Fusion Energy](#-fusion-energy)
 * [🚀 Space Exploration](#-space-exploration)
 
-#### National Security
+### National Security
 
 * [🛡️ Ballistic Missile Defense](#-ballistic-missile-defense)
 * [🚁 Drone Warfare](#-drone-warfare)
 * [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
 * [🗽 Democratic Resilience & Institutional Integrity](#-democratic-resilience--institutional-integrity)
 
-#### Arts
-
-* [🎬 Film and TV](#-film-and-tv)
-
 ---
-#  Applied Science, Mathematics and Higher Education
-## 🧠 Artificial Intelligence: Engineering, Benchmarks & Philosophy
+#  Applied Science and Mathematics
+## 🧠 Artificial Intelligence
 *Engineering RAG chains, AI system builds, and testing the limits of leading LLMs.*
 
 | Article Title | Read Time | Description |
@@ -77,6 +71,7 @@
 | **[What AI task scheduler app will help a tired old man develop a complex RAG chain?](https://www.linkedin.com/pulse/what-ai-task-scheduler-app-help-tired-old-man-develop-ericson-vwlhe)** | 21 min | Prompting 9 LLMs for help with managing an independent AI development project. |
 | **[6 AIs weigh in on a sentence from 4th Circuit Abrego-Garcia Opinion...](https://www.linkedin.com/pulse/6-ais-weigh-sentence-from-4th-circuit-abrego-garcia-opinion-ericson-8frue)** | 10 min | Comparative LLM performance in translating complex judicial opinions. |
 | **[When coat hangers in a pile hook up, is that attraction?](https://www.linkedin.com/pulse/when-coat-hangers-pile-hook-up-attraction-convo-new-llm-ericson-d8pye)** | 3 min | Philosophical edge-case testing with the Manus LLM. |
+| **[Andor Season 2 Episode 8 in Dramatica Pro terms](https://www.linkedin.com/pulse/andor-season-2-episode-9-dramatica-pro-terms-convo-ericson-ac2ae)** | 12 min | Structural analysis of the robot narrative at the end of Andor Season 2. |
 
 ## 📈 Quantitative Finance
 *Mathematical modeling of markets, change point detection, and algorithmic analysis.*
@@ -155,11 +150,3 @@
 | **[Robo-advisor financial advice for Elon Musk](https://www.linkedin.com/pulse/robo-advisor-financial-advice-elon-musk-convo-lars-warren-ericson-y7dpe)** | 24 min | Convo w/Perplexity.ai on the valuation of Elon Musk's top 5 holdings. |
 | **[Arthur and Eva Evans Fence Dispute](https://www.linkedin.com/pulse/arthur-eva-evans-fence-dispute-researched-new-llm-manusim-ericson-odfme)** | 6 min | Property dispute analysis researched by the Manus LLM. |
 
-# Arts
-
-## 🎬 Film and TV
-*Analytical breakdowns of media narratives and structural storytelling terms.*
-
-| Article Title | Read Time | Description |
-| :--- | :--- | :--- |
-| **[Andor Season 2 Episode 8 in Dramatica Pro terms](https://www.linkedin.com/pulse/andor-season-2-episode-9-dramatica-pro-terms-convo-ericson-ac2ae)** | 12 min | Structural analysis of the robot narrative at the end of Andor Season 2. |
