@@ -46,12 +46,12 @@
 * [📈 Quantitative Finance](#-quantitative-finance)
 * [🎓 Higher Education and Training](#-higher-education-and-training)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
-* [⚛️ Fusion Energy](#fusion-energy)
+* [⚛️ Fusion Energy](#%EF%B8%8F-fusion-energy)
 * [🚀 Space Exploration](#-space-exploration)
 
 ### National Security
 
-* [🛡️ Ballistic Missile Defense](#ballistic-missile-defense)
+* [🛡️ Ballistic Missile Defense](#%EF%B8%8F-ballistic-missile-defense)
 * [🚁 Drone Warfare](#-drone-warfare)
 * [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
 * [🗽 Democratic Resilience & Institutional Integrity](#-democratic-resilience--institutional-integrity)
