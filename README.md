@@ -102,7 +102,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[TBD](https://catskillsresearch.github.io/catskills-research/)** | -- min | Research update forthcoming. |
+| **[The 6 hottest compact fusion reactor startups in 2026]([https://catskillsresearch.github.io/catskills-research/](https://chatgpt.com/s/m_69e6dfea8bd08191a4e5a393a8411a7d))** | 10 min | Compact fusion is great for space travel. |
 
 ## 🚀 Space Exploration
 *Research into emerging "New Space" companies, orbital technologies, and the aerospace industry.*
