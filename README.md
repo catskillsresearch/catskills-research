@@ -51,6 +51,7 @@
 
 ### National Security
 
+* [🔮 Geopolitical Forecasting](#-geopolitical-forecasting)
 * [🛡️ Ballistic Missile Defense](#%EF%B8%8F-ballistic-missile-defense)
 * [🚁 Drone Warfare](#-drone-warfare)
 * [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
@@ -112,6 +113,14 @@
 | **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
 # National Security
+
+## 🔮 Geopolitical Forecasting
+*Predictive modeling of international conflict and trade routes.*
+
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[Is Trump winning the Hormuz blockade? (convo w/Gemini Pro 3.1)](https://www.linkedin.com/pulse/trump-winning-hormuz-blockade-convo-wgemini-pro-31-ericson-lyc6e/)** | 3 min | Who is winning the Strait of Hormuz blockade? Marc Thiessen and Emzari Gelashvili think that Trump is. Have all factors been considered in their models? |
 
 ## 🛡️ Ballistic Missile Defense
 *Research into interceptor supply chains, anti-ballistic missile (ABM) economics, and threat mitigation.*
