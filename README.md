@@ -133,7 +133,7 @@
 | **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
 | **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
 | **[The KNOBS Tactical Mission Planning System and Its Successors](https://www.linkedin.com/pulse/knobs-tactical-mission-planning-system-its-successors-ericson-7i33e/)** | 11 min | Historical overview of KNOBS and the mission-planning systems that followed it. |
-| **[The DARPA Distributed Sensor Networks (DSN) Project and Its Successors](https://www.linkedin.com/pulse/darpa-distributed-sensor-networks-dsn-project-its-lars-warren-ericson-obfxe/)** | 2 min | Historical overview of the DSN Project and successors |
+| **[The DARPA Distributed Sensor Network (DSN) Project and Its Successors](https://www.linkedin.com/pulse/darpa-distributed-sensor-networks-dsn-project-its-lars-warren-ericson-obfxe/)** | 2 min | Historical overview of the DSN Project and successors |
 
 ## 🚁 Drone Warfare
 *Technical analysis of Unmanned Aerial Systems (UAS), attrition rates, and emerging drone platforms.*
