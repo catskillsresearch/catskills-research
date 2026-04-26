@@ -94,6 +94,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[From Thalidomide to human limb regeneration (convo w/Google AI)](https://www.linkedin.com/pulse/from-thalidomide-human-limb-regeneration-convo-wgoogle-ericson-vewce/)** | 12 min | Historical drug-risk context and the biology of limb regrowth. |
 | **[Endometriosis: Opportunity for the next aspiring foundation CSO](https://www.linkedin.com/pulse/endometriosis-opportunity-next-aspiring-foundation-cso-ericson-qgj9e)** | 20 min | Research into clinical blockers and medical foundation strategy. |
 | **[Robotic exoskeleton leg replacement for a person with one leg](https://www.linkedin.com/pulse/robotic-exoskeleton-leg-replacement-person-one-convo-ericson-beipe)** | 11 min | Data on prevalence of congenital limb differences and prosthetic tech. |
 | **[Carnegie-Mellon University rank in drug discovery](https://www.linkedin.com/pulse/carnegie-mellon-university-rank-drug-discovery-convo-ericson-qgaoe)** | 16 min | Institutional assessment of CMU capabilities in pharmaceutical research. |
@@ -103,6 +104,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[SSTO fusion spaceplane using Avalanche Energy p-B11 Orbitrons with Invictus SABRE engines (convo w/Gemini 3.1 Pro Preview)](https://www.linkedin.com/pulse/ssto-fusion-spaceplane-using-avalanche-energy-p-b11-invictus-ericson-9jg2e/)** | 18 min | A single-stage-to-orbit fusion spaceplane concept combining p-B11 fusion and SABRE propulsion. |
 | **[The 6 hottest compact fusion reactor startups in 2026](https://www.linkedin.com/pulse/5-hottest-compact-fusion-reactor-startups-2026-lars-warren-ericson-bcv9e)** | 10 min | Compact fusion is great for space travel. |
 
 ## 🚀 Space Exploration
