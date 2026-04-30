@@ -64,6 +64,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[The fate of the NYU Ultracomputer and the IBM RP3](https://www.linkedin.com/pulse/fate-nyu-ultracomputer-ibm-rp3-convo-wgoogle-gemini-31-ericson-r00de)** | 70 min | Did the NYU Ultracomputer and it's successor the IBM RP3 had any impact on 2026 designs? |
 | **[Defining Conciousness with Gemini 3](https://www.linkedin.com/pulse/defining-conciousness-gemini-3-lars-warren-ericson-utpge)** | 86 min | Philosophical inquiry into machine consciousness using Gemini 3. |
 | **[The HAL9000 PCPartsPicker system build](https://www.linkedin.com/pulse/hal9000-pcpartspicker-system-build-lars-warren-ericson-svv6e)** | 12 min | Requesting a high-end system build spec from Gemini 3. |
 | **[Claude.ai imagines HAL9000's system prompt](https://www.linkedin.com/pulse/claudeai-imagines-hal9000s-system-prompt-lars-warren-ericson-wllwe)** | 14 min | Reverse-engineering the "Soul Document" and hypothetical system prompts. |
