@@ -95,6 +95,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Charles Emerson's search for a cure for muscular dystrophy](https://www.linkedin.com/pulse/charles-emersons-search-cure-muscular-dystrophy-convo-ericson-ln31e/)** | 20 min | Searching for the cure. |
 | **[From Thalidomide to human limb regeneration (convo w/Google AI)](https://www.linkedin.com/pulse/from-thalidomide-human-limb-regeneration-convo-wgoogle-ericson-vewce/)** | 12 min | Historical drug-risk context and the biology of limb regrowth. |
 | **[Endometriosis: Opportunity for the next aspiring foundation CSO](https://www.linkedin.com/pulse/endometriosis-opportunity-next-aspiring-foundation-cso-ericson-qgj9e)** | 20 min | Research into clinical blockers and medical foundation strategy. |
 | **[Robotic exoskeleton leg replacement for a person with one leg](https://www.linkedin.com/pulse/robotic-exoskeleton-leg-replacement-person-one-convo-ericson-beipe)** | 11 min | Data on prevalence of congenital limb differences and prosthetic tech. |
