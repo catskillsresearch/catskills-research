@@ -106,7 +106,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[SSTO fusion spaceplane using Avalanche Energy p-B11 Orbitrons with Invictus SABRE engines (convo w/Gemini 3.1 Pro Preview)](https://www.linkedin.com/pulse/ssto-fusion-spaceplane-using-avalanche-energy-p-b11-invictus-ericson-9jg2e/)** | 18 min | A single-stage-to-orbit fusion spaceplane concept combining p-B11 fusion and SABRE propulsion. |
+| **[SSTO fusion spaceplane using Avalanche Energy p-B11 Orbitrons with Invictus SABRE engines](https://www.linkedin.com/pulse/ssto-fusion-spaceplane-using-avalanche-energy-p-b11-invictus-ericson-9jg2e/)** | 18 min | A single-stage-to-orbit fusion spaceplane concept combining p-B11 fusion and SABRE propulsion. |
 | **[The 6 hottest compact fusion reactor startups in 2026](https://www.linkedin.com/pulse/5-hottest-compact-fusion-reactor-startups-2026-lars-warren-ericson-bcv9e)** | 10 min | Compact fusion is great for space travel. |
 
 ## 🚀 Space Exploration
