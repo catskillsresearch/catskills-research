@@ -159,6 +159,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[I think Google AI kind of agrees with me that Ross Douthat is out of touch](https://www.linkedin.com/pulse/i-think-google-ai-kind-agrees-me-ross-douthat-out-touch-ericson-nh5ue/)** | 4 min | NY Times editorial section is losing it. |
 | **[Impact of boat airstrikes on illegal drug trade](https://www.linkedin.com/pulse/impact-boat-airstrikes-illegal-drug-trade-lars-warren-ericson-flcae)** | 2 min | Does it make a difference to blow up drug boats? |
 | **[Are all Chicago Bulls fans members of MS-13?](https://www.linkedin.com/pulse/all-chicago-bulls-fans-members-ms-13-convo-lars-warren-ericson-g1i7c)** | 7 min | Research into prejudicial gang assessments and state-level profiling. |
 | **[Six AI predictions on the fate of Dark MAGA](https://www.linkedin.com/pulse/six-ai-predictions-fate-dark-maga-lars-warren-ericson-tqjre)** | 14 min | Estimating the chances of the Musk/Thiel/Yarvin agenda being effectively stopped. |
