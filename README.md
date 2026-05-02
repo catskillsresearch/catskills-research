@@ -159,6 +159,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Impact of boat airstrikes on illegal drug trade](https://www.linkedin.com/pulse/impact-boat-airstrikes-illegal-drug-trade-lars-warren-ericson-flcae)** | 2 min | Does it make a difference to blow up drug boats? ]
 | **[Are all Chicago Bulls fans members of MS-13?](https://www.linkedin.com/pulse/all-chicago-bulls-fans-members-ms-13-convo-lars-warren-ericson-g1i7c)** | 7 min | Research into prejudicial gang assessments and state-level profiling. |
 | **[Six AI predictions on the fate of Dark MAGA](https://www.linkedin.com/pulse/six-ai-predictions-fate-dark-maga-lars-warren-ericson-tqjre)** | 14 min | Estimating the chances of the Musk/Thiel/Yarvin agenda being effectively stopped. |
 | **[Are Musk and Thiel getting what they paid for?](https://www.linkedin.com/pulse/musk-thiel-getting-what-paid-convo-wperplexityai-lars-warren-ericson-smphe)** | 6 min | Convo w/Perplexity.ai on stock declines for Tesla and Palantir Technologies. |
