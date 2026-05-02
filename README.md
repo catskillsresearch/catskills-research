@@ -114,6 +114,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Cloning the FlightGear Space Shuttle model to start work on an Orbitron fusion-powered spaceplane](https://www.linkedin.com/pulse/cloning-flightgear-space-shuttle-model-start-work-orbitron-ericson-bqk2e/) | 12 min | Let's make a fusion power space shuttle. |
 | **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
 # National Security
