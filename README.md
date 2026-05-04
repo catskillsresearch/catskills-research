@@ -106,7 +106,6 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[SSTO fusion spaceplane using Avalanche Energy p-B11 Orbitrons with Invictus SABRE engines](https://www.linkedin.com/pulse/ssto-fusion-spaceplane-using-avalanche-energy-p-b11-invictus-ericson-9jg2e/)** | 18 min | A single-stage-to-orbit fusion spaceplane concept combining p-B11 fusion and SABRE propulsion. |
 | **[The 6 hottest compact fusion reactor startups in 2026](https://www.linkedin.com/pulse/5-hottest-compact-fusion-reactor-startups-2026-lars-warren-ericson-bcv9e)** | 10 min | Compact fusion is great for space travel. |
 
 ## 🚀 Space Exploration
@@ -114,8 +113,10 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[FlightGear SpaceShuttle videos](https://www.linkedin.com/pulse/flightgear-spaceshuttle-videos-lars-warren-ericson-bopxe/)** | 5h | SpaceShuttle flight operation videos |
 | **[3D printing with local materials on the way to Mars](https://www.linkedin.com/pulse/3d-printing-local-materials-way-mars-convo-wgemini-31-ericson-dline/)** | 10 min | 3D printing ships to Mars. |
 | **[Cloning the FlightGear Space Shuttle model to start work on an Orbitron fusion-powered spaceplane](https://www.linkedin.com/pulse/cloning-flightgear-space-shuttle-model-start-work-orbitron-ericson-bqk2e/)** | 12 min | Let's make a fusion power space shuttle. |
+| **[SSTO fusion spaceplane using Avalanche Energy p-B11 Orbitrons with Invictus SABRE engines](https://www.linkedin.com/pulse/ssto-fusion-spaceplane-using-avalanche-energy-p-b11-invictus-ericson-9jg2e/)** | 18 min | A single-stage-to-orbit fusion spaceplane concept combining p-B11 fusion and SABRE propulsion. |
 | **[5 New Space companies to watch](https://www.linkedin.com/pulse/5-new-space-companies-watch-lars-warren-ericson-nqh1e)** | 3 min | Comparing emerging smaller "New Space" companies with big primes like Lockheed Martin and Boeing. |
 
 # National Security
