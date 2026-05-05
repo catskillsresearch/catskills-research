@@ -43,6 +43,7 @@
 ### Applied Science and Mathematics
 
 * [🧠 Artificial Intelligence](#-artificial-intelligence)
+* [🖥️ High Performance Computing](#%EF%B8%8F-high-performance-computing)
 * [📈 Quantitative Finance](#-quantitative-finance)
 * [🎓 Higher Education and Training](#-higher-education-and-training)
 * [🔬 Science, Data & Medicine](#-science-data--medicine)
@@ -65,16 +66,22 @@
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
 | **[Some kind of AI catfight about world models](https://www.linkedin.com/pulse/some-kind-ai-catfight-world-models-chat-wgoogle-mode-ericson-dk3ie/)** | 15 min | Who dunnit first? |
-| **[The fate of the NYU Ultracomputer and the IBM RP3](https://www.linkedin.com/pulse/fate-nyu-ultracomputer-ibm-rp3-convo-wgoogle-gemini-31-ericson-r00de)** | 70 min | Did the NYU Ultracomputer and it's successor the IBM RP3 had any impact on 2026 designs? |
 | **[Defining Conciousness with Gemini 3](https://www.linkedin.com/pulse/defining-conciousness-gemini-3-lars-warren-ericson-utpge)** | 86 min | Philosophical inquiry into machine consciousness using Gemini 3. |
-| **[The HAL9000 PCPartsPicker system build](https://www.linkedin.com/pulse/hal9000-pcpartspicker-system-build-lars-warren-ericson-svv6e)** | 12 min | Requesting a high-end system build spec from Gemini 3. |
 | **[Claude.ai imagines HAL9000's system prompt](https://www.linkedin.com/pulse/claudeai-imagines-hal9000s-system-prompt-lars-warren-ericson-wllwe)** | 14 min | Reverse-engineering the "Soul Document" and hypothetical system prompts. |
-| **[GPU, TPU & Quantum Computer rambling chat with Google Gemini 3 Pro](https://www.linkedin.com/pulse/gpu-tpu-quantum-computer-rambling-chat-google-gemini-3-ericson-mbcse)** | 45 min | Hardware market analysis and performance assessments. |
 | **[From New Rose Hotel to the AI Ouroboros](https://www.linkedin.com/pulse/from-new-rose-hotel-ai-ouroboros-conversation-gemini-3-ericson-uumfe)** | 21 min | Literary and sci-fi assessments with Gemini 3 Pro. |
 | **[What AI task scheduler app will help a tired old man develop a complex RAG chain?](https://www.linkedin.com/pulse/what-ai-task-scheduler-app-help-tired-old-man-develop-ericson-vwlhe)** | 21 min | Prompting 9 LLMs for help with managing an independent AI development project. |
 | **[6 AIs weigh in on a sentence from 4th Circuit Abrego-Garcia Opinion...](https://www.linkedin.com/pulse/6-ais-weigh-sentence-from-4th-circuit-abrego-garcia-opinion-ericson-8frue)** | 10 min | Comparative LLM performance in translating complex judicial opinions. |
 | **[When coat hangers in a pile hook up, is that attraction?](https://www.linkedin.com/pulse/when-coat-hangers-pile-hook-up-attraction-convo-new-llm-ericson-d8pye)** | 3 min | Philosophical edge-case testing with the Manus LLM. |
 | **[Andor Season 2 Episode 8 in Dramatica Pro terms](https://www.linkedin.com/pulse/andor-season-2-episode-9-dramatica-pro-terms-convo-ericson-ac2ae)** | 12 min | Structural analysis of the robot narrative at the end of Andor Season 2. |
+
+## 🖥️ High Performance Computing
+*Articles about supercomputing, GPUs, TPUs, and HPC systems that were previously grouped under AI.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[The fate of the NYU Ultracomputer and the IBM RP3](https://www.linkedin.com/pulse/fate-nyu-ultracomputer-ibm-rp3-convo-wgoogle-gemini-31-ericson-r00de)** | 70 min | Did the NYU Ultracomputer and it's successor the IBM RP3 had any impact on 2026 designs? |
+| **[The HAL9000 PCPartsPicker system build](https://www.linkedin.com/pulse/hal9000-pcpartspicker-system-build-lars-warren-ericson-svv6e)** | 12 min | Requesting a high-end system build spec from Gemini 3. |
+| **[GPU, TPU & Quantum Computer rambling chat with Google Gemini 3 Pro](https://www.linkedin.com/pulse/gpu-tpu-quantum-computer-rambling-chat-google-gemini-3-ericson-mbcse)** | 45 min | Hardware market analysis and performance assessments. |
 
 ## 📈 Quantitative Finance
 *Mathematical modeling of markets, change point detection, and algorithmic analysis.*
@@ -171,4 +178,3 @@
 | **[Are Musk and Thiel getting what they paid for?](https://www.linkedin.com/pulse/musk-thiel-getting-what-paid-convo-wperplexityai-lars-warren-ericson-smphe)** | 6 min | Convo w/Perplexity.ai on stock declines for Tesla and Palantir Technologies. |
 | **[Robo-advisor financial advice for Elon Musk](https://www.linkedin.com/pulse/robo-advisor-financial-advice-elon-musk-convo-lars-warren-ericson-y7dpe)** | 24 min | Convo w/Perplexity.ai on the valuation of Elon Musk's top 5 holdings. |
 | **[Arthur and Eva Evans Fence Dispute](https://www.linkedin.com/pulse/arthur-eva-evans-fence-dispute-researched-new-llm-manusim-ericson-odfme)** | 6 min | Property dispute analysis researched by the Manus LLM. |
-
