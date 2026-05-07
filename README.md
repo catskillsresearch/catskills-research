@@ -161,6 +161,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Soft power of the Pope and King Charles](https://www.linkedin.com/pulse/soft-power-pope-king-charles-convo-wgemini-31-pro-lars-warren-ericson-5aore/)** | 8 min | Why does Marco Rubio visit the Pope? |
 | **[Russian and Chinese Government Influence on Tech Billionaires](https://www.linkedin.com/pulse/russian-chinese-government-influence-tech-elon-musk-peter-ericson-3vlme)** | 8 min | Perplexity Deep Research model's take on foreign government influence on American tech leaders. |
 | **["Describe Russia, China, Israel..."](https://www.linkedin.com/pulse/describe-russia-china-israel-saudi-arabia-government-elon-ericson-80ace)** | 7 min | Report by X.ai Grok DeeperSearch model on foreign communication and influence strategies. |
 | **[Is it OK to use Signal to plan bombing raids in a group chat?](https://www.linkedin.com/pulse/ok-use-signal-plan-bombing-raids-group-chat-convo-lars-warren-ericson-5wd9e)** | 25 min | Analysis of communication security and foreign intelligence interception capabilities. |
