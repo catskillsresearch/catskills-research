@@ -52,10 +52,11 @@
 
 ### National Security
 
+* [🎲 Strategic Game Theory](#-strategic-game-theory)
 * [🔮 Geopolitical Forecasting](#-geopolitical-forecasting)
 * [🛡️ Ballistic Missile Defense](#%EF%B8%8F-ballistic-missile-defense)
 * [🚁 Drone Warfare](#-drone-warfare)
-* [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
+*[🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
 * [🗽 Democratic Resilience & Institutional Integrity](#-democratic-resilience--institutional-integrity)
 
 ---
@@ -130,13 +131,18 @@
 
 # National Security
 
-## 🔮 Geopolitical Forecasting
-*Predictive modeling of international conflict and trade routes.*
-
+## 🎲 Strategic Game Theory
+*Mathematical and strategic application of game theory to deterrence and negotiation.*
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
 | **[Deterring Russia with tying-hands actions](https://www.linkedin.com/pulse/deterring-russia-tying-hands-actions-convo-wgoogle-ai-ericson-ojaxe/)** | 5 min | Tying hands actions. |
+
+## 🔮 Geopolitical Forecasting
+*Predictive modeling of international conflict and trade routes.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
 | **[Hydrocarbon demand destruction due to Ukraine and Iran wars](https://www.linkedin.com/pulse/hydrocarbon-demand-destruction-due-ukraine-iran-wars-chat-ericson-bi80e/)** | 6 min | Are oil wars a solution for global warming? |
 | **[Is Trump winning the Hormuz blockade?](https://www.linkedin.com/pulse/trump-winning-hormuz-blockade-convo-wgemini-pro-31-ericson-lyc6e/)** | 3 min | Who is winning the Strait of Hormuz blockade? Marc Thiessen and Emzari Gelashvili think that Trump is. Have all factors been considered in their models? |
 
