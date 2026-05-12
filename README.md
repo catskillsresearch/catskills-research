@@ -56,7 +56,7 @@
 * [🔮 Geopolitical Forecasting](#-geopolitical-forecasting)
 * [🛡️ Ballistic Missile Defense](#%EF%B8%8F-ballistic-missile-defense)
 * [🚁 Drone Warfare](#-drone-warfare)
-*[🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
+* [🕵️‍♂️ Counterintelligence and Foreign Influence](#-counterintelligence-and-foreign-influence)
 * [🗽 Democratic Resilience & Institutional Integrity](#-democratic-resilience--institutional-integrity)
 
 ---
@@ -136,6 +136,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Grok on polishing Murdoch family strategy for US-Israel vs Iran War](https://www.linkedin.com/pulse/grok-polishing-murdoch-family-strategy-us-israel-vs-iran-ericson-klw7e/)** | 6 min | WSJ's Iran strategy |
 | **[Deterring Russia with tying-hands actions](https://www.linkedin.com/pulse/deterring-russia-tying-hands-actions-convo-wgoogle-ai-ericson-ojaxe/)** | 5 min | Tying hands actions. |
 
 ## 🔮 Geopolitical Forecasting
