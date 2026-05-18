@@ -97,6 +97,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Sylvain Cappell ranked by Google Search AI](https://www.linkedin.com/pulse/sylvain-cappell-ranked-google-search-ai-lars-warren-ericson-hao5e/)** | 5 min | Beret-wearing topologists. |
 | **[Undergrad training at Harvard required to read a paper on Domain Theory](https://www.linkedin.com/pulse/undergraduate-training-harvard-required-read-paper-domain-ericson-pxu0e)** | 1 min | Convo w/Perplexity.ai on course prerequisites and formal logic requirements. |
 | **[What research universities do program-level assessment of skill mastery?](https://www.linkedin.com/pulse/what-research-universities-do-program-level-skill-mastery-ericson-nedhe)** | 8 min | Assessing which universities track skill mastery at the program level. |
 
@@ -116,6 +117,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[The 5 hottest cold fusion startups](https://www.linkedin.com/pulse/5-hottest-cold-fusion-startups-lars-warren-ericson-bmjfe/)** | 30min | Cold fusion. |
 | **[Prototyping an Orbitron-inspired 3.5MW p-B11 fusion reactor depending on 4 kinds of Unobtainium using Gemini 3.1, CadQuery, WarpX, Blender, FlightGear](https://www.linkedin.com/pulse/prototyping-orbitron-inspired-35mw-p-b11-fusion-reactor-ericson-wyeje/)** | 45min | Virtual fusion lab. |
 | **[The 6 hottest compact fusion reactor startups in 2026](https://www.linkedin.com/pulse/5-hottest-compact-fusion-reactor-startups-2026-lars-warren-ericson-bcv9e)** | 10 min | Compact fusion is great for space travel. |
 
