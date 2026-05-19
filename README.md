@@ -147,6 +147,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[US-Israel vs Iran war forecast in John le Carré's novel Silverview in 2021](https://www.linkedin.com/pulse/us-israel-vs-iran-war-forecast-john-le-carr%25C3%25A9s-novel-2021-ericson-nicoe/)** | 5 min | War foretold in fiction. |
 | **[Most likely content of 10MAY26 Iran reply](https://www.linkedin.com/pulse/most-likely-content-10may26-iran-reply-convo-wgoogle-gemini-ericson-kdfoe/)** | 5 min | What did Iran reply? |
 | **[Hydrocarbon demand destruction due to Ukraine and Iran wars](https://www.linkedin.com/pulse/hydrocarbon-demand-destruction-due-ukraine-iran-wars-chat-ericson-bi80e/)** | 6 min | Are oil wars a solution for global warming? |
 | **[Is Trump winning the Hormuz blockade?](https://www.linkedin.com/pulse/trump-winning-hormuz-blockade-convo-wgemini-pro-31-ericson-lyc6e/)** | 3 min | Who is winning the Strait of Hormuz blockade? Marc Thiessen and Emzari Gelashvili think that Trump is. Have all factors been considered in their models? |
