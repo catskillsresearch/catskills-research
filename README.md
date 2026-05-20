@@ -118,6 +118,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[The Orbitron Fusion Arcjet Test Stand — From Pad Foundation to First Hot Run](https://www.linkedin.com/pulse/orbitron-fusion-arcjet-test-stand-from-pad-foundation-ericson-sqt3e/)** | 20min | Drill down on core fusion engine component |
 | **[The 5 hottest cold fusion startups](https://www.linkedin.com/pulse/5-hottest-cold-fusion-startups-lars-warren-ericson-bmjfe/)** | 30min | Cold fusion. |
 | **[Prototyping an Orbitron-inspired 3.5MW p-B11 fusion reactor depending on 4 kinds of Unobtainium using Gemini 3.1, CadQuery, WarpX, Blender, FlightGear](https://www.linkedin.com/pulse/prototyping-orbitron-inspired-35mw-p-b11-fusion-reactor-ericson-wyeje/)** | 45min | Virtual fusion lab. |
 | **[The 6 hottest compact fusion reactor startups in 2026](https://www.linkedin.com/pulse/5-hottest-compact-fusion-reactor-startups-2026-lars-warren-ericson-bcv9e)** | 10 min | Compact fusion is great for space travel. |
