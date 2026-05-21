@@ -188,6 +188,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[The DNC самокритика report and Thomas Massie](https://www.linkedin.com/pulse/dnc-%D1%81%D0%B0%D0%BC%D0%BE%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-report-thomas-massie-convo-wgrok-lars-warren-ericson-qvqge/)** | 10 min | Reviews are in. |
 | **[The GOP racial gerrymander](https://www.linkedin.com/pulse/gop-racial-gerrymander-convo-wgoogle-ai-lars-warren-ericson-z7z8e/)** | 5 min | The Supreme Court keeps pushing extremist boundaries. |
 | **[I think Google AI kind of agrees with me that Ross Douthat is out of touch](https://www.linkedin.com/pulse/i-think-google-ai-kind-agrees-me-ross-douthat-out-touch-ericson-nh5ue/)** | 4 min | NY Times editorial section is losing it. |
 | **[Impact of boat airstrikes on illegal drug trade](https://www.linkedin.com/pulse/impact-boat-airstrikes-illegal-drug-trade-lars-warren-ericson-flcae)** | 2 min | Does it make a difference to blow up drug boats? |
