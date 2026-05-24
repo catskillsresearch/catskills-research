@@ -162,6 +162,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[SAMP/T NG to counter Oreshnik MIRV in Ukraine](https://www.linkedin.com/pulse/sampt-ng-counter-oreshnik-mirv-ukraine-convo-wgoogle-search-ericson-v6kle)** | 8 min | Where we are on Oreshnik MIRV. |
 | **[PAC-3 ABM supply chain and economics](https://www.linkedin.com/pulse/pac-3-abm-supply-chain-economics-lars-warren-ericson-3tzoe)** | 1 min | An overview of the PAC-3 antiballistic missile in frequent use. |
 | **[Winter Campaign to Disrupt Kinzhal Supply Chain (Nov 2025 – Mar 2026)](https://www.linkedin.com/pulse/winter-campaign-disrupt-kinzhal-supply-chain-nov-2025-ericson-l1iae)** | 47 min | A battle plan designed by Microsoft Copilot regarding Kinzhal missile guidance evasion. |
 | **[EU has no practical defense against Iskander missile attacks](https://www.linkedin.com/pulse/eu-has-practical-defense-against-iskander-missile-attacks-ericson-htwme)** | 14 min | Convo w/Perplexity.ai on the effectiveness of current air defense weapons. |
