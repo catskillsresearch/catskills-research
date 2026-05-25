@@ -118,6 +118,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Orbitron Direct Cycle p-11B 3.5MW Turbojet In Silico Benchmark](https://www.linkedin.com/pulse/orbitron-direct-cycle-p-11b-35mw-turbojet-silico-lars-warren-ericson-tkl0e/)** | 2h | Orbitron turbojet benchmark run. |
 | **[8GK direct-cycle p-11B fusion turbojet](https://www.linkedin.com/pulse/8gk-direct-cycle-p-11b-fusion-turbojet-convo-wgoogle-gemini-ericson-mwgge/)** | 30min | Wrangling an 8 billion degree fusion turbojet engine. |
 | **[The 8 hottest proton-Boron fusion companies right now](https://www.linkedin.com/pulse/8-hottest-proton-boron-fusion-companies-right-now-lars-warren-ericson-gynge/)** | 20min | Proton boron fusion approaches. |
 | **[The Orbitron Fusion Arcjet Test Stand — From Pad Foundation to First Hot Run](https://www.linkedin.com/pulse/orbitron-fusion-arcjet-test-stand-from-pad-foundation-ericson-sqt3e/)** | 20min | Drill down on core fusion engine component |
