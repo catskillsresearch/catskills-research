@@ -118,6 +118,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Can the yield of the Thea Helios fusion power plant be pushed beyond 33%?](https://www.linkedin.com/pulse/can-yield-thea-helios-fusion-power-plant-pushed-beyond-ericson-roone/)** | 15min | Pushing Thea Helios yield higher with cogeneration |
 | **[Thea Energy Stellerator vs. Avalanche Energy Orbitron](https://www.linkedin.com/pulse/thea-energy-stellerator-vs-avalanche-orbitron-convo-wgemini-ericson-dmlke/)** | 30min | Flat magnet stellerator vs orbitron |
 | **[Orbitron Direct Cycle p-11B 3.5MW Turbojet In Silico Benchmark](https://www.linkedin.com/pulse/orbitron-direct-cycle-p-11b-35mw-turbojet-silico-lars-warren-ericson-tkl0e/)** | 2h | Orbitron turbojet benchmark run. |
 | **[8GK direct-cycle p-11B fusion turbojet](https://www.linkedin.com/pulse/8gk-direct-cycle-p-11b-fusion-turbojet-convo-wgoogle-gemini-ericson-mwgge/)** | 30min | Wrangling an 8 billion degree fusion turbojet engine. |
