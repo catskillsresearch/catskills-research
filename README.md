@@ -118,6 +118,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Fusion reactor component failures](https://www.linkedin.com/pulse/fusion-reactor-component-failures-lars-warren-ericson-ouaic/)** | 15 min | What can go wrong. |
 | **[Sizing, Siting, and Costing for the nT-Tao 20MWe D-T Fusion Reactor](https://www.linkedin.com/pulse/sizing-siting-costing-nt-tao-20mwe-d-t-fusion-reactor-ericson-ngzue/)** | 5 min | How big is compact? |
 | **[Can the yield of the Thea Helios fusion power plant be pushed beyond 33%?](https://www.linkedin.com/pulse/can-yield-thea-helios-fusion-power-plant-pushed-beyond-ericson-roone/)** | 15min | Pushing Thea Helios yield higher with cogeneration |
 | **[Thea Energy Stellerator vs. Avalanche Energy Orbitron](https://www.linkedin.com/pulse/thea-energy-stellerator-vs-avalanche-orbitron-convo-wgemini-ericson-dmlke/)** | 30min | Flat magnet stellerator vs orbitron |
