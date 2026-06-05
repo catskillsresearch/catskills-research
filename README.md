@@ -118,6 +118,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[Simulating Proton–Boron Fusion in a TAE Field-Reversed Configuration](https://www.linkedin.com/article/edit/7468697897119944704/)** | 30min | TAE FRC 2D simulation. |
 | **[State of the art on proton-boron fusion for electricity generation](https://www.linkedin.com/pulse/state-art-proton-boron-fusion-electricity-generation-ericson-natpe/)** | 15min | Where are we on p-11B? |
 | **[Fusion reactor component failures](https://www.linkedin.com/pulse/fusion-reactor-component-failures-lars-warren-ericson-ouaic/)** | 15 min | What can go wrong. |
 | **[Sizing, Siting, and Costing for the nT-Tao 20MWe D-T Fusion Reactor](https://www.linkedin.com/pulse/sizing-siting-costing-nt-tao-20mwe-d-t-fusion-reactor-ericson-ngzue/)** | 5 min | How big is compact? |
