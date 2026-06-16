@@ -43,6 +43,7 @@
 ### Applied Science and Mathematics
 
 * [🧠 Artificial Intelligence](#-artificial-intelligence)
+* [🔣 Logic In Computer Science](#-logic-in-computer-science)
 * [🖥️ High Performance Computing](#%EF%B8%8F-high-performance-computing)
 * [📈 Quantitative Finance](#-quantitative-finance)
 * [🎓 Higher Education and Training](#-higher-education-and-training)
@@ -66,7 +67,6 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
-| **[A Lean 4 Formalization of Euclidean Domain Algorithms from a 1986 Icon Experimentation Package](https://arxiv.org/abs/2606.15520)** | 59 min | Moving Euclidean domain computations from Icon to Lean |
 | **[FDA approval of AI medical diagnostic tests](https://www.linkedin.com/pulse/fda-approval-ai-medical-diagnostic-tests-convo-wgoogle-ericson-sky3e/)** | 3 min | How to commercialize an AI-based medical test |
 | **[Some kind of AI catfight about world models](https://www.linkedin.com/pulse/some-kind-ai-catfight-world-models-chat-wgoogle-mode-ericson-dk3ie/)** | 15 min | Who dunnit first? |
 | **[Defining Conciousness with Gemini 3](https://www.linkedin.com/pulse/defining-conciousness-gemini-3-lars-warren-ericson-utpge)** | 86 min | Philosophical inquiry into machine consciousness using Gemini 3. |
@@ -76,6 +76,13 @@
 | **[6 AIs weigh in on a sentence from 4th Circuit Abrego-Garcia Opinion...](https://www.linkedin.com/pulse/6-ais-weigh-sentence-from-4th-circuit-abrego-garcia-opinion-ericson-8frue)** | 10 min | Comparative LLM performance in translating complex judicial opinions. |
 | **[When coat hangers in a pile hook up, is that attraction?](https://www.linkedin.com/pulse/when-coat-hangers-pile-hook-up-attraction-convo-new-llm-ericson-d8pye)** | 3 min | Philosophical edge-case testing with the Manus LLM. |
 | **[Andor Season 2 Episode 8 in Dramatica Pro terms](https://www.linkedin.com/pulse/andor-season-2-episode-9-dramatica-pro-terms-convo-ericson-ac2ae)** | 12 min | Structural analysis of the robot narrative at the end of Andor Season 2. |
+
+## 🔣 Logic In Computer Science
+*Formal methods, proof assistants, and the logical foundations of computation.*
+
+| Article Title | Read Time | Description |
+| :--- | :--- | :--- |
+| **[A Lean 4 Formalization of Euclidean Domain Algorithms from a 1986 Icon Experimentation Package](https://arxiv.org/abs/2606.15520)** | 59 min | Moving Euclidean domain computations from Icon to Lean |
 
 ## 🖥️ High Performance Computing
 *Articles about supercomputing, GPUs, TPUs, and HPC systems that were previously grouped under AI.*
