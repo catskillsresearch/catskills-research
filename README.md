@@ -83,6 +83,7 @@
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
 | **[A Lean 4 Formalization of Euclidean Domain Algorithms from a 1986 Icon Experimentation Package](https://arxiv.org/abs/2606.15520)** | 59 min | Moving Euclidean domain computations from Icon to Lean |
+| **[Revisiting average case complexity of multilevel syllogistic: From the 1995 Courant Technical Report to Lean 4 Formalization](https://arxiv.org/abs/2606.16134)** | 83 min | Lean 4 formalization of NYU Courant TR1995-711 on average-case complexity of Multilevel Syllogistic |
 
 ## 🖥️ High Performance Computing
 *Articles about supercomputing, GPUs, TPUs, and HPC systems that were previously grouped under AI.*
