@@ -66,6 +66,7 @@
 
 | Article Title | Read Time | Description |
 | :--- | :--- | :--- |
+| **[A Lean 4 Formalization of Euclidean Domain Algorithms from a 1986 Icon Experimentation Package](https://arxiv.org/abs/2606.15520)** | 59 min | Moving Euclidean domain computations from Icon to Lean |
 | **[FDA approval of AI medical diagnostic tests](https://www.linkedin.com/pulse/fda-approval-ai-medical-diagnostic-tests-convo-wgoogle-ericson-sky3e/)** | 3 min | How to commercialize an AI-based medical test |
 | **[Some kind of AI catfight about world models](https://www.linkedin.com/pulse/some-kind-ai-catfight-world-models-chat-wgoogle-mode-ericson-dk3ie/)** | 15 min | Who dunnit first? |
 | **[Defining Conciousness with Gemini 3](https://www.linkedin.com/pulse/defining-conciousness-gemini-3-lars-warren-ericson-utpge)** | 86 min | Philosophical inquiry into machine consciousness using Gemini 3. |
