@@ -92,6 +92,7 @@
 | :--- | :--- | :--- |
 | **[Pragmatic quantum breakeven](https://www.linkedin.com/pulse/pragmatic-quantum-breakeven-convo-wgoogle-search-ai-ericson-tpbpe/)** | 20 min | Quantum vs conventional, pragmatically speaking. |
 | **[The fate of the NYU Ultracomputer and the IBM RP3](https://www.linkedin.com/pulse/fate-nyu-ultracomputer-ibm-rp3-convo-wgoogle-gemini-31-ericson-r00de)** | 70 min | Did the NYU Ultracomputer and it's successor the IBM RP3 had any impact on 2026 designs? |
+| **[From the NYU Ultracomputer to Modern Exascale: A Historical and Architectural Survey of In-Network Computing and Scalable Synchronization](https://arxiv.org/abs/2606.16819)** | 19 min | Historical survey from NYU Ultracomputer and IBM RP3 to modern in-network computing and scalable synchronization |
 | **[The HAL9000 PCPartsPicker system build](https://www.linkedin.com/pulse/hal9000-pcpartspicker-system-build-lars-warren-ericson-svv6e)** | 12 min | Requesting a high-end system build spec from Gemini 3. |
 | **[GPU, TPU & Quantum Computer rambling chat with Google Gemini 3 Pro](https://www.linkedin.com/pulse/gpu-tpu-quantum-computer-rambling-chat-google-gemini-3-ericson-mbcse)** | 45 min | Hardware market analysis and performance assessments. |
 
