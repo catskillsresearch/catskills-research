@@ -1,36 +1,3 @@
-<style>
-  /* PRIMER THEME OVERRIDE: This hides the auto-generated title and the extra link */
-  .markdown-body h1:first-child { 
-    display: none !important; 
-  }
-  
-  /* Fix the extra spacing at the top created by the hidden element */
-  .markdown-body {
-    padding-top: 0 !important;
-  }
-
-  body { 
-    max-width: 900px; 
-    margin: 40px auto; 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-    line-height: 1.6; 
-    color: #222; 
-    padding: 0 20px; 
-  }
-  
-  .custom-header {
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-  
-  table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 14px; }
-  th, td { border-bottom: 1px solid #ddd; padding: 12px; text-align: left; }
-  th { background-color: #f8f9fa; }
-  a { color: #0073b1; text-decoration: none; font-weight: bold; }
-  a:hover { text-decoration: underline; }
-  hr { border: 0; border-top: 1px solid #eee; margin: 30px 0; }
-</style>
-
 <div class="custom-header">
   <img src="crc.jpeg" height="60" style="vertical-align: middle; margin-right: 12px;"> 
   <span style="font-family: 'Copperplate', 'Copperplate Gothic Light', serif; font-variant: small-caps; font-size: 42px; font-weight: normal; vertical-align: middle; letter-spacing: 1px; color: #222;">Catskills Research Company</span>
