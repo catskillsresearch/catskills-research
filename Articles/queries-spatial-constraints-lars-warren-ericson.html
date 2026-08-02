@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Queries with spatial constraints</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD5612AQF49Q63LQppFQ" alt="https://www.bing.com/images/create/hotel-suite-with-kitchen2c-two-queen-beds2c-sofa2c-la/64ca63766eb34ddc8ef170636e6753f4?id=q9yKRRfoyDtgNPgzr4hx7Q%3d%3d&view=detailv2&idpp=genimg&FORM=GCRIDP&mode=overlay" title="https://www.bing.com/images/create/hotel-suite-with-kitchen2c-two-queen-beds2c-sofa2c-la/64ca63766eb34ddc8ef170636e6753f4?id=q9yKRRfoyDtgNPgzr4hx7Q%3d%3d&view=detailv2&idpp=genimg&FORM=GCRIDP&mode=overlay" />
+      <h1><a href="https://www.linkedin.com/pulse/queries-spatial-constraints-lars-warren-ericson">Queries with spatial constraints</a></h1>
+    <p class="created">Created on 2023-08-02 13:49</p>
+  <p class="published">Published on 2023-08-02 14:16</p>
+  <div><p>I'm trying to get home this weekend, going from Long Island to Charlotte.  I want to drive halfway there and stop for the night.  I prompted the GPTs with this query:</p><blockquote>What hotels that are  halfway between Syosset NY and Charlotte NC have a studio with 2 queen beds, allow large dogs, and have a kitchen in the room?  Include the distance from Syosset and the distance to Charlotte from the hotel.  Give the average guest rating.</blockquote><p><strong>Google Bard </strong>responded with:</p><p><em>Here are the hotels that are halfway between Syosset, NY and Charlotte, NC that have a studio with 2 queen beds, allow large dogs, and have a kitchen in the room:</em></p><p><em>Courtyard by Marriott Greensboro/High Point</em></p><ul><li><em>Distance from Syosset: </em><strong><em>234 miles</em></strong></li><li><em>Distance from Charlotte: </em><strong><em>234 miles</em></strong></li></ul><p>High Point is 593 miles from Syosset and 75 miles from Charlotte. Which Google Bard knows, if you ask it separately for distance from Syosset to High Point and distance from High Point to Charlotte.  It is not solving for the midpoint constraint and it is incorrectly calculating the distances between cities in a multi-city query.</p><p><strong>Bing Chat </strong>responded with:</p><p><em>Home2 Suites By Hilton Charlotte Piper Glen&nbsp;is located </em><strong><em>in Charlotte,</em></strong><em> which is about&nbsp;</em><strong><em>600 miles&nbsp;from Syosset.</em></strong><em> </em></p><p>This response ignored the midpoint constraint completely.  The driving distance from Syosset to Charlotte is actually around 668 miles.  Flying it might be 603 miles.  GPT should guess from the context that I am driving, and give appropriate distances.</p><p><strong>Conclusion: </strong>The GPTs do not have the training or functional architecture adequate to give reliable answers to queries involving spatial reasoning on multiple points.</p></div>
+</body>
+</html>

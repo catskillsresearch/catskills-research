@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Swaption pricing function for the Vasicek model: some wrong answers from Mistral and Llama via Groq (not to be confused with Grok)</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQHWEQ5t5mZo6Q" alt="https://www.bing.com/images/create/mistral-and-llama-struggle-with-their-math-homewor/1-65e34973a792467ba09778e26fe4b35a?id=zCXBrWhBrTd25FYiCD8RVw%3d%" title="https://www.bing.com/images/create/mistral-and-llama-struggle-with-their-math-homewor/1-65e34973a792467ba09778e26fe4b35a?id=zCXBrWhBrTd25FYiCD8RVw%3d%" />
+      <h1><a href="https://www.linkedin.com/pulse/swaption-pricing-function-vasicek-model-some-wrong-answers-ericson-3wtle">Swaption pricing function for the Vasicek model: some wrong answers from Mistral and Llama via Groq (not to be confused with Grok)</a></h1>
+    <p class="created">Created on 2024-03-02 15:24</p>
+  <p class="published">Published on 2024-03-02 15:56</p>
+  <div><p>I just <a href="https://www.linkedin.com/posts/gaborcselle_groq-vs-google-gemini-vs-openai-chatgpt-4-ugcPost-7165442762299957248-w7dy?utm_source=share&amp;utm_medium=member_desktop" target="_blank">heard about Groq</a>.  It is a new contender in the LLM space.  It has multiple selectable models, currently <a href="https://huggingface.co/h2oai/h2ogpt-4096-llama2-70b-chat" target="_blank">Llama2-70b-4096 </a>and <a href="https://huggingface.co/docs/transformers/en/model_doc/mixtral" target="_blank">Mixtral-8x7b-32768</a>.  These models are not from Groq, but they are served on Groq.  Groq's claim to fame is the speed of inference.  </p><p>Please don't confuse <a href="https://www.semianalysis.com/p/groq-inference-tokenomics-speed-but" target="_blank">Groq</a> with <a href="https://en.wikipedia.org/wiki/Grok_(chatbot)" target="_blank">Grok</a> (or <a href="https://en.wikipedia.org/wiki/Grok" target="_blank">Grok</a>).  Groq is new and less publicized.  It doesn't even have a Wikipedia entry yet!  (You can change that.  Yes, you.)</p><p>On the query "Swaption pricing function for the Vasicek model", I get what seem like technically wrong, incomplete or messy answers from both models.  The Mistral wrong answer comes with code and much nicer formatting though!</p><h3>Llama2-70b-4096 (wrong!; don't try this at home)</h3><p>The Vasicek model is a one-factor interest rate model that can be used to price swaptions. The pricing function for a swaption using the Vasicek model can be written as:</p><p>C = E[e^(-rT) <em> (1 - L(T)) </em> (1 - K/S(T)) ]</p><p>Where:</p><ul><li><p>C is the value of the swaption</p></li><li><p>E is the expectation operator</p></li><li><p>r is the short rate</p></li><li><p>T is time to maturity of the swaption</p></li><li><p>L(T) is the probability of the short rate being below the strike rate at time T</p></li><li><p>K is the strike rate</p></li><li><p>S(T) is the forward rate at time T</p></li></ul><p>The probability L(T) can be calculated using the Vasicek model, which is a two-parameter model that describes the evolution of the short rate over time. The model assumes that the short rate follows a mean-reverting process with a mean rate and a volatility. The probability L(T) can be calculated using the following formula:</p><p>L(T) = N(d1)</p><p>Where:</p><ul><li><p>N(d1) is the cumulative normal distribution function with argument d1</p></li><li><p>d1 = (log(K/S(0)) - (r - rho) <em> T) / (sigma </em> sqrt(T))</p></li></ul><p>Where:</p><ul><li><p>K is the strike rate</p></li><li><p>S(0) is the forward rate at time 0</p></li><li><p>r is the short rate at time 0</p></li><li><p>rho is the mean reversion rate of the short rate</p></li><li><p>sigma is the volatility of the short rate</p></li><li><p>T is the time to maturity of the swaption</p></li></ul><p>The forward rate S(T) can be calculated using the following formula:</p><p>S(T) = S(0) <em> exp(-(r - rho) </em> T)</p><p>The swaption price can then be calculated using the Black-Scholes formula, which is a closed-form solution for pricing options on assets that follow a geometric Brownian motion. The Black-Scholes formula is:</p><p>C = S(0) <em> N(d1) - K </em> e^(-rT) * N(d2)</p><p>Where:</p><ul><li><p>N(d1) and N(d2) are the cumulative normal distribution functions with arguments d1 and d2, respectively</p></li><li><p>d2 = d1 - (r - rho) * T</p></li></ul><p>This is a basic outline of how to price a swaption using the Vasicek model. The specific details of the calculation will depend on the particulars of the model and the swaption being priced.</p><h3>Mixtral-8x7b-32768 (so wrong!; but spiffier)</h3><p>Sure, I'd be happy to help you with that!</p><p>A swaption is an option on an interest rate swap. In other words, it gives the holder the right, but not the obligation, to enter into an interest rate swap at a specified date in the future, at a predetermined interest rate (the strike price).</p><p>The Vasicek interest rate model is a one-factor short-rate model that assumes interest rates follow an Ornstein-Uhlenbeck process. The Vasicek model can be used to price swaptions by calculating the expected value of the underlying swap's discounted cash flows, using the Vasicek short-rate process.</p><p>Here is a simplified outline of how to implement a swaption pricing function using the Vasicek model:</p><ol><li><p>Define the Vasicek model parameters:</p></li></ol><ul><li><p>short rate mean reversion level (θ)</p></li><li><p>short rate mean reversion speed (κ)</p></li><li><p>short rate volatility (σ)</p></li><li><p>initial short rate value (r(0))</p></li></ul><ol><li><p>Calculate the risk-neutral drift (μ) using the Vasicek model parameters and the risk-free rate (r_f): μ = r_f + κ <em> (θ - r(0)) + σ^2 / (2 </em> κ)</p></li><li><p>Calculate the bond prices at each time step of the underlying swap, using the Vasicek short-rate process: P(t,T) = exp(-∫[r(s) ds]) = exp(-A(t,T) - B(t,T) * r(t)) where A(t,T) and B(t,T) are functions of the Vasicek parameters and time.</p></li><li><p>Calculate the present value of the underlying swap's cash flows, using the bond prices calculated in step 3.</p></li><li><p>Calculate the expected value of the discounted cash flows, using the Vasicek short-rate process.</p></li><li><p>Return the calculated value as the swaption price.</p></li></ol><p>Here is some sample Python code that implements the above steps:</p><pre></pre><p>Note that this is a simplified example and may not be suitable for production use. It is recommended to use a well-tested library or consult with a financial engineer for production-quality swaption pricing.</p><h3>An actual correct answer</h3><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHwvlUDsc6D9w" src="https://media.licdn.com/dms/image/v2/D4E12AQHwvlUDsc6D9w/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1709394790897?e=1779321600&amp;v=beta&amp;t=HXarrgavnDZBOe5xOMZ0HFrq5-j96-J-iJhTzB_zT_A"><figcaption><a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9965.2006.00289.x" target="_blank">https://onlinelibrary.wiley.com/doi/10.1111/j.1467-9965.2006.00289.x</a></figcaption></figure><p>The <a href="https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/133226341/Pelsser_2006_PRICING_SWAPTIONS_AND_COUPON_BOND_OPTIONS.pdf" target="_blank">2006 paper by Schrager and Pelsser, section 4, equation 4.6, page 681</a>, is more what you can take home to meet your mama.  It's good enough for Government work.  It's the real deal.  Chatbots in this domain: not today, and not for a while.</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQGN8Jag8xiWIA" src="https://media.licdn.com/dms/image/v2/D4E12AQGN8Jag8xiWIA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1709394920270?e=1779321600&amp;v=beta&amp;t=4aGaMqbxjwWbyLnXzozpObVHKjagrPfXRheuLfT4A8U"><figcaption><a href="https://aitestkitchen.withgoogle.com/tools/image-fx/CAMaJGE2NDFlODhmLTYwYTUtNDQ2Ni05YmY5LTAyZTk0OGM5OWIxZiIDQ0FFKiRlYzYxNjZmMC1jNDc5LTRhMzUtOGY0MC01NjFmMTAyMTk0NzM" target="_blank">https://aitestkitchen.withgoogle.com/tools/image-fx/CAMaJGE2NDFlODhmLTYwYTUtNDQ2Ni05YmY5LTAyZTk0OGM5OWIxZiIDQ0FFKiRlYzYxNjZmMC1jNDc5LTRhMzUtOGY0MC01NjFmMTAyMTk0NzM</a></figcaption></figure><p></p></div>
+</body>
+</html>

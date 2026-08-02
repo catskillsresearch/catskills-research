@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>The KNOBS Tactical Mission Planning System and Its Successors</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQHOleAAGG6xcg" alt="https://aclanthology.org/A83-1012.pdf" title="https://aclanthology.org/A83-1012.pdf" />
+      <h1><a href="https://www.linkedin.com/pulse/knobs-tactical-mission-planning-system-its-successors-ericson-7i33e">The KNOBS Tactical Mission Planning System and Its Successors</a></h1>
+    <p class="created">Created on 2026-04-26 17:56</p>
+  <p class="published">Published on 2026-04-26 18:25</p>
+  <div><p>The Knowledge-Based System (KNOBS) was an artificial intelligence mission planning system developed between 1979 and 1983. When evaluating its long-term impact, KNOBS presents a hybrid case. The original software codebases and their direct military applications were eventually supplanted by newer technologies, similar to the obsolescence of legacy physical media. However, the underlying algorithmic methodology—specifically the use of interactive frame instantiation for constraint checking—was highly impactful. It was successfully adapted for aerospace diagnostics and became a foundational component of the Model-Based Diagnosis (MBD) subfield in artificial intelligence, where its principles remain in use today.</p><p>KNOBS was developed at <a target="_blank" href="https://www.linkedin.com/company/mitre/">MITRE</a> by Carl Engelman, Ethan Scarl, and Charles Berg. Written in LISP, the system was designed to automate Air Force Offensive Counter Air (OCA) mission planning. It utilized a concept called "interactive frame instantiation." The system used data structures (frames) to represent stereotyped situations and verify that a planned military mission adhered to physical, logistical, and tactical constraints.</p><p>Following the initial development phase, the KNOBS architecture bifurcated into two distinct lineages:</p><ol><li><p><strong>Military Application (TEMPLAR):</strong> In the mid-1980s, the Defense Advanced Research Projects Agency (DARPA) and the Rome Air Development Center expanded KNOBS into the Tactical Expert Mission Planner (TEMPLAR). This system was designed to generate daily Air Tasking Orders. By the 1990s, this specific lineage fell into disuse. The defense sector transitioned away from rigid frame-based expert systems in favor of Hierarchical Task Networks (HTNs) and statistical models.</p></li><li><p><strong>Aerospace Application (KNEECAP and KATE):</strong> The architecture survived by transitioning to the space sector. Ethan Scarl adapted the KNOBS constraint logic for NASA. The methodology was inverted: instead of using constraints to plan an unexecuted mission, the system used constraints to map the physical dependencies of aerospace hardware to detect faults. This led to KNEECAP (an onboard Space Shuttle planner) and subsequently the Knowledge-based Autonomous Test Engineer (KATE). KATE was utilized at the Kennedy Space Center to monitor Liquid Oxygen (LOX) loading systems.</p></li></ol><p>The specific software programs derived from KNOBS eventually reached the end of their operational lifecycles. The KATE codebase, which had been translated from LISP to C++, was utilized by NASA for Autonomous Cryogenic Load Operations (ACLO) testing until approximately 2014–2015. After these tests, NASA supplanted the legacy software with modern commercial off-the-shelf platforms (such as the NASA Platform for Autonomous Systems) to manage cryogenic operations for the Artemis program.</p><p>While the software fell into disuse, the algorithmic framework did not. Scarl’s 1987 publication on KATE formalized the concept of using system structure and function for sensor validation. This work established the KNOBS/KATE lineage as a foundational element of Model-Based Diagnosis (MBD). The methodology expanded beyond aerospace and was adapted for industrial applications, including computer-aided design and manufacturing equipment selection.</p><p>The following chronological sequence of publications demonstrates the unbroken academic and technical lineage from the original KNOBS environment to modern applications of its diagnostic principles.</p><ul><li><p><strong>[Ericson1979]</strong> Ericson, L. W. (1979). <em>Translation of Programs from MACLISP to INTERLISP.</em> MIT. Establishes the computing environment required for the initial MITRE AI workloads.</p></li><li><p><strong>[Engelman1980]</strong> Engelman, C., Scarl, E. A., &amp; Berg, C. H. (1980). <em>Interactive Frame Instantiation.</em> Proceedings of the 1st Annual National Conference on Artificial Intelligence (AAAI). Details the core KNOBS architecture.</p></li><li><p><strong>[Engelman1983]</strong> Engelman, C., Millen, J. K., &amp; Scarl, E. A. (1983). <em>KNOBS: An Integrated AI Interactive Planning Architecture.</em> AIAA Computers in Aerospace IV Conference. The final formalization of the military planner.</p></li><li><p><strong>[Jamieson1985]</strong> Jamieson, J. R., Scarl, E. A., &amp; Delaune, C. I. (1985). <em>A Knowledge Based Expert System for Propellant System Monitoring at KSC.</em> Proceedings of the 22nd Space Congress. Documents the transition of the KNOBS architecture into the KATE system for NASA.</p></li><li><p><strong>[Scarl1987]</strong> Scarl, E. A., Jamieson, J. R., &amp; Delaune, C. I. (1987). <em>Diagnosis and sensor validation through knowledge of structure and function.</em> IEEE Transactions on Systems, Man, and Cybernetics. Formalizes the KATE logic into general Model-Based Diagnosis.</p></li><li><p><strong>[Myler2009]</strong> Myler, H. R., Gonzalez, A. J., &amp; Towhidnejad, M. (2009). <em>Constraint mechanisms for knowledge acquisition from computer-aided design data.</em> AI EDAM. Adapts the Scarl 1987 sensor validation frames for automated CAD knowledge generation.</p></li><li><p><strong>[Schrading2013]</strong> Schrading, J. N. (2013). <em>Autonomous Cryogenic Load Operations: Knowledge-Based Autonomous Test Engineer.</em> NASA Technical Reports Server. The final public technical record of the active KATE C++ codebase prior to its replacement by modern platforms.</p></li><li><p><strong>[Prasad2015]</strong> Prasad, K., &amp; Chakraborty, S. (2015). <em>Development of a QFD-based expert system for CNC turning centre selection.</em> Journal of Manufacturing Systems. Applies the structural knowledge representations derived from the 1980s diagnostic frameworks to industrial manufacturing.</p></li><li><p><strong>[IJCSRR2025]</strong> <em>A Model for School Subject ‘AI Proficiency’ for Advanced students.</em> (2025). International Journal of Current Science Research and Review. Cites the KATE model as a standard framework for teaching knowledge-based expert system design in modern AI curricula.</p></li></ul></div>
+</body>
+</html>

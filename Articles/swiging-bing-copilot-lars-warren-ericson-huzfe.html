@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>SWIGing with Bing Copilot</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQGOYHCZqegprQ" alt="https://aitestkitchen.withgoogle.com/tools/image-fx/CAMaJDI0YzVlYzE0LTY1NjYtNDJhNS1hNDA0LWZhYTQ1NTJmMDY0YiIDQ0FFKiRiY2Y1YWI0NC0wZjg3LTQ3OTQtYTllNy1iMj" title="https://aitestkitchen.withgoogle.com/tools/image-fx/CAMaJDI0YzVlYzE0LTY1NjYtNDJhNS1hNDA0LWZhYTQ1NTJmMDY0YiIDQ0FFKiRiY2Y1YWI0NC0wZjg3LTQ3OTQtYTllNy1iMj" />
+      <h1><a href="https://www.linkedin.com/pulse/swiging-bing-copilot-lars-warren-ericson-huzfe">SWIGing with Bing Copilot</a></h1>
+    <p class="created">Created on 2024-02-25 16:14</p>
+  <p class="published">Published on 2024-02-25 16:14</p>
+  <div><p><strong>You</strong></p><p>Suppose I have two C++ functions</p><pre></pre><p>Please show me how to wrap these in SWIG for Python so that in Python foo takes one argument and returns a value, and bar takes 2 arguments and returns void.</p><p><strong>Copilot</strong></p><p>Sure, I can help with that. Here’s how you can wrap these functions using SWIG for Python:</p><p>First, you need to create an interface file for SWIG. Let’s call it example.i:</p><pre></pre><p>In the above code, we use SWIG’s typemaps to change how the foo function behaves in Python. The numinputs=0 option in the in typemap tells SWIG that this argument doesn’t correspond to any inputs from Python. The argout typemap is used to convert the output value to a Python object.</p><p>Then, you can use the SWIG command line to generate the wrapper code:</p><pre></pre><p>This will generate two files: example_wrap.cxx, which is the C++ source file that you need to compile into a module, and example.py, which is the Python import file.</p><p>Finally, you need to compile example_wrap.cxx into a shared library that Python can import. How you do this depends on your system, but on many Unix systems, you can use the following command:</p><pre></pre><p>Now you should be able to use the foo and bar functions from Python like this:</p><p><strong>Python</strong></p><pre></pre><p>AI-generated code. Review and use carefully. <a href="https://www.bing.com/new#faq" target="_blank">More info on FAQ</a>.</p><p>In this Python code, foo takes one argument and returns a value, and bar takes two arguments and returns None (which is equivalent to void in C++). Please replace extern void foo(const int y, int &amp;x); and extern void bar(const int y, const int x); with the actual implementations of your functions. Also, make sure to compile your C++ code along with the SWIG generated C++ code.</p><p>Please note that this is a basic example and might need adjustments based on your specific use case and environment. If you encounter any issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>Suppose I have two C++ functions in a header file called "problem.h"</p><pre></pre><p>Please show me how to wrap these in SWIG for Python so that in Python foo takes one argument and returns a value, and bar takes 2 arguments and returns void. If possible, SWIG can import or include problem.h but it can't rewrite or restate the function prototypes in problem.h.</p><p><strong>Copilot</strong></p><p>Sure, I can help with that. Here’s how you can wrap these functions using SWIG for Python:</p><p>First, you need to create an interface file for SWIG. Let’s call it example.i:</p><pre></pre><p>In the above code, we use SWIG’s typemaps to change how the foo function behaves in Python. The numinputs=0 option in the in typemap tells SWIG that this argument doesn’t correspond to any inputs from Python. The argout typemap is used to convert the output value to a Python object.</p><p>Then, you can use the SWIG command line to generate the wrapper code:</p><pre></pre><p>This will generate two files: example_wrap.cxx, which is the C++ source file that you need to compile into a module, and example.py, which is the Python import file.</p><p>Finally, you need to compile example_wrap.cxx into a shared library that Python can import. How you do this depends on your system, but on many Unix systems, you can use the following command:</p><pre></pre><p>Now you should be able to use the foo and bar functions from Python like this:</p><p><strong>Python</strong></p><pre></pre><p>AI-generated code. Review and use carefully. <a href="https://www.bing.com/new#faq" target="_blank">More info on FAQ</a>.</p><p>In this Python code, foo takes one argument and returns a value, and bar takes two arguments and returns None (which is equivalent to void in C++). Please make sure to compile your C++ code along with the SWIG generated C++ code.</p><p>Please note that this is a basic example and might need adjustments based on your specific use case and environment. If you encounter any issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>In the .i file you restated and rewrote the prototypes in "problem.h". I asked you not to. Is there a solution where you don't have to process and rewrite the prototypes?</p><p><strong>Copilot</strong></p><p>I apologize for misunderstanding your request earlier. You’re correct, in the previous examples, the function prototypes were rewritten in the SWIG interface file. If you want to avoid rewriting the function prototypes, you can use SWIG’s %include directive to directly include the header file. However, to modify the behavior of the functions in Python (such as changing the number of arguments or the return type), SWIG needs to know the function prototypes.</p><p>Here’s an alternative approach using SWIG’s %extend directive to create wrapper functions without modifying the original function prototypes:</p><pre></pre><p>In this example, foo_python is a wrapper function for foo that takes one argument and returns a value. The original foo function can still be called from Python with two arguments, but foo_python provides a way to call foo with one argument.</p><p>You can use the same SWIG command line to generate the wrapper code:</p><pre></pre><p>And compile example_wrap.cxx into a shared library:</p><pre></pre><p>Now you should be able to use the foo_python and bar functions from Python like this:</p><p><strong>Python</strong></p><pre></pre><p>AI-generated code. Review and use carefully. <a href="https://www.bing.com/new#faq" target="_blank">More info on FAQ</a>.</p><p>In this Python code, foo_python takes one argument and returns a value, and bar takes two arguments and returns None (which is equivalent to void in C++). Please make sure to compile your C++ code along with the SWIG generated C++ code.</p><p>Please note that this is a basic example and might need adjustments based on your specific use case and environment. If you encounter any issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>This solution still requires processing the problem.h file, you are just switching from rewriting the C++ header to rewriting it into Python. In both cases you have to parse the header and then process it to write code. Is there a solution which doesn't require a processing step to rewrite the code, i.e. olne where SWIG does all of the rewriting work on its own?</p><p><strong>Copilot</strong></p><p>I understand your concern. However, SWIG is a tool that generates bindings from C++ to other languages like Python, and it does this by parsing the C++ header files and generating corresponding Python code. This is the fundamental operation of SWIG and there’s no way around it if you want to use SWIG.</p><p>The process of wrapping C++ code for use in Python inherently involves some degree of parsing and code generation. This is because C++ and Python have different syntax and semantics, so some translation is necessary.</p><p>If you want to avoid this, you might consider using a different approach or tool that doesn’t require explicit interface files. For example, tools like Boost.Python or pybind11 allow you to write the bindings directly in C++, which might be closer to what you’re looking for. However, these tools still require you to write some additional code to define the bindings, and they also involve a compilation step.</p><p>I hope this clarifies things a bit. If you have any more questions or if there’s something specific you’re trying to achieve, feel free to ask! I’m here to help. 😊</p><p><strong>You</strong></p><p>You don't understand. I want to write a .i file and use SWIG to parse and preprocess the headers. However, I want SWIG to do all of the work. You are doing some of the work manually by including manual modifications of the headers into the .i file. There should be a way using SWIG macros to avoid this. If I have thousands of functions, with your solution, I would have to rewrite thousands of functions by hand.</p><p><strong>Copilot</strong></p><p>I apologize for misunderstanding your request earlier. You’re right, manually modifying the interface file for each function would be impractical for a large codebase.</p><p>SWIG does provide a feature called “directors” that can automatically generate the necessary wrapper code for virtual methods in C++ classes. However, for free functions like foo and bar, there’s no built-in way to automatically generate the desired Python interface.</p><p>That said, you can use SWIG’s macro feature to reduce the amount of manual work. Here’s an example:</p><pre></pre><p>In this example, SWIG_OUTPUT_ARG is a macro that generates the necessary typemaps for an output argument. You can use this macro for each output argument in your functions, which should be more manageable than manually writing the typemaps for each function.</p><p>However, please note that this still requires some manual work, as you need to call the macro for each output argument. If you have a large number of functions with different argument types, this could still be quite a bit of work.</p><p>I hope this helps! If you have any more questions, feel free to ask. 😊</p><p><strong>You</strong></p><p>I need to use typemaps to explicitly pick out non-const arguments and treat them as output arguments. For example any non-const int. Can you do that? You almost have it. It just needs the check for const in the expression.</p><p><strong>Copilot</strong></p><p>I understand your requirement now. You want to treat non-const reference arguments as output. Here’s how you can achieve this with SWIG:</p><pre></pre><p>In this example, the typemaps are applied to all non-const reference arguments of type int. The numinputs=0 option in the in typemap tells SWIG that this argument doesn’t correspond to any inputs from Python. The argout typemap is used to convert the output value to a Python object.</p><p>Now, any function in problem.h that has a non-const reference argument of type int will take one less argument in Python, and it will return the value of the reference argument.</p><p>Please note that this will apply to all functions in problem.h that meet these conditions. If you want to apply this behavior to specific functions only, you would need to declare those functions separately in the interface file.</p><p>I hope this helps! If you have any more questions, feel free to ask. 😊</p><p><strong>You</strong></p><p>Your code does not have a check for the const qualifier, so it will map both "int x" and "const int x" to output values. SWIG requires additional code to check for the const qualifier.</p><p><strong>Copilot</strong></p><p>I apologize for the oversight. You’re correct, the typemap in the previous example doesn’t distinguish between int &amp; and const int &amp;.</p><p>To ensure that only non-const references are treated as output arguments, you can use SWIG’s typecheck typemaps. Here’s how you can modify the interface file:</p><pre></pre><p>In this example, the typecheck typemap checks if the Python argument is an integer. If it is, the typemap matches int &amp; and not const int &amp;, because const int &amp; can also accept other types in Python, like strings or lists.</p><p>Now, any function in problem.h that has a non-const reference argument of type int will take one less argument in Python, and it will return the value of the reference argument.</p><p>I hope this helps! If you have any more questions, feel free to ask. 😊</p><p><strong>You</strong></p><p>I don't believe that this will work. It needs an explicit check for "const".</p><p><strong>Copilot</strong></p><p>I apologize for the confusion. You’re correct, my previous examples did not explicitly check for the const qualifier. In SWIG, matching the typemaps correctly with const and non-const types can be tricky. Here’s how you can modify the interface file to handle const correctly:</p><pre></pre><p>In this example, the typemaps for int &amp; will only match non-const references, because there are more specific typemaps for const int &amp; and const int. The numinputs=0 option in the in typemap for int &amp; tells SWIG that this argument doesn’t correspond to any inputs from Python. The argout typemap is used to convert the output value to a Python object.</p><p>Now, any function in problem.h that has a non-const reference argument of type int will take one less argument in Python, and it will return the value of the reference argument.</p><p>I hope this helps! If you have any more questions, feel free to ask. 😊</p><p><strong>You</strong></p><p>Recall that problem.h is ``` void foo(const int y, int &amp;x); void bar(const int y, const int x); ``` Please write a problem.cpp with two dummy functions which are sufficient to test the above SWIG wrap.</p><p><strong>Copilot</strong></p><p>Sure, here’s a simple implementation of foo and bar in a problem.cpp file:</p><pre></pre><p>In this example, foo takes an integer y and a reference to an integer x, and sets x to twice the value of y. bar takes two integers and prints them. This is just a dummy implementation for testing purposes.</p><p>You can compile this code along with the SWIG-generated wrapper code to create a Python module. Then, you can import the module in Python and call foo and bar as described in the previous examples.</p><p>Please note that you’ll need to include the appropriate headers and link against the necessary libraries when compiling the code, depending on your specific setup and requirements. If you encounter any issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>It wants Python.h. Where do I find that on Ubuntu?</p><p><strong>Copilot</strong></p><p>The Python.h header file is included in the python-dev or python3-dev package on Ubuntu. If you haven’t installed it yet, you can do so using the following command in the terminal:</p><pre></pre><p><a href="https://askubuntu.com/questions/1261759/python-h-file-not-found-on-ubuntu-20-04-even-after-installing-python-dev" target="_blank">After installing the package,</a> Python.h is typically located in the directory /usr/include/python2.7/ for Python 2.x or /usr/include/python3.x/ for Python 3.x, where x is your specific minor version<a href="https://askubuntu.com/questions/1261759/python-h-file-not-found-on-ubuntu-20-04-even-after-installing-python-dev" target="_blank">1</a><a href="https://stackoverflow.com/questions/8282231/i-have-python-on-my-ubuntu-system-but-gcc-cant-find-python-h" target="_blank">2</a><a href="https://stackoverflow.com/questions/67446524/include-python-h-in-linux-ubuntu-using-codeblocks" target="_blank">3</a><a href="https://sebhastian.com/fatal-error-python-h-no-such-file-or-directory/" target="_blank">4</a>.</p><p>If you still can’t find it, you might have multiple Python versions installed and the Python.h file might be in a different directory. You can use the locate command to find it:</p><pre></pre><p><a href="https://askubuntu.com/questions/1261759/python-h-file-not-found-on-ubuntu-20-04-even-after-installing-python-dev" target="_blank">This command will search your entire system for any files named</a> Python.h and print out their full paths<a href="https://askubuntu.com/questions/1261759/python-h-file-not-found-on-ubuntu-20-04-even-after-installing-python-dev" target="_blank">1</a>.</p><p>Please replace python-dev or python3-dev with the specific version you’re using if necessary. For example, if you’re using Python 3.8, you would use python3.8-dev.</p><p>I hope this helps! If you have any more questions, feel free to ask. 😊</p><p><strong>You</strong></p><p>I get this error when compiling the .cxx file:</p><pre></pre><p><strong>Copilot</strong></p><p>I apologize for the inconvenience. The error message suggests that the object file was not compiled with the -fPIC (Position Independent Code) option, which is necessary when creating a shared library.</p><p>You can add the -fPIC option to your g++ command when compiling the .cxx file. Here’s an example:</p><pre></pre><p><a href="https://stackoverflow.com/questions/51547552/relocation-r-x86-64-pc32-against-symbol-ztist13runtime-errorglibcxx-3-4-can-n" target="_blank">In this command,</a> -fPIC tells g++ to generate position independent code, which is necessary for shared libraries<a href="https://stackoverflow.com/questions/51547552/relocation-r-x86-64-pc32-against-symbol-ztist13runtime-errorglibcxx-3-4-can-n" target="_blank">1</a><a href="https://stackoverflow.com/questions/14779260/linker-error-relocation-r-x86-64-pc32-against-undefined-symbol-despite-compila" target="_blank">2</a><a href="https://discourse.cmake.org/t/how-to-fix-error-recompile-with-fpic/7626" target="_blank">3</a><a href="https://robotics.stackexchange.com/questions/98569/relocation-r-x86-64-pc32-against-symbol-py-notimplementedstruct-can-not-be-us" target="_blank">4</a>.</p><p>If you’re still encountering issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>That fixes the compile. When I try to import example in Python I get this error: </p><pre></pre><p><strong>Copilot</strong></p><p>I apologize for the inconvenience. The error message you’re seeing typically indicates that the Python interpreter was unable to find the implementation of a function when it tried to import the module.</p><p>The undefined symbol _Z3fooiRi is a mangled name for the function foo(int, int&amp;). This suggests that the implementation of foo was not correctly linked when the shared library _example.so was created.</p><p>Here are a few things you could try:</p><ol><li><p><strong>Ensure that </strong>problem.cpp is being compiled and linked correctly: When you compile your SWIG module, you should also compile problem.cpp and link it with example_wrap.cxx. Here’s an example command:g++ -fPIC -shared problem.cpp example_wrap.cxx -o _example.so</p></li><li><p><strong>Check the order of the files in the g++ command</strong>: The order of the files can sometimes cause issues. If the above command doesn’t work, try switching the order of problem.cpp and example_wrap.cxx.</p></li><li><p><strong>Recompile everything</strong>: Sometimes, old object files or intermediate files can cause issues. Try deleting all .o, .so, and SWIG-generated files, and then re-run the SWIG and g++ commands.</p></li></ol><p>If you’re still encountering issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>I forgot to add problem.cpp. Recall that the contents are</p><pre></pre><p>When I try to compile this I get this result:  </p><pre></pre><p><strong>Copilot</strong></p><p>The error messages indicate that the compiler can’t find the definitions for std::cout and std::endl. These are defined in the &lt;iostream&gt; header file. You can fix the errors by including &lt;iostream&gt; at the beginning of your problem.cpp file. Here’s how you can modify problem.cpp:</p><pre></pre><p>Now, std::cout and std::endl should be recognized by the compiler. You can try compiling your code again. If you encounter any more issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>That corrects the compile. Now suppose my Python script is: </p><pre></pre><p>and my C++ code is </p><pre></pre><p> and the SWIG wrap is </p><pre></pre><p>Then the first call works but the example.foo call complains</p><pre></pre><p>So the SWIG wrap didn't work.</p><p><strong>Copilot</strong></p><p>I apologize for the confusion. The error message indicates that the foo function is still expecting two arguments, which suggests that the typemap for int &amp; is not being applied correctly.</p><p>The issue might be due to the order of the typemaps and the %include directive in the SWIG interface file. SWIG applies the typemaps in the order they are defined, so if the %include "problem.h" line comes before the typemaps, the typemaps won’t be applied to the functions in problem.h.</p><p>Here’s how you can modify the interface file:</p><pre></pre><p>In this example, the typemaps are defined before the %include "problem.h" line, so they should be applied to the functions in problem.h.</p><p>Please try this modification and let me know if it works for you. If you encounter any more issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>The interface file works with SWIG but doesn't work with g++. Here is a trace: + </p><pre></pre><p><strong>Copilot</strong></p><p>I apologize for the confusion. The error messages indicate that the SWIG-generated code is trying to assign a PyObject* to an int, which is not allowed. This is likely due to a mistake in the typemaps.</p><p>The issue is with these lines:</p><pre></pre><p>These lines are trying to assign a PyObject* ($input) to an int ($1), which is causing the error. Instead, you should convert the PyObject* to an int using the PyLong_AsLong function provided by the Python C API.</p><p>Here’s how you can modify the interface file:</p><pre></pre><p>In this example, the typemaps for const int &amp; and const int first check if the PyObject* is an integer using PyLong_Check, and if it is, they convert it to an int using PyLong_AsLong.</p><p>Please try this modification and let me know if it works for you. If you encounter any more issues, please let me know! I’m here to help. 😊</p><p><strong>You</strong></p><p>Thank you. We have solved the problem. Here are all the files in the solution:</p><pre></pre><p><strong>Copilot</strong></p><p>I’m glad to hear that the problem is solved! The files you’ve shared indeed provide a complete solution for wrapping the C++ functions foo and bar using SWIG, and making them available in Python with the desired behavior.</p><p>If you have any more questions or need further assistance in the future, don’t hesitate to ask. Happy coding! 😊</p></div>
+</body>
+</html>

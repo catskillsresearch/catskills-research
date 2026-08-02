@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>What is the difference between a PROP, an SVAR and a NOM? (convo w/Perplexity.AI)</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQFprh-oRUGHbA" alt="" title="" />
+      <h1><a href="https://www.linkedin.com/pulse/what-difference-between-prop-svar-nom-convo-lars-warren-ericson-tvh1e">What is the difference between a PROP, an SVAR and a NOM? (convo w/Perplexity.AI)</a></h1>
+    <p class="created">Created on 2024-11-17 14:44</p>
+  <p class="published">Published on 2024-11-17 15:00</p>
+  <div><p>I'm trying to understand this <a href="https://raw.githubusercontent.com/alexoltean61/alexoltean61.github.io/main/hybrid.pdf" target="_blank">formalization of hybrid logic in Lean</a>. I am using <a href="http://Perplexity.AI" target="_blank">Perplexity.AI</a> as my logic tutor.  This is a plumber's tale, not of general interest.  Suffice it to say I found the gadget quite helpful.</p><h2>What is the difference between a PROP, an SVAR and a NOM?</h2><p>There are three types of symbols in the signature of a hybrid language:</p><p><strong>PROP</strong> (Propositional symbols):</p><ul><li><p>Denoted as {p, q, r, ...}</p></li><li><p>A denumerably infinite set</p></li><li><p>Used to represent propositions</p></li></ul><p><strong>SVAR</strong> (State variables):</p><ul><li><p>Denoted as {x, y, z, ...}</p></li><li><p>A denumerably infinite set</p></li><li><p>Can be bound by quantifiers</p></li><li><p>Also function as propositional symbols</p></li><li><p>Intended to act as labels for states in a graph</p></li><li><p>Their interpretation is given by assignment functions</p></li></ul><p><strong>NOM</strong> (Nominal symbols):</p><ul><li><p>Denoted as {i, j, k, ...}</p></li><li><p>A finite or denumerably infinite set</p></li><li><p>Intended to function as labels for states</p></li><li><p>In standard models, they are evaluated as true at just one unique state</p></li></ul><p>The key differences are:</p><ul><li><p>PROP are traditional propositional symbols.</p></li><li><p>SVAR are a hybrid between variables and propositions. They can be bound by quantifiers but also function as propositional symbols.</p></li><li><p>NOM are meant to act as unique labels for individual states in the model.</p></li></ul><p>Together, SVAR and NOM make up the set of "state symbols" in the hybrid language. The addition of NOM and the dual nature of SVAR are what distinguish hybrid logic from regular modal logic</p><h2>Difference between SVAR and NOM for dummies.</h2><p>To explain the difference between SVAR (state variables) and NOM (nominal symbols) in simple terms:</p><p><strong>SVAR</strong> (State Variables):</p><ul><li><p>Can be bound by quantifiers (like ∀x or ∃x)</p></li><li><p>Act as both variables and propositions</p></li><li><p>Their interpretation can change based on assignments</p></li><li><p>Intended to refer to arbitrary states in the model</p></li></ul><p><strong>NOM</strong> (Nominal Symbols):</p><ul><li><p>Cannot be bound by quantifiers</p></li><li><p>Always refer to a specific, unique state in the model</p></li><li><p>Their interpretation is fixed by the model's valuation function</p></li><li><p>Intended to act as labels for particular states</p></li></ul><p>In essence:</p><ul><li><p>SVAR are flexible and can refer to different states depending on the assignment</p></li><li><p>NOM are rigid and always refer to one specific state in the model</p></li></ul><p>So SVAR are like variables that can take on different values, while NOM are like constants that always refer to the same thing. SVAR give you the ability to quantify over states, while NOM let you name and refer to specific states.</p><h2>So NOM is a constant state and SVAR ranges over NOMs.</h2><p>Your understanding is close, but let me clarify the key differences between NOM (nominal symbols) and SVAR (state variables) in hybrid logic:</p><p><strong>NOM</strong> (Nominal symbols):</p><ul><li><p>Are intended to function as labels for specific, unique states in the model</p></li><li><p>In standard models, they are evaluated as true at just one unique state</p></li><li><p>Their interpretation is fixed by the model's valuation function V</p></li><li><p>Cannot be bound by quantifiers</p></li></ul><p><strong>SVAR</strong> (State variables):</p><ul><li><p>Can refer to arbitrary states in the model</p></li><li><p>Their interpretation can change based on assignment functions</p></li><li><p>Can be bound by quantifiers (like ∀x or ∃x)</p></li><li><p>Act as both variables and propositions</p></li></ul><p>So while both NOM and SVAR can refer to individual states, the key differences are:</p><ol><li><p>NOM always refers to a specific, fixed state in the model, while SVAR can refer to different states depending on the assignment.</p></li><li><p>SVAR can be quantified over (e.g. ∀x φ), while NOM cannot.</p></li><li><p>The interpretation of NOM is fixed by the model's valuation, while SVAR's interpretation can change with different assignments.</p></li></ol><p>It's not quite accurate to say SVAR ranges over NOMs. Rather, both NOM and SVAR are meant to refer to states in the model, but SVAR does so in a more flexible way that allows for quantification.</p><h2>Does quantification of an SVAR range over NOMs?</h2><p>Quantification over state variables (SVAR) does not directly range over nominal symbols (NOM). However, there are some important points to note about how SVAR and NOM relate in the semantics of hybrid logic:</p><ul><li><p>Both SVAR and NOM are intended to refer to individual states in the model. As the document states: "By extending the modal language this way, we intend to also have the means to label the states in the graph, and to quantify over them."</p></li><li><p>NOM symbols are evaluated by the valuation function V, while SVAR symbols are evaluated by assignment functions g. For a standard model:For i ∈ NOM, V(i) = {s}, where s is a single state.For x ∈ SVAR, g(x) is also a singleton set containing a single state.</p></li><li><p>Quantification over SVAR is defined as: "M,s,g ⊨ ∀x φ ⇔ for all assignment functions g', if g' x↭g then M,s,g' ⊨ φ"</p></li></ul><p>This means quantification ranges over all possible assignments to the state variable x, effectively allowing it to refer to any state in the model.</p><ul><li><p>While quantification doesn't directly range over NOM symbols, it does range over the same domain that NOM symbols refer to - namely, the set of states W in the model.</p></li></ul><p>So, while quantification of SVAR doesn't technically range over NOM symbols themselves, it does range over the same set of states that NOM symbols can refer to. Both SVAR and NOM are mechanisms for referring to individual states, with SVAR allowing quantification over those states.</p><h2>Does every state have a NOM?</h2><p>Based on the information provided in the document, not every state necessarily has a NOM (nominal) assigned to it. Here are the key points:</p><ul><li><p>Nominals are introduced as a new type of atomic symbol, distinct from propositional variables. They are typically written as i, j, k, etc.</p></li><li><p>The crucial property of nominals is that each nominal is true at exactly one world/state in any model. As the document states:</p></li></ul><p>"Insist that each nominal be true at exactly one world in any model. A nominal names a state by being true there and nowhere else."</p><ul><li><p>Nominals are used to name specific states, but there's no requirement that every state must have a nominal assigned to it.</p></li><li><p>The syntax definition allows formulas to be constructed using nominals, but doesn't mandate that every state must be named by a nominal.</p></li><li><p>In the semantics, models are defined as triples (W, R, V) where W is the set of all states. The valuation function V assigns truth values to propositional variables and nominals, but there's no stipulation that V must assign a nominal to every element of W.</p></li></ul><p>So while nominals provide a way to name and refer to specific states, the formalism doesn't require that every single state in a model must have a corresponding nominal. Some states may be named by nominals, while others may not be explicitly named.</p><h2>So NOMs are user assigned labels to particular states.</h2><p>You're on the right track, but let me clarify a few important points about nominals (NOMs) in hybrid logic:</p><ul><li><p>Nominals are not exactly "user assigned" labels. They are part of the language itself, defined in the signature of the hybrid logic.</p></li><li><p>Nominals are intended to function as labels for specific, unique states in the model. As the document states:</p></li></ul><p>"Insist that each nominal be true at exactly one world in any model. A nominal names a state by being true there and nowhere else."</p><ul><li><p>The interpretation of nominals is given by the valuation function V in a Kripke model. For a standard model M = ⟨W,R,V⟩, if i ∈ NOM, then V(i) = {s}, where s is a single state in W.</p></li><li><p>Unlike state variables (SVAR), which can be bound by quantifiers and whose interpretation can change with different assignments, nominals have a fixed interpretation in a given model.</p></li><li><p>Nominals provide a way to directly refer to specific states within the logic itself, without needing to use meta-language or external labeling.</p></li></ul><p>So while nominals do act as labels for particular states, they are not assigned by users but are part of the logical language itself, with their interpretation fixed by the model's valuation function. This allows for direct reference to specific states within the formulas of hybrid logic.</p><h2>Is there a state that no NOM can refer to?</h2><p>It is possible for there to be states that no nominal (NOM) refers to in a hybrid logic model. Here are the key points:</p><ul><li><p>Nominals (NOM) are intended to function as labels for specific, unique states in the model.</p></li><li><p>For a standard model M = ⟨W,R,V⟩, if i ∈ NOM, then V(i) = {s}, where s is a single state in W.</p></li><li><p>The document states: "Insist that each nominal be true at exactly one world in any model. A nominal names a state by being true there and nowhere else."</p></li><li><p>However, there is no requirement that every state must have a corresponding nominal.</p></li><li><p>The set of nominals (NOM) is defined as "a finite or denumerably infinite set" in the signature of the hybrid language.</p></li><li><p>The set of states W in a Kripke model is defined as "a non-empty set", with no restrictions on its size.</p></li></ul><p>Given these points, we can conclude:</p><ul><li><p>It is possible for the set of states W to be larger than the set of nominals NOM.</p></li><li><p>There is no requirement that every state in W must be assigned a nominal.</p></li><li><p>The valuation function V assigns nominals to states, but it doesn't have to cover all states in W.</p></li></ul><p>Therefore, in a hybrid logic model, there can indeed be states that no nominal refers to. This could happen if:</p><ul><li><p>The set of states W is larger than the set of nominals NOM.</p></li><li><p>The valuation function V does not assign every state to a nominal.</p></li></ul><p>In such cases, there would be states in the model that are not uniquely labeled or referred to by any nominal.</p><h2>Do quantifiers over SVAR range over all states?</h2><p>Quantifiers over state variables (SVAR) in hybrid logic do not directly range over all states or nominals (NOM). However, there are a few key points to note:</p><ul><li><p>State variables (SVAR) and nominals (NOM) are both intended to refer to individual states in the model. As the document states:</p></li></ul><p>"Both SVAR and NOM are intended to refer to individual states in the model."</p><ul><li><p>Quantification over state variables (SVAR) ranges over all possible assignments to that variable, which effectively allows it to refer to any state in the model. Specifically, the semantics for the universal quantifier is given as:</p></li></ul><p>"M,s,g ⊨ ∀x φ ⇔ for all assignment functions g', if g' x↭g then M,s,g' ⊨ φ"This means quantification ranges over all possible assignments to x, allowing it to refer to any state.</p><ul><li><p>While quantification doesn't directly range over nominal symbols (NOM), it does range over the same domain that NOM symbols can refer to - namely, the set of states W in the model.</p></li><li><p>The document notes: "While quantification of SVAR doesn't technically range over NOM symbols themselves, it does range over the same set of states that NOM symbols can refer to."</p></li></ul><p>So in summary, quantifiers over state variables do not directly range over all nominals, but they do effectively range over all states in the model, which is the same domain that nominals can refer to. The quantification allows state variables to refer to any state, similar to how nominals name specific states.</p><h2>If quantifiers range over all states, and within the quantifier bind the SVAR to each state, and there are states than a NOM cannot refer to, then an SVAR can refer to a state with no NOM.</h2><p>You're correct. Let me explain this in more detail:</p><ul><li><p>Quantifiers over SVAR (state variables) range over all states in the model. This means they can bind an SVAR to any state in the domain.</p></li><li><p>NOM (nominals) are interpreted as singleton sets - each nominal refers to exactly one state in the model.</p></li><li><p>There is no requirement that every state in the model must be named by a nominal. Some states may not have a corresponding nominal.</p></li><li><p>Therefore, it's possible to have states that no nominal refers to, but that an SVAR can be bound to.</p></li></ul><p>So in summary:</p><ul><li><p>An SVAR, when quantified over, can refer to any state in the model.</p></li><li><p>A NOM always refers to one specific state.</p></li><li><p>There may be states that no NOM refers to.</p></li><li><p>But an SVAR, through quantification, can be bound to those "unnamed" states.</p></li></ul><p>This means that quantification over SVARs is more expressive than just using NOMs. It allows us to talk about and refer to states that may not be directly named by any nominal in the language.This is one of the key differences between nominals and state variables in hybrid logic. Nominals provide a way to name specific states, while quantified state variables allow us to range over all states, including those not explicitly named.</p><h2>Can you think of any concrete example where this is the case?</h2><p>Certainly! Let me provide a concrete example to illustrate a case where an SVAR (state variable) can refer to a state that no NOM (nominal) refers to:Consider a Kripke model M = ⟨W, R, V⟩ where:</p><ul><li><p>W = {s1, s2, s3, s4, s5} (five states)</p></li><li><p>R is irrelevant for this example</p></li><li><p>NOM = {i, j} (only two nominals in the language)</p></li><li><p>V(i) = {s1}</p></li><li><p>V(j) = {s2}</p></li></ul><p>In this model:</p><ul><li><p>The nominal i refers to state s1</p></li><li><p>The nominal j refers to state s2</p></li><li><p>States s3, s4, and s5 are not referred to by any nominal</p></li></ul><p>Now, consider the formula: ∀x (◇x)This formula states "for all states x, there is a state accessible from the current state where x is true." When we evaluate this formula, the quantifier ∀x ranges over all states in W, including s3, s4, and s5.For example, when evaluating this formula at state s1:M, s1, g ⊨ ∀x (◇x)The quantifier will bind x to each state in W in turn, including the states s3, s4, and s5 which are not named by any nominal. So, while we can't directly refer to s3, s4, or s5 using nominals in our language, we can still quantify over them using state variables. This demonstrates how SVARs can indeed refer to states that no NOM refers to, providing greater expressivity in the language.</p><h2>OK</h2><p>Here are the key differences between PROP, SVAR, and NOM in hybrid logic:PROP (Propositional symbols):</p><ul><li><p>Denoted as {p, q, r, ...}</p></li><li><p>A denumerably infinite set</p></li><li><p>Used to represent propositions</p></li><li><p>Evaluated by the valuation function V to sets of states</p></li></ul><p>SVAR (State variables):</p><ul><li><p>Denoted as {x, y, z, ...}</p></li><li><p>A denumerably infinite set</p></li><li><p>Can be bound by quantifiers</p></li><li><p>Also function as propositional symbols</p></li><li><p>Intended to act as labels for states in a graph</p></li><li><p>Their interpretation is given by assignment functions g</p></li><li><p>In standard assignments, evaluated to singleton sets of states</p></li></ul><p>NOM (Nominal symbols):</p><ul><li><p>Denoted as {i, j, k, ...}</p></li><li><p>A finite or denumerably infinite set</p></li><li><p>Intended to function as labels for specific states</p></li><li><p>In standard models, evaluated by V to singleton sets containing just one unique state</p></li></ul><p>The key differences are:</p><ul><li><p>PROP are traditional propositional symbols.</p></li><li><p>SVAR are a hybrid between variables and propositions. They can be bound by quantifiers but also function as propositional symbols.</p></li><li><p>NOM are meant to act as unique labels for individual states in the model.</p></li></ul><p>SVAR and NOM together make up the set of "state symbols" in hybrid logic. The addition of NOM and the dual nature of SVAR are what distinguish hybrid logic from regular modal logic.</p><h2>So the only time I see an SVAR is when it is bound by a quantifier.</h2><p>That's not quite correct. State variables (SVAR) in hybrid logic can appear in formulas both bound by quantifiers and unbound (free). Let me clarify:</p><ul><li><p>SVARs as atomic formulas: State variables can appear as atomic formulas on their own, just like propositional symbols or nominals. For example, x can be a well-formed formula by itself, where x ∈ SVAR.</p></li><li><p>SVARs bound by quantifiers: State variables can be bound by quantifiers, as in formulas like ∀x φ or ∃x φ.</p></li><li><p>SVARs as free variables: State variables can appear free in formulas, not bound by any quantifier. For example, in the formula x → ∀y(y → x), the first occurrence of x is free.</p></li></ul><p>The dual nature of SVARs is one of the key features that makes hybrid logic "hybrid":</p><ul><li><p>They can act like propositional symbols when they appear as atomic formulas.</p></li><li><p>They can be bound by quantifiers, allowing for quantification over states.</p></li><li><p>They can appear free in formulas, acting as "arbitrary" state labels.</p></li></ul><p>In the semantics, free occurrences of SVARs are interpreted using the assignment function g, while bound occurrences are handled by the quantifier semantics, which considers all possible x-variants of the assignment. So, you will see SVARs in various contexts within hybrid logic formulas, not just when they are bound by quantifiers.</p><h2>Can you give a simple concrete example where an SVAR is unbound.</h2><p>Here's a simple concrete example of a hybrid logic formula where a state variable (SVAR) is unbound:φ = x → ◇yIn this formula:</p><ul><li><p>x is an unbound (free) state variable</p></li><li><p>y is also an unbound (free) state variable</p></li><li><p>◇ is the diamond modal operator (possibility)</p></li></ul><p>This formula can be read informally as "if the current state satisfies x, then there is an accessible state that satisfies y".Both x and y are unbound because they are not within the scope of any quantifier. They act similarly to free variables in first-order logic or propositional variables in modal logic.When evaluating this formula in a model M with an assignment g at a state s, it would be interpreted roughly as:M, s, g ⊨ φ if and only if:If s ∈ g(x), then there exists a state t such that sRt and t ∈ g(y)Here, g(x) and g(y) refer to the states assigned to x and y by the assignment function g. The interpretation of these unbound variables depends entirely on the assignment g, which is why they're considered "free" in the formula.</p><p></p></div>
+</body>
+</html>

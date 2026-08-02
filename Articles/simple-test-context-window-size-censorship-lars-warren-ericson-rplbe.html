@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Simple test of context window size and censorship</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQGZf3SyO2TXFQ" alt="https://sl.bing.net/c87BUCKVMiW" title="https://sl.bing.net/c87BUCKVMiW" />
+      <h1><a href="https://www.linkedin.com/pulse/simple-test-context-window-size-censorship-lars-warren-ericson-rplbe">Simple test of context window size and censorship</a></h1>
+    <p class="created">Created on 2025-02-06 01:07</p>
+  <p class="published">Published on 2025-02-06 01:36</p>
+  <div><p>This something I just noticed.  It is easy to test.  I put in a CSV file with 670 lines (header + 669 rows, 104319 characters) and I asked it to tell me how many lines were in the file.  The files listed a variety of forecasting questions, some with geopolitical content.  The LLMs work with code inputs that can be pretty long so I didn't think it would be a problem.  It turns out none of the LLMs I tried could count the file, for various reasons.  The first 5 I tried just wouldn't deal with it:</p><ul><li><p><strong>Google Gemini.</strong>  Only allows image upload.</p></li><li><p><a href="http://X.ai" target="_blank"><strong>X.ai</strong></a><strong> (Grok).  </strong>You have to pay to add an attachment.  No thanks.</p></li><li><p><a href="http://Claude.ai" target="_blank"><strong>Claude.ai</strong></a><strong>. </strong> Refused to upload the file, saying it was 29% over the length limit.</p></li><li><p><strong>ChatGPT</strong>.  "Unknown error occurred"</p></li><li><p><a href="http://Meta.ai" target="_blank"><strong>Meta.ai</strong></a><strong>.  </strong>"Unsupported file type"</p></li></ul><p>I tried these which accepted the file, with prompt "How many lines are in the attached file?" and got</p><ul><li><p><strong>Microsoft Copilot.</strong> "The attached file contains <strong>490 lines</strong>."</p></li><li><p><a href="http://Perplexity.ai" target="_blank">Perplexity.ai</a>.  "The attached file contains 100 lines of data. Each line represents a different forecast question, along with associated scores, dates, and probabilities."</p></li></ul><p>The interesting case, because it brings up the novel feature of censorship is this new market-shattering entry into the world of LLMs:</p><ul><li><p><strong>DeepSeek</strong>, from the People's Republic of China y'all, caveat emptor, allowed the upload saying "May violate terms" and then refused the prompt, saying "Remove failed files to submit."</p></li></ul><p></p><figure><a href="https://labs.google/fx/tools/image-fx/1d42bsl44g000" target="_blank"><img data-media-urn="urn:li:digitalmediaAsset:D5612AQFPyOY6tL3f5Q" src="https://media.licdn.com/dms/image/v2/D5612AQFPyOY6tL3f5Q/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1738811762623?e=1779321600&amp;v=beta&amp;t=fjPuvobxD8gOfvCvP78n9UyUUlAw5Dpncl1qvXQcTHI"></a><figcaption></figcaption></figure><p></p></div>
+</body>
+</html>

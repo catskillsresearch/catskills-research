@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>What LLMs are "Reasoning Models"? (convo w/Perplexity)</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQFwz8Xr8vtK_g" alt="https://sl.bing.net/clW8X1UY7vo" title="https://sl.bing.net/clW8X1UY7vo" />
+      <h1><a href="https://www.linkedin.com/pulse/what-llms-reasoning-models-convo-wperplexity-lars-warren-ericson-bwsle">What LLMs are "Reasoning Models"? (convo w/Perplexity)</a></h1>
+    <p class="created">Created on 2025-02-02 23:09</p>
+  <p class="published">Published on 2025-02-02 23:22</p>
+  <div><h3>What LLMs are "reasoning" models?</h3><p>Large language models (LLMs) with enhanced reasoning capabilities are an active area of research, with OpenAI's <strong>o1 series</strong> (o1-mini and o1-preview) being the most prominently recognized "reasoning" models. These models are specifically designed to decompose complex tasks into intermediate reasoning steps using reinforcement learning, enabling methodical problem-solving for logic-heavy tasks like coding and mathematics[1][5][13]. </p><p><strong>Key Reasoning-Focused LLMs</strong></p><p><strong>1. OpenAI o1 Series</strong>  </p><p>- <strong>o1-mini</strong>: Specializes in coding and mathematical problem-solving by generating hidden "reasoning tokens" to break down tasks step-by-step[5][13].  </p><p>- <strong>o1-preview</strong>: Optimized for general knowledge-intensive tasks like scientific reasoning and strategic planning[5].  </p><p><strong>Techniques to Enhance Reasoning in Standard LLMs</strong></p><p>While not dedicated reasoning models, many LLMs benefit from prompting strategies and training methods that elicit reasoning behaviors:  </p><p>- <strong>Chain-of-Thought (CoT) Prompting</strong>: Used in models like GPT-3 and Codex to generate intermediate rationales before final answers[1][3].  </p><p>- <strong>Self-Taught Reasoner (STaR)</strong>: Iteratively fine-tunes models (e.g., LLaMA variants) on their own successful reasoning outputs[3].  </p><p>- <strong>Reinforcement Learning</strong>: Applied to train models like o1 to automatically explore high-quality reasoning trajectories[2][13].  </p><p><strong>Frameworks for Advanced Reasoning</strong></p><p>- <strong>Tree of Thoughts (ToT)</strong>: Extends CoT by exploring multiple reasoning paths simultaneously[4].  </p><p>- <strong>Reasoning via Planning (RAP)</strong>: Treats LLMs as world models for strategic planning[4].  </p><p>Current research debates whether these techniques indicate true reasoning or sophisticated pattern matching[1][6][16]. However, the o1 series represents the most direct implementation of reasoning-focused training, distinguishing it from general-purpose LLMs like GPT-4 or Claude[5][13].</p><p>Citations:</p><p>[1] <a href="https://www.promptingguide.ai/research/llm-reasoning" target="_blank">https://www.promptingguide.ai/research/llm-reasoning</a></p><p>[2] <a href="https://arxiv.org/html/2501.09686v1" target="_blank">https://arxiv.org/html/2501.09686v1</a></p><p>[3] <a href="https://www.digitalocean.com/community/tutorials/understanding-reasoning-in-llms" target="_blank">https://www.digitalocean.com/community/tutorials/understanding-reasoning-in-llms</a></p><p>[4] <a href="https://www.topbots.com/llm-reasoning-research-papers/" target="_blank">https://www.topbots.com/llm-reasoning-research-papers/</a></p><p>[5] <a href="https://getstream.io/blog/reasoning-llms/" target="_blank">https://getstream.io/blog/reasoning-llms/</a></p><p>[6] <a href="https://openreview.net/forum?id=Lmjgl2n11u" target="_blank">https://openreview.net/forum?id=Lmjgl2n11u</a></p><p>[7] <a href="https://arxiv.org/abs/2308.09267" target="_blank">https://arxiv.org/abs/2308.09267</a></p><p>[8] <a href="https://aiguide.substack.com/p/the-llm-reasoning-debate-heats-up" target="_blank">https://aiguide.substack.com/p/the-llm-reasoning-debate-heats-up</a></p><p>[9] <a href="https://cohere.com/blog/llm-reasoning-sets-new-benchmarks-for-ai" target="_blank">https://cohere.com/blog/llm-reasoning-sets-new-benchmarks-for-ai</a></p><p>[10] <a href="https://github.com/jeffhj/LM-reasoning" target="_blank">https://github.com/jeffhj/LM-reasoning</a></p><p>[11] <a href="https://arxiv.org/html/2407.11511v1" target="_blank">https://arxiv.org/html/2407.11511v1</a></p><p>[12] <a href="https://hdsr.mitpress.mit.edu/pub/jaqt0vpb/release/1" target="_blank">https://hdsr.mitpress.mit.edu/pub/jaqt0vpb/release/1</a></p><p>[13] <a href="https://openai.com/index/learning-to-reason-with-llms/" target="_blank">https://openai.com/index/learning-to-reason-with-llms/</a></p><p>[14] <a href="https://aclanthology.org/2023.findings-acl.67/" target="_blank">https://aclanthology.org/2023.findings-acl.67/</a></p><p>[15] <a href="https://github.com/atfortes/Awesome-LLM-Reasoning/activity" target="_blank">https://github.com/atfortes/Awesome-LLM-Reasoning/activity</a></p><p>[16] <a href="https://news.mit.edu/2024/reasoning-skills-large-language-models-often-overestimated-0711" target="_blank">https://news.mit.edu/2024/reasoning-skills-large-language-models-often-overestimated-0711</a></p><h3>What about Perplexity with R1, is that a "Reasoning Model"?</h3><p>Perplexity's integration of <strong>DeepSeek-R1</strong> represents a significant leap in AI-powered search by incorporating a dedicated reasoning model. DeepSeek-R1, an open-source reasoning-focused LLM, uses advanced techniques like <strong>Chain-of-Thought (CoT) prompting</strong> and <strong>multi-stage reinforcement learning</strong> to break down complex queries into step-by-step analyses. Here's how it works within Perplexity:</p><p><strong>Key Features of DeepSeek-R1 in Perplexity</strong></p><p>1. <strong>Reasoning Architecture</strong>  </p><p>   - Employs a <strong>Mixture-of-Experts (MoE)</strong> design with 671B total parameters (37B active per query) for efficient processing[1][6].  </p><p>   - Generates up to <strong>32K tokens of intermediate reasoning content</strong> (e.g., analysis steps, data comparisons) before final outputs[1][9].  </p><p>2. <strong>Performance</strong>  </p><p>   - Outperforms OpenAI’s o1 in benchmarks like <strong>AIME 2024</strong> (79.8% vs. 78.5%) and <strong>MATH-500</strong> (97.3%)[2][17].  </p><p>   - Specializes in logical problem-solving for tasks like financial analysis, career planning, and scientific research[3][12].  </p><p>3. <strong>Integration with Perplexity Pro</strong>  </p><p>   - Available as a <strong>$20/month Pro feature</strong>, offering 25–500 daily queries (up from 10 previously)[5][7][15].  </p><p>   - Combines R1’s reasoning with Perplexity’s real-time web search, enabling <strong>source-backed conclusions</strong> (e.g., market trends, policy impacts)[3][18].  </p><p>4. <strong>Transparency and Privacy</strong>  </p><p>   - Displays full reasoning steps via the  API for verification[2][9].  </p><p>   - Hosted on <strong>U.S.-based servers</strong> to address privacy concerns linked to DeepSeek’s Chinese origins[6][15][16].  </p><p><strong>Comparison to Alternatives  </strong></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQGh4ZqBM3djfw" src="https://media.licdn.com/dms/image/v2/D4E12AQGh4ZqBM3djfw/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1738537914240?e=1779321600&amp;v=beta&amp;t=_c4C9-CO32VrbZ0knt-yCeyfsylljHMEuDYm4V5nESc"><figcaption></figcaption></figure><p>While debates persist about whether R1’s outputs reflect true reasoning or advanced pattern matching[19], its structured problem-solving approach and benchmark results position it as a leading reasoning model for research and technical use cases[2][17].</p><p>Citations:</p><p>[1] <a href="https://www.perplexity.ai/page/deepseek-r1-may-beat-openai-s-Xl.Pc5FFSfS9NaIIuLNQaw" target="_blank">https://www.perplexity.ai/page/deepseek-r1-may-beat-openai-s-Xl.Pc5FFSfS9NaIIuLNQaw</a></p><p>[2] <a href="https://www.reddit.com/r/perplexity_ai/comments/1iacrzl/deepseek_r1_w_web_search_might_be_better_than/" target="_blank">https://www.reddit.com/r/perplexity_ai/comments/1iacrzl/deepseek_r1_w_web_search_might_be_better_than/</a></p><p>[3] <a href="https://www.geeky-gadgets.com/perplexity-adds-deepseek-r1/" target="_blank">https://www.geeky-gadgets.com/perplexity-adds-deepseek-r1/</a></p><p>[4] <a href="https://www.youtube.com/watch?v=Ktyiw-DxJ4E" target="_blank">https://www.youtube.com/watch?v=Ktyiw-DxJ4E</a></p><p>[5] <a href="https://opentools.ai/news/perplexity-ai-expands-daily-deepseek-r1-query-limits-for-pro-users" target="_blank">https://opentools.ai/news/perplexity-ai-expands-daily-deepseek-r1-query-limits-for-pro-users</a></p><p>[6] <a href="https://opentools.ai/news/deepseeks-r-1-perplexity-ais-newest-search-agent-revolutionizing-ai-performance" target="_blank">https://opentools.ai/news/deepseeks-r-1-perplexity-ais-newest-search-agent-revolutionizing-ai-performance</a></p><p>[7] <a href="https://www.businesstoday.in/technology/news/story/perplexity-ai-increases-limit-for-daily-deepseek-r1-queries-on-its-platform-462421-2025-01-29" target="_blank">https://www.businesstoday.in/technology/news/story/perplexity-ai-increases-limit-for-daily-deepseek-r1-queries-on-its-platform-462421-2025-01-29</a></p><p>[8] <a href="https://www.techradar.com/computing/artificial-intelligence/want-to-try-deepseek-without-the-privacy-worries-perplexity-ai-just-launched-it-on-its-ios-and-web-apps" target="_blank">https://www.techradar.com/computing/artificial-intelligence/want-to-try-deepseek-without-the-privacy-worries-perplexity-ai-just-launched-it-on-its-ios-and-web-apps</a></p><p>[9] <a href="https://www.perplexity.ai/help-center/en/articles/10496197-about-the-r1-model-used-for-pro-search-on-perplexity" target="_blank">https://www.perplexity.ai/help-center/en/articles/10496197-about-the-r1-model-used-for-pro-search-on-perplexity</a></p><p>[10] <a href="https://www.askwoody.com/forums/topic/perplexity-adds-deepseek-r1-search-option-with-ai-reasoning/" target="_blank">https://www.askwoody.com/forums/topic/perplexity-adds-deepseek-r1-search-option-with-ai-reasoning/</a></p><p>[11] <a href="https://techngraphic.com.au/blog/perplexity-ai-integrates-deepseek-r1-what-it-means-for-ai-search/" target="_blank">https://techngraphic.com.au/blog/perplexity-ai-integrates-deepseek-r1-what-it-means-for-ai-search/</a></p><p>[12] <a href="https://www.youtube.com/watch?v=5tcXuA0oo8E" target="_blank">https://www.youtube.com/watch?v=5tcXuA0oo8E</a></p><p>[13] <a href="https://www.threads.net/@perplexity.ai/post/DFVf2vdRV0O" target="_blank">https://www.threads.net/@perplexity.ai/post/DFVf2vdRV0O</a></p><p>[14] <a href="https://www.searchenginejournal.com/perplexity-ai-deploys-chinese-deepseek-ai-model/538452/" target="_blank">https://www.searchenginejournal.com/perplexity-ai-deploys-chinese-deepseek-ai-model/538452/</a></p><p>[15] <a href="https://www.zdnet.com/article/perplexity-lets-you-try-deepseek-r1-without-the-security-risk-but-its-still-censored/" target="_blank">https://www.zdnet.com/article/perplexity-lets-you-try-deepseek-r1-without-the-security-risk-but-its-still-censored/</a></p><p>[16] <a href="https://www.forbes.com/sites/luisromero/2025/01/28/deepseek-now-in-perplexitys-ai-search-us-ai-dominance-challenged/" target="_blank">https://www.forbes.com/sites/luisromero/2025/01/28/deepseek-now-in-perplexitys-ai-search-us-ai-dominance-challenged/</a></p><p>[17] <a href="https://feedbax.ai/news/perplexity-integrates-deepseek-r1" target="_blank">https://feedbax.ai/news/perplexity-integrates-deepseek-r1</a></p><p>[18] <a href="https://www.linkedin.com/pulse/perplexity-ai-deepseek-r1-ultimate-research-reasoning-julian-goldie-wtiwc" target="_blank">https://www.linkedin.com/pulse/perplexity-ai-deepseek-r1-ultimate-research-reasoning-julian-goldie-wtiwc</a></p><p>[19] <a href="https://www.reddit.com/r/perplexity_ai/comments/1ideq34/deepseek_r1_now_at_500_queries_daily_on_pro/" target="_blank">https://www.reddit.com/r/perplexity_ai/comments/1ideq34/deepseek_r1_now_at_500_queries_daily_on_pro/</a></p><h3>Looking across the models that you mentioned that you classify as "Reasoning Models", what are the common properties that define a "Reasoning Model"?</h3><p>Reasoning models like OpenAI's <strong>o1 series</strong> and DeepSeek-R1 share several defining properties that distinguish them from standard large language models (LLMs). These properties enable systematic problem-solving for complex tasks requiring logical inference, coding, mathematics, or scientific analysis. Here's a breakdown of their common characteristics:</p><p>---</p><p>### Core Properties of Reasoning Models</p><p>1. <strong>Multi-Step Reasoning Architecture</strong>  </p><p>   - Perform <strong>chain-of-thought (CoT)</strong> reasoning to decompose problems into intermediate steps, mimicking human analytical processes[1][2][7].  </p><p>   - Use <strong>iterative inference passes</strong> (test-time scaling) to refine outputs through self-verification or consensus methods[1][7][17].  </p><p>2. <strong>Reinforcement Learning (RL) Foundation</strong>  </p><p>   - Trained with RL to autonomously discover and refine problem-solving strategies[2][4][7].  </p><p>   - OpenAI’s o1 models employ RL to correct errors in multi-step tasks like math proofs[2][8], while DeepSeek-R1 combines RL with supervised fine-tuning on curated reasoning datasets[4][7].  </p><p>3. <strong>Specialized Training Pipelines</strong>  </p><p>   - <strong>Reasoning-focused datasets</strong>: Fine-tuned on math, code, and logic-heavy benchmarks (e.g., AIME, Codeforces, MATH-500)[5][17].  </p><p>   - <strong>Self-improvement</strong>: Models like DeepSeek-R1-Zero demonstrate emergent behaviors such as self-verification and reflection during training[11][17].  </p><p>4. <strong>Efficiency-Optimized Design</strong>  </p><p>   - <strong>Mixture-of-Experts (MoE)</strong>: DeepSeek-R1 uses a 671B-parameter MoE architecture with only 37B active parameters per query, balancing performance and compute costs[1][4].  </p><p>   - <strong>Token optimization</strong>: Generate up to 32K intermediate tokens for complex reasoning while maintaining high throughput (e.g., 3,872 tokens/sec on NVIDIA H200)[1][4].  </p><p>5. <strong>Performance Benchmarks</strong>  </p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQE6yREg1v_x3Q" src="https://media.licdn.com/dms/image/v2/D4E12AQE6yREg1v_x3Q/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1738538109383?e=1779321600&amp;v=beta&amp;t=2SKYf9eOqsh4Z5jFAaQ5HP2JqGzdUpfQX5rlqcMM8A4"><figcaption></figcaption></figure><p>6. <strong>Transparency and Safety</strong>  </p><p>   - <strong>Visible reasoning traces</strong>: DeepSeek-R1 exposes full CoT steps via APIs for verification[14], while o1 provides legible safety monitoring through its internal reasoning logs[8].  </p><p>   - <strong>Cost-effectiveness</strong>: DeepSeek-R1 operates at <strong>15–50% of o1’s cost</strong> ($8 vs. $15–60 per million tokens)[4].  </p><p>---</p><p><strong>Shared Limitations and Debates</strong></p><p>- <strong>Emergent vs. engineered reasoning</strong>: While benchmarks show progress, some researchers argue these models perform "universal approximate retrieval" rather than true reasoning[3][9].  </p><p>- <strong>Output consistency</strong>: Early versions (e.g., DeepSeek-R1-Zero) struggled with repetition and language mixing until fine-tuned[7][11].  </p><p>These properties position reasoning models as specialized tools for technical domains, with architectures and training methodologies distinct from general-purpose LLMs like GPT-4 or Claude.</p><p>Citations:</p><p>[1] <a href="https://blogs.nvidia.com/blog/deepseek-r1-nim-microservice/" target="_blank">https://blogs.nvidia.com/blog/deepseek-r1-nim-microservice/</a></p><p>[2] <a href="https://encord.com/blog/openai-o1/" target="_blank">https://encord.com/blog/openai-o1/</a></p><p>[3] <a href="https://www.promptingguide.ai/research/llm-reasoning" target="_blank">https://www.promptingguide.ai/research/llm-reasoning</a></p><p>[4] <a href="https://fireworks.ai/blog/deepseek-r1-deepdive" target="_blank">https://fireworks.ai/blog/deepseek-r1-deepdive</a></p><p>[5] <a href="https://platform.openai.com/docs/guides/reasoning" target="_blank">https://platform.openai.com/docs/guides/reasoning</a></p><p>[6] <a href="https://www.digitalocean.com/community/tutorials/understanding-reasoning-in-llms" target="_blank">https://www.digitalocean.com/community/tutorials/understanding-reasoning-in-llms</a></p><p>[7] <a href="https://learn.microsoft.com/ko-kr/azure/ai-studio/how-to/deploy-models-deepseek" target="_blank">https://learn.microsoft.com/ko-kr/azure/ai-studio/how-to/deploy-models-deepseek</a></p><p>[8] <a href="https://www.techtarget.com/whatis/feature/OpenAI-o1-explained-Everything-you-need-to-know" target="_blank">https://www.techtarget.com/whatis/feature/OpenAI-o1-explained-Everything-you-need-to-know</a></p><p>[9] <a href="https://getstream.io/blog/reasoning-llms/" target="_blank">https://getstream.io/blog/reasoning-llms/</a></p><p>[10] <a href="https://community.openai.com/t/new-reasoning-models-openai-o1-preview-and-o1-mini/938081" target="_blank">https://community.openai.com/t/new-reasoning-models-openai-o1-preview-and-o1-mini/938081</a></p><p>[11] <a href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank">https://huggingface.co/deepseek-ai/DeepSeek-R1</a></p><p>[12] <a href="https://blog.paperspace.com/enhancing-reasoning-capabilities-of-large-language-models-a-graph-based-verification-approach/" target="_blank">https://blog.paperspace.com/enhancing-reasoning-capabilities-of-large-language-models-a-graph-based-verification-approach/</a></p><p>[13] <a href="https://www.datacamp.com/blog/open-ai-o1" target="_blank">https://www.datacamp.com/blog/open-ai-o1</a></p><p>[14] <a href="https://api-docs.deepseek.com/guides/reasoning_model" target="_blank">https://api-docs.deepseek.com/guides/reasoning_model</a></p><p>[15] <a href="https://toloka.ai/blog/reasoning-in-large-language-models-a-dive-into-nlp-logic/" target="_blank">https://toloka.ai/blog/reasoning-in-large-language-models-a-dive-into-nlp-logic/</a></p><p>[16] <a href="https://community.openai.com/t/new-reasoning-models-openai-o1-preview-and-o1-mini/938081/89" target="_blank">https://community.openai.com/t/new-reasoning-models-openai-o1-preview-and-o1-mini/938081/89</a></p><p>[17] <a href="https://arxiv.org/abs/2501.12948" target="_blank">https://arxiv.org/abs/2501.12948</a></p><p>[18] <a href="https://arxiv.org/html/2407.11511v1" target="_blank">https://arxiv.org/html/2407.11511v1</a></p><p>[19] <a href="https://www.reddit.com/r/MachineLearning/comments/1ff8f7v/d_openai_new_reasoning_model_called_o1/" target="_blank">https://www.reddit.com/r/MachineLearning/comments/1ff8f7v/d_openai_new_reasoning_model_called_o1/</a></p><p>[20] <a href="https://www.vellum.ai/blog/the-training-of-deepseek-r1-and-ways-to-use-it" target="_blank">https://www.vellum.ai/blog/the-training-of-deepseek-r1-and-ways-to-use-it</a></p><p></p></div>
+</body>
+</html>

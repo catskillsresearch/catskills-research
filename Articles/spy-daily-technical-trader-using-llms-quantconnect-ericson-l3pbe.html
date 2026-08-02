@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>A SPY daily technical trader using LLMs and QuantConnect</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQHCjd8ta1bZ1A" alt="" title="" />
+      <h1><a href="https://www.linkedin.com/pulse/spy-daily-technical-trader-using-llms-quantconnect-ericson-l3pbe">A SPY daily technical trader using LLMs and QuantConnect</a></h1>
+    <p class="created">Created on 2024-10-18 10:29</p>
+  <p class="published">Published on 2024-10-18 12:56</p>
+  <div><p><strong>Disclaimer:</strong> <em>The information provided in this article is for educational and informational purposes only. It should not be considered financial or investment advice. Trading and investing in financial markets involves substantial risk and may not be suitable for all investors.</em></p><p>This was an exercise I did for the <a href="https://www.linkedin.com/posts/society-of-quantitative-analysts_alphathon2024-csp-llms-activity-7250608628276105219-0eGG?utm_source=share&amp;utm_medium=member_desktop" target="_blank">SQA Alphathon 24</a>.  It was not a winner in the LLM category.  I had fun anyway! I want to share it with you.  It's just a thought experiment.  I have not traded this.   Results may vary.  Don't try this at home.</p><h2>Summary</h2><p>We assume a notional of $1B. Our daily trade happens at 9:31AM. We use LLMs and sentiment data to forecast 1 day forward prices based on prior day information. We use this as an insight to outperform the S&amp;P 500 by only timing buy and hold of SPY. For risk management we had a 1% stop loss reset daily. The strategy outperformed SPY by 11% in the 01JAN18-31DEC18 period with a 4.7% return and underperformed SPY by 8.4% in the 14JUN23-25SEP24 period but returned 24.9% anyway.  It is a drawdown-averse SPY play.</p><p>We use the <a href="https://www.tiingo.com/" target="_blank">Tiingo</a> news source for article fragments related to SPY. We use <a href="https://huggingface.co/ProsusAI/finbert" target="_blank">FinBert</a> to assign a weight to negative, neutral and positive sentiment for the prior day to the trade. We use <a href="https://github.com/amazon-science/chronos-forecasting" target="_blank">Chronos-T5</a> to forecast a mean 1D forward price for SPY. We use the default realistic margining Brokerage model in <a href="https://www.quantconnect.com/docs/v2/writing-algorithms/reality-modeling/key-concepts" target="_blank">QuantConnect</a>.</p><p>We compute indicators 14-day RSI, 20-day EMA and 5-day Momentum Percentage up to the day prior to the trade. We hand the sentiment scores, today’s price, Chronos-T5’s 1 day forward price and the indicators to <a href="https://openai.com/index/hello-gpt-4o/" target="_blank">OpenAI gpt-4o model</a> to get a revised forecast for SPY for tomorrow.</p><h2>Data Insights</h2><p>We are daily trading SPY: buy, hold or flatten.</p><p>We use an exponential moving average indicator over the 20 prior business days.</p><p>We consider the period 16MAY23 to 26SEP24. We take the log returns. The distribution of SPY log returns is visualized as follows:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQG4L7GHSB218A" src="https://media.licdn.com/dms/image/v2/D4E12AQG4L7GHSB218A/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1729251648863?e=1779321600&amp;v=beta&amp;t=79RTiTNju8rAwXBie6BKN6krz1e8CFtKd95i0eYCSeo"><figcaption></figcaption></figure><p>We can see that SPY log return is roughly normal centered slight above 0 so all things considered it is a bit more than 50% chance of an up-move. Hence for sentiment scores we might center a buy/sell signal slightly above the mean of the raw sentiment score.</p><p>We add as features for LLM input the RSI, EMA and Momentum Percent indicators. We see these together with SPY in the following display:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQEBZVlvhwcvGQ" src="https://media.licdn.com/dms/image/v2/D4E12AQEBZVlvhwcvGQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1729252217975?e=1779321600&amp;v=beta&amp;t=SHfqjIcwe4Q89cEX0s0u41PtSXn9euMtdzCe5Q8eGo8"><figcaption></figcaption></figure><h2>Methodology</h2><h3>Overall design and process flow</h3><p>The following display shows the overall design and process flow, with choices made:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQE0YqihPvnSCQ" src="https://media.licdn.com/dms/image/v2/D4E12AQE0YqihPvnSCQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1729252492712?e=1779321600&amp;v=beta&amp;t=YQ9EkZEqsZFYFDyogEIN4flr0oVFs_JLqaIsbFSHhlw"><figcaption>SPY daily LLM trader process flow</figcaption></figure><p>In coming up with design I considered choices for a variety of design elements:</p><ul><li><p><strong>News feed. </strong>Choices are Benzinga, Tiingo and AskNews, which is an off-QuantConnect (QC) choice I know about from another competition. I didn’t find any articles in Benzinga on QC. Tiingo gives fragments of articles. I elected to use Tiingo.</p></li><li><p><strong>Sentiment Analyzer. </strong>QC provides a bag of words sentiment analysis approach which uses a trailing cumulative sum score based on the prior 100 days of news, and Finbert. I could also have used OpenAI for sentiment analysis. I chose Finbert, applied to the prior day’s news for SPY.</p></li><li><p><strong>Time series forecaster (coarse). </strong>Alternatives Ire Chronos-T5 provided on QC and Kalman Filter.  I chose Chronos-T5.</p></li><li><p><strong>Observable</strong>. Price is intuitive but log return is stationary. There may be problems with Chronos-T5 and Kalman on non-positive quantities. I chose price, with the understanding that Chronos-T5 may do appropriate transformations under the hood either explainably by design or unexplainably as a consequence of training. I don’t retrain or fine tune Chronos-T5. That is a hyperparameter in itself: I chose not to fine-tune.</p></li><li><p><strong>Indicators</strong>. Organizers suggested adding indicators as features for training. I don’t train, but provide the indicators to ChatGPT. I use the suggested indicators, RSI, EMA and MOMP. There are many more that could be added, so that is a hyperparameter.</p></li><li><p><strong>Times series forecaster (refine).</strong> I use ChatGPT with sentiment, indicators and initial forecast to refine the forecast of next day price.</p></li><li><p><strong>Trader</strong>. The trading rule is that if tomorrow’s forecast price is greater than today’s, go long, otherwise flatten.</p></li></ul><p>To avoid performance issues in the backtest, for each backtest I pre-computed the FinBert, Chronos-T5 and OpenAI results and pasted those into the algo code for testing.  Here is what the QuantConnect backtest code looked like, with the paste-in shortened for display:</p><pre></pre><h3>FinBert</h3><p>We use FinBert to get a vector of negative, neutral and positive sentiment adding up to 1. We do not fine-tune FinBert for this exercise.   Here is the code to access FinBert on QuantConnect:</p><pre></pre><h3>Chronos-T5</h3><p>We use Chronos-T5 to forecast SPY one day ahead based on the prior 20 days of SPY.  The following display shows that the forecast anticipates SPY reasonably well:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQEXyLpAyY1GaQ" src="https://media.licdn.com/dms/image/v2/D4E12AQEXyLpAyY1GaQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1729253575941?e=1779321600&amp;v=beta&amp;t=yCVtZirol0f-B1dZew-_EH8x4C-UxXR47zi_LesoZhY"><figcaption>Chronos-T5 forecasting SPY</figcaption></figure><p>The code to access Chronos-T5 on QuantConnect is as follows:</p><pre></pre><h3>Indicators</h3><p>20-day Exponential Moving Average</p><pre></pre><p>5-day Momentum Percent</p><pre></pre><p>14-day Relative Strength Index</p><pre></pre><h2>OpenAI</h2><p>We ask GPT-4o to perform a forecasting prompt for each day, as in this example for 25SEP17:</p><pre></pre><p>The output of this prompt is a vector which we take the mean of to give a tomorrow estimate. For today’s trading decision, if today’s price is less than tomorrow estimate, we go long, otherwise we flatten to 0 position for the day.</p><p>OpenAI is capable of explaining it’s reasoning but we prompted it not to, because it generates a page of explanation per day which is not used in the algo and which no one will read. For example, deleting the last sentence of the above prompt gives us this forecast with explanation:</p><pre></pre><p>It is good to know that it is available. It is something that could be evaluated and cross-checked for correctness. That is beyond the scope of this exercise.</p><h3>Transaction cost model</h3><p>For backtesting we used the <a href="https://www.quantconnect.com/docs/v2/writing-algorithms/reality-modeling/brokerages/key-concepts" target="_blank">DefaultBrokerageModel</a> in QuantConnect. This model is used to simulate the rules and fee structures of a generic brokerage in backtesting and paper trading environments. It supports various features such as handling splits, order updates, and different time-in-force instructions. The model does not apply slippage in backtests or paper trading, and it fills market orders immediately and completely. The fee structure for different asset classes is predefined, and trades settle immediately with a margin account.</p><h2>Performance</h2><h3>In-sample performance</h3><p>The in sample period was 01JAN18 to 31DEC18. Statistics as follows:</p><ul><li><p>AUM: $1B</p></li><li><p>Strategy performance over the period: 4.72% return.</p></li><li><p>Adjusted SPY close 02JAN18: 240.80</p></li><li><p>Adjusted SPY close 31DEC18: 226.19</p></li><li><p>Change in adjusted close: -14.61</p></li><li><p>Benchmark SPY performance over the period: -6.46%</p></li><li><p>Performance improvement over benchmark: +11.18%</p></li><li><p>Orders: 267</p></li><li><p>Sharpe Ratio: 0.137</p></li><li><p>Calmar Ratio: 47.37</p></li><li><p>Net profit: $47.2MM</p></li><li><p>Fees: $5.13MM</p></li><li><p>Fees as % of net profit: 10.8%</p></li></ul><p>The following display shows the P&amp;L of the algo:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQF5q4fRvNXwqA" src="https://media.licdn.com/dms/image/v2/D4E12AQF5q4fRvNXwqA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1729255005521?e=1779321600&amp;v=beta&amp;t=FcBw4Haf2RTTYS8Rbt8j_vq_cB5wOKVeruA9FS6o5uo"><figcaption>Algo test 02JAN18-31DEC18</figcaption></figure><h3>Out of sample performance</h3><p>The out of sample period was 14JUN23 to 25SEP24. This sample was selected for Tiingo news data availability on the platform on the day of testing. Statistics as follows:</p><ul><li><p>AUM: $1B</p></li><li><p>Strategy performance over the period: 24.98% return</p></li><li><p>Adjusted SPY close 14JUN23: 428.24</p></li><li><p>Adjusted SPY close 24SEP24: 571.30</p></li><li><p>Change in adjusted close: 143.06</p></li><li><p>Benchmark SPY performance over the period: 33.4%</p></li><li><p>Performance improvement over benchmark: -8.42%</p></li><li><p>Orders: 306</p></li><li><p>Sharpe Ratio: 1.05</p></li><li><p>Calmar Ratio: 200.35</p></li><li><p>Net profit: $238MM</p></li><li><p>Fees: $2.747MM</p></li><li><p>Fees as % of net profit: 1.03%</p></li></ul><p>The following display shows the P&amp;L of the algo:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHk2ra6SsjErA" src="https://media.licdn.com/dms/image/v2/D4E12AQHk2ra6SsjErA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1729255123717?e=1779321600&amp;v=beta&amp;t=m8r_nF-MQ43QaLPgOenL0V2WUjlIn-t8tkCztHHEhgA"><figcaption>Algo test 14JUN23-24SEP24</figcaption></figure><h3>Comments</h3><p>This strategy muted losses in a down year and muted gains in an up year. Both down and up years were profitable. It might be a good strategy for someone who likes SPY but wants less downside risk.</p><h2>Conclusions</h2><h3>Relevance and novelty</h3><p>The relevance here is to kick the tires on three kinds of LLM application:</p><ul><li><p>Sentiment analysis (FinBert)</p></li><li><p>Univariate statistical time series forecasting (Chronos-T5)</p></li><li><p>“Human judgment” style time series forecasting with indicators (ChatGPT)</p></li></ul><p>Given an estimate of next day’s price we implement a simple long-only buy, hold or flatten strategy with a stop loss downside risk mitigator. There is nothing novel in the strategy. The novelty is in employing the above 3 distinctive LLM applications together to achieve a better forecasting result on tomorrow’s open.</p><h3>Soundness</h3><p>The hypothesis here is that the various LLM black boxes will prove better at their jobs than other methods. We look at just 2 sample periods.  So we can't really conclude anything about performance.  This experiment is appropriate just for testing the waters of using LLMs in algos.</p><p></p></div>
+</body>
+</html>

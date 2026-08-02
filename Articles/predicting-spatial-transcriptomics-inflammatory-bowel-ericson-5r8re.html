@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>Predicting the spatial transcriptomics of Inflammatory Bowel Disease</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQEqakwBf1GCSQ" alt="https://meta.ai/s/Zr8fNUVnBNAdBPUs/" title="https://meta.ai/s/Zr8fNUVnBNAdBPUs/" />
+      <h1><a href="https://www.linkedin.com/pulse/predicting-spatial-transcriptomics-inflammatory-bowel-ericson-5r8re">Predicting the spatial transcriptomics of Inflammatory Bowel Disease</a></h1>
+    <p class="created">Created on 2025-01-12 03:28</p>
+  <p class="published">Published on 2025-01-12 17:14</p>
+  <div><p>I am working on the <a href="https://hub.crunchdao.com/competitions/broad-1/" target="_blank">CrunchDAO Broad Institute Autoimmune Disease challenge, part 1, on Irritable Bowel Disease</a>.  These are some notes to help me think about the topic.</p><p>In part 1 we are given 7 tissue images from different patient cases where the diagnoses are Diverticulitis,</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQGmySPbRr8zNg" src="https://media.licdn.com/dms/image/v2/D4E12AQGmySPbRr8zNg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736696000630?e=1779321600&amp;v=beta&amp;t=JcJ6ZzeWpokJJsTw7p1vfLPBqwLy5ptmATbCBk0RXfc"><figcaption>Broad Institute</figcaption></figure><p> Ulcerative Colitis Not Inflamed,</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQG6jW2mJknklA" src="https://media.licdn.com/dms/image/v2/D4E12AQG6jW2mJknklA/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736696035156?e=1779321600&amp;v=beta&amp;t=0ekpms0WPozW0QaG-a3n7aX4nW0tiR07AYVrAHVUtEw"><figcaption>Broad Institute</figcaption></figure><p>and Ulcerative Colitis Inflamed</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHvSJ8qxlIatQ" src="https://media.licdn.com/dms/image/v2/D4E12AQHvSJ8qxlIatQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736696071531?e=1779321600&amp;v=beta&amp;t=LiAN-mSbJGYqq7NPA3wkEzkS3o7wklDrKiEWuP5DzSU"><figcaption>Broad Institute</figcaption></figure><p>The tissues are biopsied from the colon.  Each image depicts thousands of cells of various types.  The challenge uses the Scikit Image <a href="https://jni.github.io/i2k-skimage-napari/lectures/2_segmentation_and_regionprops.html" target="_blank">regionprops</a> function to locate the centroids of the cells.  We are given <a href="https://www.10xgenomics.com/spatial-transcriptomics?utm_medium=search&amp;utm_%5B%E2%80%A6%5DAR=&amp;usercampaignid=701VI00000I7ytIYAR&amp;gad_source=1" target="_blank">spatial transcriptomics</a> readouts of 460 genes at the locus of each of these centroids, for the 32x32x3 (RGB) patch at that locus. The part 1 task is to accurately predict the spatial transcriptomics of a given patch.  </p><figure data-type="nativeVideoFigure"><div data-type="nativeVideo"></div><figcaption>https://cdn.10xgenomics.com/video/upload/f_auto,q_auto/v1708963511/products/Xenium/Mosaic_update_platform_page.mp4</figcaption></figure><p>Although looking at these patches, center of what is not so clear, me not being a biologist, I don't know whether I am looking at one cell or part of a cell or many cells or what, but this is the setup for the challenge:</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHEtti1EZw_zg" src="https://media.licdn.com/dms/image/v2/D4E12AQHEtti1EZw_zg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736696228498?e=1779321600&amp;v=beta&amp;t=4lkHZEaWSL2DDI4U103U7b5Zkwum_C4R0Z11gb2cnKQ"><figcaption>Broad Institute</figcaption></figure><p>We are given a <a href="https://colab.research.google.com/github/crunchdao/quickstarters/blob/master/competitions/broad-1/quickstarters/resnet50-plus-ridge/resnet50-plus-ridge.ipynb" target="_blank">base model</a> to improve on which uses <a href="https://www.google.com/url?q=https%3A%2F%2Fhuggingface.co%2Ftimm%2Fresnet50.tv_in1k%2Ftree%2Fmain" target="_blank">Resnet50</a>'s 224x224 image encoder to  reduce the image to a feature vector in latent space which we hope encodes the necessary information to predict the gene expression.  (I still haven't figured out why 224x224 matches well with a 32x32x3 image, it's on my to-do list to worry about.)</p><p>Here is a <a href="https://scikit-learn.org/1.5/modules/generated/sklearn.manifold.TSNE.html" target="_blank">t-SNE</a> visualization of the feature vectors on a balanced set of test cases, embedded using the <a href="https://huggingface.co/timm/vit_base_patch16_224.augreg2_in21k_ft_in1k" target="_blank">vit_base_patch16_224.augreg2_in21k_ft_in1k model</a>, and differentiated by pathology:</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQGoEfuR4tL7pQ" src="https://media.licdn.com/dms/image/v2/D4E12AQGoEfuR4tL7pQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736697364174?e=1779321600&amp;v=beta&amp;t=lj1Xm9--iZolUjaXKNKcNQd3n83x87TzOJEoi_BzLaI"><figcaption>Lars Ericson</figcaption></figure><p>Here is a t-SNE visualization of the vectors of 460 gene expressions which are the spatial transcriptomics of a balanced set of test patch images, differentiated by pathology:</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQH7DtLQcl1Ntg" src="https://media.licdn.com/dms/image/v2/D4E12AQH7DtLQcl1Ntg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736697590395?e=1779321600&amp;v=beta&amp;t=PlVAqcmjgp_WsNjw4sX4_voeRycVifmzdJulTzgilV4"><figcaption>Lars Ericson</figcaption></figure><p>We speculate that the <a href="https://www.perplexity.ai/search/attached-is-an-image-with-the-NevUgGeCTo2zqfU6NVZHYw" target="_blank">islands correspond to distinct cell types or cell populations imaged in the patches</a>, so that different kinds of cells will naturally have different gene expression profiles. Within each cell type, we will for some but not all cell types see <a href="https://www.perplexity.ai/search/should-the-transcriptomics-of-H1SpV0gRRVq2.zJKB5IeFg" target="_blank">different gene expressions representing the pathology</a>.   I am told by challenge participant <a href="https://discord.com/channels/770586873260933120/1300597205220196402/1327891846105403393" target="_blank">Kalin</a> that the islands would be less fuzzy when corrected for the <a href="https://www.perplexity.ai/search/what-could-be-meant-by-batch-e-6wSymxg0SNyW8w4CzjCuxA" target="_blank">batch effect</a>.  Each cell image above is considered a batch, because it is broken down into a batch of patches for which the spatial transcriptomics analysis is run.  (So each transcriptomics analysis is a batch.)</p><p>The base model uses <a href="https://en.wikipedia.org/wiki/Ridge_regression" target="_blank">Ridge Regression</a> to map from feature vector to gene expression in the test data after fitting feature vectors to gene vectors in the training data.  It's that easy.  Except that the base model has a correlation of about 14% with the ground truth gene expression profiles.  To be improved on (100% is best).</p><p>In exploring this problem we replace the Ridge Regression with a <a href="https://en.wikipedia.org/wiki/Multilayer_perceptron" target="_blank">Multilayer Perceptron model</a> (MLP) as a regression model.  The model takes the embedding and predicts a gene expression.  We compare this with the ground truth gene expression.  Here is a t-SNE visualization of the difference for a model with just a little training (100 epochs):</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQH3bHFC_p0tiw" src="https://media.licdn.com/dms/image/v2/D4E12AQH3bHFC_p0tiw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736698071745?e=1779321600&amp;v=beta&amp;t=7rn2g4-gkabemeClADXa7A_Zq79z-o8229KVyBF0v3s"><figcaption>Lars Ericson</figcaption></figure><p>We wonder whether the MLP has the capacity to represent the mapping from embedding to transcriptomics.  To test this, we overfit the MLP to the test set and then run it on the test set. What we see is pretty good but not perfect capture of the mapping for 12,000 balance test samples.  We can define a loss function for this and then, from a representation standpoint, we would want to start with an embedding-to-transcriptomics model which achieves the least lossy representation.   The loss function is easy because there is a 1-1 mapping between predicted and ground truth points under the t-SNE mapping, so we can just take the Euclidean distance between each point and sum up the distances and that's the loss.</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQG12RyKMzVqPw" src="https://media.licdn.com/dms/image/v2/D4E12AQG12RyKMzVqPw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736698222082?e=1779321600&amp;v=beta&amp;t=l9WE-ZTeBjVoDGgS7HY2XYq7Tgqe1oahgMlIdI222e0"><figcaption>Lars Ericson</figcaption></figure><p>Of course, if the embedding is too coarse or lacking in sufficient features, we will not get there. So in addition to varying the regression model, we will also want to vary the embedding model, comparing Resnet, Densenet, ViT and so on. We could also look at features available from the regionprops function that was used to obtain the patch centroids. At least this was an idea I had to start with, but looking at the patches above, it is clear that each patch has multiple cells, so regionprops can't really give us salient dimensions of individual cells in the patch which might at least identify the cell type. A good embedding might actually do this, so tactically we drop the regionprops idea and will just search for better embeddings under the t-SNE loss metric idea.</p><p>We can also break down the above performance metric by pathology, to see whether the given embedding/regression pair performs better under t-SNE distance between prediction and ground truth for individual pathologies.  The following pictures tell the story of ViT overfitted on balanced test for this question.  Here is Diverticulitis:</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQFPaIT9MLOT6A" src="https://media.licdn.com/dms/image/v2/D4E12AQFPaIT9MLOT6A/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736698738438?e=1779321600&amp;v=beta&amp;t=xMCgVqNVMTdFh9jySj_iLNu84aY_Zz7yHIo9GPKkuJk"><figcaption>Lars Ericson</figcaption></figure><p>and Ulcerative Colitis - Not Inflamed:</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHiBDgaB-KKCg" src="https://media.licdn.com/dms/image/v2/D4E12AQHiBDgaB-KKCg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736699168134?e=1779321600&amp;v=beta&amp;t=5a8Kq-gKwiTwrAhVdPPMESPnEoNbrfc_oU16G47Z-oY"><figcaption>Lars Ericson</figcaption></figure><p>and Ulcerative Colitis - Inflamed:</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQGNnHT5o9rLgg" src="https://media.licdn.com/dms/image/v2/D4E12AQGNnHT5o9rLgg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736699113390?e=1779321600&amp;v=beta&amp;t=RZyKkA6WItQXk8sU_bPg6fiq2MPVo_eaQ6MdxuAi-yg"><figcaption>Lars Ericson</figcaption></figure><p>In all these cases we see pretty good overlap but lots of outliers, enough to justify a low correlation of 14%.</p><p>The way forward for me is to </p><ol><li><p>Find the most performant embedding and regression pair under the test set overfit t-SNE distance metric.</p></li><li><p>Find hyperparameters to optimize this pair under the t-SNE distance between ground truth and predicted gene expression for the test set.</p></li></ol><p>For example here is the result of applyingViT encoding with MLP regression on a balanced training set to train a model 5000 epochs, followed by application to a balanced test set.  We can see that the model "Needs Improvement":</p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQFfzhUQBug-kg" src="https://media.licdn.com/dms/image/v2/D4E12AQFfzhUQBug-kg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736702267947?e=1779321600&amp;v=beta&amp;t=I7x5mzdDmpf9ICbCD0G2dX3897PJkUWoC6w57qwPWYs"><figcaption>Lars Ericson</figcaption></figure><p>Here is the model performance sliced by diagnosis:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHI3qj-UmH1Ow" src="https://media.licdn.com/dms/image/v2/D4E12AQHI3qj-UmH1Ow/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736702315366?e=1779321600&amp;v=beta&amp;t=lyyJSDBLYyptig-nfx68I9AmhzBwjeoHk_tobyt4zoQ"><figcaption>Diverticulitis</figcaption></figure><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQE0XU4S65XFhA" src="https://media.licdn.com/dms/image/v2/D4E12AQE0XU4S65XFhA/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736702335646?e=1779321600&amp;v=beta&amp;t=yRGwB96vj74WxW35vd4K1sD_CEixTJCgW5QGaDXnaCw"><figcaption>Ulcerative Colitis - Not Inflamed</figcaption></figure><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQHhnkTP9l3V5Q" src="https://media.licdn.com/dms/image/v2/D4E12AQHhnkTP9l3V5Q/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1736702376028?e=1779321600&amp;v=beta&amp;t=YlCjouLflV1fVwzAsm5Te3LgwXjf5rG7ELxjcREihkY"><figcaption>Ulcerative Colitis - Inflamed</figcaption></figure><p>So that's my approach.  I will write another note if I win the Stage 1 challenge. </p></div>
+</body>
+</html>

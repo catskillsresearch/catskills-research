@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>What's a Tranium? (convo w/Perplexity.ai)</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQE12JhaU2-IVA" alt="https://meta.ai/s/1ZbrMdNdkyGv228x/" title="https://meta.ai/s/1ZbrMdNdkyGv228x/" />
+      <h1><a href="https://www.linkedin.com/pulse/whats-tranium-convo-wperplexityai-lars-warren-ericson-mlxoe">What's a Tranium? (convo w/Perplexity.ai)</a></h1>
+    <p class="created">Created on 2025-01-26 02:36</p>
+  <p class="published">Published on 2025-01-26 04:07</p>
+  <div><p>Trainium 1's are an option on <a href="http://Lightning.AI" target="_blank">Lightning.AI</a>, like TPU's are an option on Google CoLab.  Code changes are required to use them. Is it worth it?  Conversation with Perplexity.AI.</p><h3>How do I use a Tranium 2 with existing CUDA-focused PyTorch code?</h3><p>To use Trainium 2 (Trn2) with existing CUDA-focused PyTorch code, you'll need to make some adjustments to your workflow. Trainium is designed to speed up model training and reduce costs, but it requires a different approach compared to CUDA-based GPU training. Here's how you can adapt your existing PyTorch code for Trainium 2:</p><p><strong>Environment Setup</strong></p><p>1. <strong>Use the correct instance</strong>: Ensure you're using a Trn2 instance on AWS, which is equipped with AWS Trainium chips[4].</p><p>2. <strong>Install PyTorch NeuronX</strong>: This is a specialized version of PyTorch optimized for Trainium[4].</p><p><strong>Code Modifications</strong></p><p><em>Device Selection</em></p><p>Replace CUDA device selection with XLA device:</p><pre></pre><p><em>Model and Tensor Operations</em></p><p>Move your model and tensors to the XLA device:</p><pre></pre><p>To move tensors back to CPU:</p><pre></pre><p><em>Training Loop</em></p><p>At the end of each training step, add a  call:</p><pre></pre><p>This is crucial for compiling and executing the training step on Trainium[4].</p><p><em>Distributed Training</em></p><p>For distributed training on multiple Trainium chips, you'll need to use the Neuron distributed training library[2].</p><p><strong>Performance Considerations</strong></p><p>- Trainium 2 has 8 NeuronCores per accelerator, with a default of 4 Logical NeuronCores[4].</p><p>- Each process is typically mapped to one Logical NeuronCore[4].</p><p><strong>Compatibility and Fallback</strong></p><p>To maintain compatibility with both Trainium and CUDA setups, you can use environment variables:</p><pre></pre><p>This allows your code to run on CPU or GPU when XLA is disabled[4].</p><p><strong>Additional Resources</strong></p><p>- For a complete example, refer to the "Single-worker MLP training on Trainium" tutorial mentioned in the AWS Neuron documentation[4].</p><p>- Familiarize yourself with the PyTorch Neuron programming guide for more detailed information on optimizing your code for Trainium[4].</p><p>By following these steps, you can adapt your existing CUDA-focused PyTorch code to work with Trainium 2, taking advantage of its specialized architecture for machine learning training tasks.</p><p>Citations:</p><p>[1] <a href="https://discuss.pytorch.org/t/want-to-install-pytorch-for-custom-cuda-version-cuda-11-2/141159" target="_blank">https://discuss.pytorch.org/t/want-to-install-pytorch-for-custom-cuda-version-cuda-11-2/141159</a></p><p>[2] <a href="https://aws.amazon.com/blogs/machine-learning/simple-guide-to-training-llama-2-with-aws-trainium-on-amazon-sagemaker/" target="_blank">https://aws.amazon.com/blogs/machine-learning/simple-guide-to-training-llama-2-with-aws-trainium-on-amazon-sagemaker/</a></p><p>[3] <a href="https://stackoverflow.com/questions/77062478/how-to-get-pytorch-2-0-on-amazon-ec2-g5g-instances-to-detect-cuda" target="_blank">https://stackoverflow.com/questions/77062478/how-to-get-pytorch-2-0-on-amazon-ec2-g5g-instances-to-detect-cuda</a></p><p>[4] <a href="https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/torch-neuronx/programming-guide/training/pytorch-neuron-programming-guide.html" target="_blank">https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/torch-neuronx/programming-guide/training/pytorch-neuron-programming-guide.html</a></p><p>[5] <a href="https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/index.html" target="_blank">https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/index.html</a></p><p>[6] <a href="https://pytorch.org/docs/2.6/notes/cuda.html" target="_blank">https://pytorch.org/docs/2.6/notes/cuda.html</a></p><p>[7] <a href="https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-pytorch.html" target="_blank">https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-pytorch.html</a></p><p>[8] <a href="https://www.youtube.com/watch?v=jGdPeyOjPK8" target="_blank">https://www.youtube.com/watch?v=jGdPeyOjPK8</a></p><h3>Lightning.AI rents a T4 with 16GB of VRAM and 65 TFLOPS for P  = $0.68/hour, an L4 with 24GB of VRAM and 121 TFLOPS for $0.70/hour, an L40S with 48GB of VRAM and 362 TFLOPS for $1.80/hour, and a Tranium 1 with 2 cores and 32GB of VRAM with 213 TFLOPs for $2.54.  Please make a table of these specs and add a column which some unified price/performance measure.  Add a column for C = TFLOPS * VRAM and a column for Q = P/C.  Make this the first column, and sort in descending order by Q.</h3><p>Here's a table of the GPU specifications provided by <a href="http://Lightning.AI" target="_blank">Lightning.AI</a>, sorted in descending order by the unified price/performance measure Q:</p><p></p><figure><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQER3tywFpceSg" src="https://media.licdn.com/dms/image/v2/D4E12AQER3tywFpceSg/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1737861979302?e=1778716800&amp;v=beta&amp;t=L46FHZ_W96Lsv_O3P3HTjTwNrVG3ljZjpjW32i6xpdQ"><figcaption><a href="http://Lightning.AI" target="_blank">Lightning.AI</a> prices vs gadget performance</figcaption></figure><p>To calculate the unified price/performance measure, we used the formula Q = P/C, where:</p><p>- P is the price per hour</p><p>- C is TFLOPS * VRAM (as requested)</p><p>- Q represents the cost per unit of combined performance and memory</p><p>A lower Q value indicates better price/performance efficiency. Based on this metric, the L40S offers the best value, closely followed by the L4. The Tranium 1, despite its high TFLOPS and VRAM, has the highest Q value, indicating it's the least cost-effective option in this comparison.</p><p>Citations:</p><p>[1] <a href="https://forums.tomshardware.com/threads/how-to-calculate-performance-per-dollar-and-how-to-know-if-the-price-is-right.2821530/" target="_blank">https://forums.tomshardware.com/threads/how-to-calculate-performance-per-dollar-and-how-to-know-if-the-price-is-right.2821530/</a></p><p>[2] <a href="https://epoch.ai/blog/trends-in-gpu-price-performance" target="_blank">https://epoch.ai/blog/trends-in-gpu-price-performance</a></p><p>[3] <a href="https://calculator.academy/price-per-performance-calculator/" target="_blank">https://calculator.academy/price-per-performance-calculator/</a></p><p>[4] <a href="https://computercity.com/hardware/video-cards/fps-per-dollar-calculator-for-video-cards" target="_blank">https://computercity.com/hardware/video-cards/fps-per-dollar-calculator-for-video-cards</a></p><p>[5] <a href="https://www.reddit.com/r/pcmasterrace/comments/8ipu5p/how_do_i_properly_calculate_the_performance_per/" target="_blank">https://www.reddit.com/r/pcmasterrace/comments/8ipu5p/how_do_i_properly_calculate_the_performance_per/</a></p><p>[6] <a href="https://linustechtips.com/topic/356050-how-to-calculate-price-to-performance-ratio/" target="_blank">https://linustechtips.com/topic/356050-how-to-calculate-price-to-performance-ratio/</a></p><p>[7] <a href="https://www.videocardbenchmark.net/gpu_value.html" target="_blank">https://www.videocardbenchmark.net/gpu_value.html</a></p><p>[8] <a href="https://www.baseten.co/blog/llm-transformer-inference-guide/" target="_blank">https://www.baseten.co/blog/llm-transformer-inference-guide/</a></p><h3>Why would anybody pick the Tranium?</h3><p></p><figure><a href="https://meta.ai/s/2NiYABMv19yGv9hU/" target="_blank"><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQEKegsLb1Kopw" src="https://media.licdn.com/dms/image/v2/D4E12AQEKegsLb1Kopw/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1737864265721?e=1778716800&amp;v=beta&amp;t=Qf-4l6fPQlYcqeCA2W9JA4a73oZbHMXEQDxkCmDREgQ"></a><figcaption></figcaption></figure><p>There are several compelling reasons to choose AWS Trainium for machine learning workloads:</p><p>1. Cost-effectiveness: Trainium offers up to 50% cost-to-train savings compared to other comparable Amazon EC2 instances[1][2]. This makes it an attractive option for businesses of all sizes looking to reduce their AI training costs[3].</p><p>2. High performance: Trainium is purpose-built for high-performance deep learning training, especially for large language models (LLMs) and generative AI[1]. It can reduce training times from months to weeks or even days, allowing faster iteration and increased productivity[1].</p><p>3. Energy efficiency: Trainium is reported to be 25% more energy-efficient for deep learning training compared to other accelerated computing EC2 instances, appealing to sustainability-conscious businesses[3].</p><p>4. Specialized hardware: Trainium chips feature two second-generation NeuronCores, 32 GB of high-bandwidth memory per chip, and NeuronLink for ultra-high-speed intra-instance interconnect[4]. This architecture is optimized for training state-of-the-art models used in various applications.</p><p>5. Flexibility and future-proofing: Trainium supports a wide range of data types and has hardware optimizations for dynamic input shapes and custom operators, making it adaptable to evolving deep learning models[1].</p><p>6. Native framework support: Trainium offers native support for popular machine learning frameworks like PyTorch and JAX, making it easier for developers to get started with minimal code changes[5].</p><p>7. Scalability: Trainium-based instances can be deployed in Amazon EC2 UltraClusters, consisting of tens of thousands of Trainium accelerators, enabling the training of complex models with trillions of parameters[2].</p><p>These features make Trainium a strong choice for organizations looking to optimize their machine learning training processes, especially for large-scale, complex models in areas such as natural language processing, computer vision, and generative AI.</p><p>Citations:</p><p>[1] <a href="https://aws.amazon.com/ec2/instance-types/trn1/" target="_blank">https://aws.amazon.com/ec2/instance-types/trn1/</a></p><p>[2] <a href="https://press.aboutamazon.com/2022/10/aws-announces-general-availability-of-amazon-ec2-trn1-instances-powered-by-aws-designed-trainium-chips" target="_blank">https://press.aboutamazon.com/2022/10/aws-announces-general-availability-of-amazon-ec2-trn1-instances-powered-by-aws-designed-trainium-chips</a></p><p>[3] <a href="https://www.techtarget.com/searchcloudcomputing/tip/Selecting-an-AWS-EC2-instance-for-machine-learning-workloads" target="_blank">https://www.techtarget.com/searchcloudcomputing/tip/Selecting-an-AWS-EC2-instance-for-machine-learning-workloads</a></p><p>[4] <a href="https://www.youtube.com/watch?v=F0FFKnGG8c4" target="_blank">https://www.youtube.com/watch?v=F0FFKnGG8c4</a></p><p>[5] <a href="https://aws.amazon.com/ai/machine-learning/trainium/" target="_blank">https://aws.amazon.com/ai/machine-learning/trainium/</a></p><p>[6] <a href="https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/trainium.html" target="_blank">https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/trainium.html</a></p><p>[7] <a href="https://www.aboutamazon.com/news/aws/amazon-trainium-investment-university-ai-research" target="_blank">https://www.aboutamazon.com/news/aws/amazon-trainium-investment-university-ai-research</a></p><p>[8] <a href="https://d1.awsstatic.com/events/Summits/reinvent2022/CMP313_Accelerate-deep-learning-and-innovate-faster-with-AWS-Trainium.pdf" target="_blank">https://d1.awsstatic.com/events/Summits/reinvent2022/CMP313_Accelerate-deep-learning-and-innovate-faster-with-AWS-Trainium.pdf</a></p><h3>According to the above metrics, this is not true.</h3><figure><a href="https://meta.ai/s/P8jezgeVr81ApVqc/" target="_blank"><img data-media-urn="urn:li:digitalmediaAsset:D4E12AQEVWCd8uFbnJQ" src="https://media.licdn.com/dms/image/v2/D4E12AQEVWCd8uFbnJQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1737864406115?e=1778716800&amp;v=beta&amp;t=RY54ABLh2D_ewTKDH1bjWCj4DHf8VIVNyAv-n397E1g"></a><figcaption></figcaption></figure><p>You're absolutely right, and I apologize for my previous response which was not based on the data you provided. Let me correct this and provide a more accurate analysis based on the metrics you've given:</p><p>According to the metrics in the table, the Trainium 1 does indeed appear to be the least cost-effective option:</p><p>1. It has the highest Q value (0.000745), which represents the cost per unit of combined performance and memory. A higher Q value indicates worse price/performance efficiency.</p><p>2. Its price per hour ($2.54) is significantly higher than the other options, while not offering proportionally better performance or memory.</p><p>3. The L40S, for example, offers higher TFLOPS (362 vs 213) and more VRAM (48GB vs 32GB) at a lower hourly cost ($1.80 vs $2.54).</p><p>Given these metrics, there doesn't seem to be a clear advantage to choosing the Trainium 1 over the other options presented. The data suggests that the L40S or L4 would be more cost-effective choices for most use cases.</p><p>Thank you for pointing out this discrepancy. It's a reminder of the importance of critically analyzing data rather than relying on general claims or assumptions about hardware performance.</p><p></p></div>
+</body>
+</html>

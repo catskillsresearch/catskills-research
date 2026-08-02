@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>The DARPA Distributed Sensor Network (DSN) Project and Its Successors</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD4E12AQGgrQAT4Qf4Pg" alt="https://people.eecs.berkeley.edu/~culler/AIIT/papers/historical/Lacoss%20DSN%201986.pdf" title="https://people.eecs.berkeley.edu/~culler/AIIT/papers/historical/Lacoss%20DSN%201986.pdf" />
+      <h1><a href="https://www.linkedin.com/pulse/darpa-distributed-sensor-networks-dsn-project-its-lars-warren-ericson-obfxe">The DARPA Distributed Sensor Network (DSN) Project and Its Successors</a></h1>
+    <p class="created">Created on 2026-04-26 21:46</p>
+  <p class="published">Published on 2026-04-26 22:02</p>
+  <div><p>The Distributed Sensor Networks (DSN) program, initiated by the Defense Advanced Research Projects Agency (DARPA) in 1978, was an impactful foundational project in computer science and engineering. The specific hardware testbeds and early software languages developed during the project eventually fell into disuse as computing power and networking hardware advanced. However, the project was not supplanted by a different paradigm. Instead, the core methodology—integrating spatially distributed sensors, communication networks, and distributed processing—survived and evolved. It serves as the direct predecessor to modern Wireless Sensor Networks (WSN), the Smart Dust initiative, and the Internet of Things (IoT).</p><p><strong>Project Origins: CMU and Lincoln Laboratory (1978–1986)</strong> The DSN program was established to explore the integration of computer communication networks, sensors, and artificial intelligence for surveillance and tracking. The effort was divided among multiple research institutions, with Carnegie Mellon University (CMU) and MIT Lincoln Laboratory playing primary roles.</p><ul><li><p><strong>Carnegie Mellon University (CMU):</strong> CMU focused on the software, distributed processing, and artificial intelligence components. CMU hosted the inaugural DSN workshop in 1978. Researchers at CMU developed software architectures to support the network, including DPL-82, a language designed to compose programs of concurrently executing processes distributed over a network of machines.  They built a soundproof room with microphones hung from the ceiling to track the locations of model vehicles using the developed software.</p></li><li><p><strong>MIT Lincoln Laboratory:</strong> Lincoln Laboratory developed the physical testbed and the signal processing algorithms. They deployed multiple spatially distributed acoustic arrays and television cameras to track low-flying aircraft, such as UH-1 helicopters. The laboratory developed the distributed tracking algorithms required to calculate target positions using decentralized data.</p></li></ul><p><strong>Direct Successor Systems</strong> The DSN program concluded in the mid-1980s, but its architectural concepts were transitioned into subsequent DARPA programs and commercial technologies:</p><ol><li><p><strong>SensIT and Smart Dust (Late 1990s–2000s):</strong> As microelectromechanical systems (MEMS) matured, DARPA initiated the Sensor Information Technology (SensIT) program to miniaturize the DSN concept. This funded the "Smart Dust" project at the University of California, Berkeley, which reduced autonomous sensor nodes (motes) to the millimeter scale.</p></li><li><p><strong>Wireless Sensor Networks (WSN) (2000s–Present):</strong> The acoustic tracking and distributed node concepts pioneered at Lincoln Labs evolved into modern WSNs. These networks are currently used for structural health monitoring, environmental tracking, and military unattended ground sensors (UGS).</p></li><li><p><strong>Internet of Things (IoT):</strong> The fundamental problem addressed by the DSN program—managing decentralized nodes that sense, process, and communicate data—forms the architectural basis of the modern IoT ecosystem.</p></li></ol><p><strong>Observable Citation Lineage (1978–Present)</strong> The following chronological sequence of publications demonstrates the academic and technical lineage from the original DSN program to modern sensor network applications.</p><ul><li><p><strong>[CMU1978]</strong> <em>Proceedings of a Workshop on Distributed Sensor Nets.</em> (1978). Carnegie-Mellon University / DARPA. (DTIC: ADA143691). Establishes the initial framework and identifies the required technology components for distributed sensor networks.</p></li><li><p><strong>[Lincoln1982]</strong> <em>Distributed Sensor Networks Semiannual Technical Summary.</em> (1982). MIT Lincoln Laboratory. (DTIC: ADA118868). Details the acoustic tracking testbed, data-collection experiments, and distributed tracking algorithms.</p></li><li><p><strong>[Ericson1982]</strong> Ericson, L. W. (1982). <em>DPL-82: A Language for Distributed Processing.</em> Carnegie-Mellon University. (DTIC: ADA120122). Documents the software architecture developed to manage concurrently executing processes across the DSN.</p></li><li><p><strong>[Lincoln1986]</strong> <em>Distributed Sensor Networks.</em> (1986). MIT Lincoln Laboratory. Final Report ESD-TR-88-175. Concludes the DARPA DSN program and summarizes the distributed tracking results. <a href="https://people.eecs.berkeley.edu/~culler/AIIT/papers/historical/Lacoss%20DSN%201986.pdf" target="_blank">https://people.eecs.berkeley.edu/~culler/AIIT/papers/historical/Lacoss%20DSN%201986.pdf</a></p></li><li><p><strong>[Pister1999]</strong> Kahn, J. M., Katz, R. H., &amp; Pister, K. S. J. (1999). <em>Next century challenges: mobile networking for "Smart Dust".</em> Proceedings of the 5th annual ACM/IEEE international conference on Mobile computing and networking. Transitions the DSN concepts to the MEMS scale under DARPA sponsorship.</p></li><li><p><strong>[Chong2003]</strong> Chong, C. Y., &amp; Kumar, S. P. (2003). <em>Sensor Networks: Evolution, Opportunities, and Challenges.</em> Proceedings of the IEEE. Explicitly traces the history of the field from the 1978 DARPA DSN program and the 1986 Lincoln Lab report to the SensIT program and modern WSNs.</p></li><li><p><strong>[Mahgoub2006]</strong> Ilyas, M., &amp; Mahgoub, I. (Eds.). (2006). <em>Smart Dust: Sensor Network Applications, Architecture, and Design.</em> CRC Press. Formalizes the transition of DSN and Smart Dust into commercial and academic WSN architectures.</p></li><li><p><strong>[Recent2023]</strong> Modern literature continues to cite this lineage. Contemporary surveys on WSN routing protocols and IoT architectures routinely reference the DARPA DSN program and the subsequent SensIT/Smart Dust initiatives as the genesis of distributed node computing.</p></li></ul></div>
+</body>
+</html>

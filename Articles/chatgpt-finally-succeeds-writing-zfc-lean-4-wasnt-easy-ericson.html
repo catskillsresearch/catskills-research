@@ -1,0 +1,147 @@
+<html>
+<head>
+  <title>ChatGPT finally succeeds in writing ZFC in Lean 4, but it wasn't easy</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 744px;
+      font-family: Source Serif Pro, serif;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 21px;
+    }
+    h1, h2, h3 {
+      font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+    }
+    h1 a, h1 a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 {
+      line-height: 48px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 42px;
+      margin: 32px 0 20px;
+    }
+    h2 {
+      line-height: 32px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 26px;
+      margin: 28px 0;
+    }
+    h3 {
+      line-height: 28px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 21px;
+      margin: 24px 0;
+    }
+    p {
+      margin: 32px 0;
+    }
+    .created, .published {
+      color: rgba(0, 0, 0, 0.55);
+      font-size: 15px;
+      line-height: 15px;
+      margin: 20px 0;
+    }
+    .created + .published {
+      margin-top: -12px;
+    }
+    blockquote {
+      font-family: Georgia, Source Serif Pro, serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 48px 120px;
+      text-align: center;
+    }
+    a {
+      word-wrap: break-word;
+      outline: none;
+      text-decoration: none;
+      background-color: transparent;
+      border: 0;
+      color: #008CC9;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #8C68CB;
+    }
+    .center {
+      text-align: center;
+    }
+    iframe {
+      display: block;
+      margin: 44px auto;
+    }
+    *:not(pre) + pre, pre:first-of-type {
+      margin-top: 32px;
+      padding-top: 32px;
+    }
+    pre:only-of-type {
+      margin: 32px 0;
+      padding: 32px;
+    }
+    pre {
+      background: #F3F6F8;
+      overflow-x: auto;
+      display: block;
+      font-size: 13px;
+      font-family: monospace;
+      line-height: 13px;
+      padding: 0 32px 32px;
+      white-space: pre;
+    }
+    a.embedded {
+      background: #F3F6F8;
+      display: block;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+    .slate-image-embed__resize-full-width img {
+      width: 100%;
+    }
+    .series-logo {
+      width: 48px;
+      height: 48px;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 4px solid transparent;
+      border-radius: 6px;
+      object-fit: scale-down;
+      float: left;
+    }
+    .series-title {
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+    .series-description {
+      color: rgba(0,0,0,.6);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    div {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+    <img src="https://media.licdn.com/mediaD5612AQE_sebVPvO6rA" alt="" title="" />
+      <h1><a href="https://www.linkedin.com/pulse/chatgpt-finally-succeeds-writing-zfc-lean-4-wasnt-easy-ericson">ChatGPT finally succeeds in writing ZFC in Lean 4, but it wasn't easy</a></h1>
+    <p class="created">Created on 2023-05-03 21:19</p>
+  <p class="published">Published on 2023-05-03 22:13</p>
+  <div><p><strong>Me:</strong> What are the major differences, syntactical or otherwise, between Lean 3 and Lean 4?</p><p><strong>ChatGPT:</strong></p><p>There are several major differences between Lean 3 and Lean 4, both syntactic and semantic. Here are some of the most significant differences:</p><ol><li>Syntax: The syntax of Lean 4 has been redesigned to be more consistent and easier to read. The notation for defining functions, for example, has been changed to use the <strong>def</strong> keyword instead of <strong>definition</strong> or <strong>theorem</strong>.</li><li>Type system: Lean 4 has a more expressive type system than Lean 3. It features a dependent type system, which allows for more precise types that can depend on values. Additionally, the system supports type classes, which allow for overloading of functions based on the types of their arguments.</li><li>Metaprogramming: Lean 4 introduces a new, more powerful metaprogramming system based on tactics. This allows for more advanced automation and proof search.</li><li>Libraries: Lean 4 has a new standard library that is designed to be more modular and extensible than the one in Lean 3. Additionally, many of the standard tactics and functions have been redesigned or renamed to be more consistent and easier to use.</li><li>Compiler: Lean 4 uses a new, faster and more efficient compiler than Lean 3. The new compiler is designed to be more incremental and interactive, which makes it easier to work with.</li></ol><p>Overall, Lean 4 represents a significant improvement over Lean 3 in many ways. While there is some backward compatibility between the two versions, it may take some effort to migrate code from Lean 3 to Lean 4.</p><p><strong>Me:</strong> Will you be able to write code which is specific to Lean 4 as opposed to Lean 3?</p><p><strong>ChatGPT:  </strong>Yes, as an AI language model, I can generate code that is specific to Lean 4, as opposed to Lean 3. However, there are some syntactic and semantic differences between the two versions, so the code that I generate may not be directly compatible with Lean 3.</p><p>If you provide me with a specific task or problem that you want to solve in Lean 4, I can generate code that is tailored to that task. However, it is worth noting that the best approach for a given problem may depend on the specific details of the problem, so the generated code may not always be the most efficient or elegant solution.</p><p><strong>Me: </strong>Please state the axioms for ZFC in Lean 4.  The code should be complete in the sense that it will check in Lean 4 with no issues.  There should be no "import" statements.</p><p><strong>ChatGPT: </strong> Certainly! Here is an example code snippet that defines the axioms of ZFC (Zermelo-Fraenkel set theory with the Axiom of Choice) in Lean 4 without any import statements:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQGXoYxzTaITJA" src="https://media.licdn.com/dms/image/v2/D5612AQGXoYxzTaITJA/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150090481?e=1779321600&amp;v=beta&amp;t=b8AehbG7nkWVP8JtD8KZkyIpIVa2mQnZmcb0r0SMa0M"></figure><p><strong>Me:</strong> "constant" is not a keyword in Lean 4.   Your code will not run.</p><p><strong>ChatGPT:  </strong>I apologize for the mistake in my previous response. In Lean 4, the <strong>constant</strong> keyword has been replaced with <strong>axiom</strong> for defining axioms and <strong>def</strong> for defining constants. Here is the corrected code snippet defining the axioms of ZFC in Lean 4:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQEadjakqcFeFA" src="https://media.licdn.com/dms/image/v2/D5612AQEadjakqcFeFA/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150194005?e=1779321600&amp;v=beta&amp;t=oD18NwAHFxJm-p5dag8Rfv8PcK0QWQtsYmt95OGWYis"></figure><p><strong>Me:</strong> This doesn't work.  The expression "x ∈ a" in line 11 gives the error "failed to synthesize instance Membership ?m.16 Set".</p><p><strong>ChatGPT:</strong> I apologize for the confusion. In Lean 4, we need to define the <strong>Membership</strong> relation between a set and an element explicitly using the <strong>Relation</strong> command. Here is the corrected code snippet:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQGWTBVq-l4CgQ" src="https://media.licdn.com/dms/image/v2/D5612AQGWTBVq-l4CgQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1683150391885?e=1779321600&amp;v=beta&amp;t=PQE2XrqTVXCw_fmspUgcpt5hu4Rrk66F8O5lE4C2uXM"></figure><p><strong>Me:</strong> Line 5 fails with "'Membership' has already been declared".</p><p><strong>ChatGPT: </strong>I apologize for the confusion. The issue is that the <strong>Membership</strong> relation is already defined in Lean's standard library. To avoid conflicts with the existing definition, we can use a different name for our relation. Here is the corrected code snippet:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQE9bTS1ODo5Ow" src="https://media.licdn.com/dms/image/v2/D5612AQE9bTS1ODo5Ow/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150515918?e=1779321600&amp;v=beta&amp;t=UeyA5sh1iPoygykBR7rNrehSiReDIovxnSO5M2Kmu6c"></figure><p><strong>Me: </strong>Line 15 fails with "expected ',' " for "∃ b ∈ a" at the "∈" sign.</p><p><strong>ChatGPT:  </strong>I apologize for the mistake. In Lean 4, we need to use the <strong>Set</strong> type to define the type of the elements in the <strong>∈</strong> relation. Here is the corrected code snippet:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQFuTcgPE0KWIg" src="https://media.licdn.com/dms/image/v2/D5612AQFuTcgPE0KWIg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150591767?e=1779321600&amp;v=beta&amp;t=cKGIWLFLXWKdw8zxjMuvtg0a3_KmEooRlvYHMcrZ58Q"></figure><p><strong>Me: </strong>I get the error "expected ','" on line 15 on the second use of the "" symbol, in subexpression "∀ x ∈ b".</p><p><strong>ChatGPT: </strong>I apologize for the mistake. In Lean 4, we need to use the <strong>Set</strong> type to define the type of the elements in the <strong>∈</strong> relation, and we also need to use the <strong>∧</strong> symbol to denote conjunctions. Here is the corrected code snippet:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQEJ07ohCV0Kqw" src="https://media.licdn.com/dms/image/v2/D5612AQEJ07ohCV0Kqw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150683767?e=1779321600&amp;v=beta&amp;t=vwVWJbmQi3M8jBPrIxjq1MNdDI5vD_FUsrLFzKAJdQ8"></figure><p><strong>Me: </strong>There is an error line on line 21 in the 2nd use of "∈" in subexpression "∃ y ∈ a".</p><p><strong>ChatGPT:  </strong>I apologize for the mistake. The error is caused by a syntax issue in Lean 4. We need to use the <strong>Set</strong> type to define the type of the elements in the <strong>∈</strong> relation. Here is the corrected code snippet:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQEr90dgtx1Ofw" src="https://media.licdn.com/dms/image/v2/D5612AQEr90dgtx1Ofw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150774726?e=1779321600&amp;v=beta&amp;t=VIa0B_q9hH0JTvJfRZze6MX4C022fuxGbpatPf2G35o"></figure><p><strong>Me: </strong>That is the same piece of code you gave me before.  It still has a problem with the "∈" in the existential quantifier in this line:</p><p>"""</p><p>axiom union : ∀ a : Set, ∃ b : Set, ∀ x, x ∈ b ↔ ∃ y ∈ a, x ∈ y</p><p>"""</p><p>Please give me a solution for this problem.  It should be different from all prior solutions that you gave me.</p><p><strong>ChatGPT:  </strong>I apologize for my mistake. Here is the corrected code with the fix for the issue you encountered:</p><figure class="slate-resizable-image-embed slate-image-embed__resize-full-width"><img alt="No alt text provided for this image" data-media-urn="urn:li:digitalmediaAsset:D5612AQHNPLZBv7FC4g" src="https://media.licdn.com/dms/image/v2/D5612AQHNPLZBv7FC4g/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1683150876867?e=1779321600&amp;v=beta&amp;t=IMMAZhUclTMhqEhwF6vtkWnRVpDYRHl488oHvHH-w_M"></figure><p>In the <strong>union</strong> axiom, we need to put the "such that" condition inside the existential quantifier by introducing a new variable <strong>y</strong> and writing <strong>∃ y, y ∈ a ∧ x ∈ y</strong> instead of <strong>∃ y ∈ a, x ∈ y</strong>. Similarly, in the <strong>power_set</strong> axiom, we need to change <strong>∀ y ∈ x, y ∈ a</strong> to <strong>∀ y, y ∈ x → y ∈ a</strong>. With these changes, the code should work correctly.</p><p><strong>Me:</strong> This code works, thank you!  Can you explain why it took you multiple tries to generate the correct response?</p><p><strong>ChatGPT:  </strong>I apologize for the errors in my previous attempts to provide the code for the axioms of ZFC in Lean 4. As a language model, I generate responses based on my training data and algorithms. In this case, I was not able to produce the correct code for the ZFC axioms in one attempt, and it took me multiple tries to generate the correct response.</p><p>There could be several reasons why I made errors in my initial responses. One possibility is that I may have made a mistake while translating the ZFC axioms from natural language to the Lean 4 language. Another possibility is that there may have been some syntax errors in the code that I wrote. Finally, it is also possible that there were some errors in my understanding of the requirements or constraints of the question.</p><p>Regardless of the cause, I strive to provide accurate and helpful responses to the best of my ability, and I will continue to improve my performance and accuracy over time. Thank you for your patience and understanding.</p><p><em>Side note:</em> Microsoft is upping it's game here.  They sponsor Lean, which runs in VS Code, a Microsoft product. I did this on a Windows PC.  I am posting this on LinkedIn, which is owned by Microsoft. The image at the top was generated by Bing Image Creator with prompt "<strong>blond beardless programmer with glasses in love with robot for writing code correctly".  </strong>It got the "beardless" wrong, but still.  The non-Microsoft part is <a href="https://chat.openai.com/" target="_blank">OpenAI ChatGPT</a>.  (<a href="https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/" target="_blank">Except</a>.)  In <a href="https://www.linkedin.com/posts/larswe_activity-7059216125384937472-fCtX?utm_source=share&amp;utm_medium=member_desktop" target="_blank">a previous article</a>, I couldn't get there with Bing Chat, which should be about the same GPT-3ish release, but maybe I'm just getting better at feeding robots.  Props to Microsoft for being pretty pretty good in this case!  I'm not usually in love with Windows. My home PC is Ubuntu.  I think of Windows as being stodgy, crufty and proprietary.  Away from that, Microsoft seems to be getting things done in AI and mathematics, which is my zone.</p><p>PS: The final code that typechecked in Lean 4 is, in plain text:</p><p>-- Define the type of sets</p><p>axiom Set : Type</p><p><br></p><p>-- Define the membership relation</p><p>axiom ElementOf : Set → Set → Prop</p><p>infix:50 " ∈ " =&gt; ElementOf</p><p><br></p><p>-- Define the empty set</p><p>axiom empty : Set</p><p><br></p><p>-- Define the axiom of extensionality</p><p>axiom extensionality : ∀ {a b : Set}, (∀ x, x ∈ a ↔ x ∈ b) → a = b</p><p><br></p><p>-- Define the axiom of regularity</p><p>axiom regularity : ∀ a : Set, a ≠ empty → ∃ b : Set, b ∈ a ∧ ∀ x, x ∈ b → ¬(x ∈ a)</p><p><br></p><p>-- Define the axiom of pairing</p><p>axiom pairing : ∀ a b : Set, ∃ c : Set, ∀ x, x ∈ c ↔ (x = a ∨ x = b)</p><p><br></p><p>-- Define the axiom of union</p><p>axiom union : ∀ a : Set, ∃ b : Set, ∀ x, x ∈ b ↔ ∃ y, y ∈ a ∧ x ∈ y</p><p><br></p><p>-- Define the axiom of power set</p><p>axiom power_set : ∀ a : Set, ∃ b : Set, ∀ x, x ∈ b ↔ ∀ y, y ∈ x → y ∈ a</p><p><br></p><p>-- Define the axiom of choice</p><p>axiom choice : ∀ {a : Set → Prop}, (∀ x, ∃ y, a x → y ∈ x) → ∃ f : Set → Set, ∀ x, a x → f x ∈ x</p><p>P.P.S.  It occurred to me that you could put ChatGPT in a loop with the Lean 4 type checker to automate the above process (and hopefully ChatGPT will remember what it did).  I'm not the first kid on the block to have this thought.  <a href="https://tqft.net/" target="_blank">Scott Morrison</a> shared his work on Sagredo with me.  This automates the loop of feeding back error messages or new goals to GPT:</p><iframe class="center" frameborder="0" allowfullscreen="true" src="https://www.linkedin.com/embeds/publishingEmbed.html?articleId=7418837038505470082&amp;li_theme=light" width="720" title="Sagredo: automated dialogue between GPT and Lean." height="405"></iframe></div>
+</body>
+</html>
